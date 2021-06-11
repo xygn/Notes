@@ -1,0 +1,11 @@
+page:
+  siteTitle: Sridhar Ratnakumar
+  siteName: Srid
+  description: |
+    Personal website of Sridhar Ratnakumar, software consultant specializing in Haskell.
+    
+template:
+  theme: pink
+  iconUrl: static/favicon.jpeg
+  sidebar:
+    collapsed: true

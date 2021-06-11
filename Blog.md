@@ -6,4 +6,6 @@ feed:
 
 ## Recent blog posts
 
-[[z:zettels?tag=blog/**&timeline]]#
+```query {.timeline}
+tag:blog/**
+```
