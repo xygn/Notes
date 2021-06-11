@@ -1,0 +1,5 @@
+---
+slug: purescript
+---
+
+#[[KB]]
