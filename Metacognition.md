@@ -2,4 +2,6 @@
 slug: metacog
 ---
 
-[[z:zettels?tag=metacognition]]#
+```query
+tag:#metacognition
+```
