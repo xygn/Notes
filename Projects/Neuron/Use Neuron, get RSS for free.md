@@ -1,5 +1,5 @@
 ---
-date: 2021-02-28T20:45
+date: 2021-02-28
 slug: neuron-feed
 tags: [micro/neuron]
 ---

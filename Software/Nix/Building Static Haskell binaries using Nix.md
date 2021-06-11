@@ -62,4 +62,4 @@ macOS does not support fully static binaries. And there is nothing in nixpkgs to
 [neuron-pr]: https://github.com/srid/neuron/pull/417/files
 
 [^revert]: See <https://github.com/NixOS/nixpkgs/issues/85924#issuecomment-619199832>
-[^tmc]: See [this recommendation](https://logs.nix.samueldr.com/nixos/2019-05-11#2210564;) by nh2 on IRC. Though, a better solution seems to be to make the GHC bootstrap binary use ncurses6. See [issue #99](https://github.com/nh2/static-haskell-nix/issues/99#issuecomment-665400600).
+[^tmc]: See [this recommendation](https://logs.nix.samueldr.com/nixos/2019-05-11#2210564;) by nh2 on IRC. Though, a better solution seems to be to make the GHC bootstrap binary use ncurses6. See [issue \#99](https://github.com/nh2/static-haskell-nix/issues/99#issuecomment-665400600).

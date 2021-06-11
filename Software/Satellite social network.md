@@ -1,5 +1,5 @@
 ---
-date: 2021-02-26T14:17
+date: 2021-02-26
 tags: [micro]
 slug: satellite.earth
 ---

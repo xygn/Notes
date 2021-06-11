@@ -1,5 +1,5 @@
 ---
-date: 2021-02-22T23:39
+date: 2021-02-22
 tags: [micro/neuron]
 ---
 

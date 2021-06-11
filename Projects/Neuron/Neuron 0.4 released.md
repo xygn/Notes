@@ -23,7 +23,7 @@ That last feature in particular is my favourite. It is very useful to know what 
 
 [emacsDemo]: https://asciinema.org/a/329911.svg
 
-### Simplified linking syntax [#59](https://github.com/srid/neuron/issues/59)
+### Simplified linking syntax [\#59](https://github.com/srid/neuron/issues/59)
 
 Several users requested that the syntax for linking to zettels be simplified. To that extent, Neuron now supports the following style of links:
 
@@ -35,23 +35,23 @@ Several users requested that the syntax for linking to zettels be simplified. To
 
 In short, to link to a zettel whose ID is "5b963b1c", you only need to wrap it inside angle brackets. We are not using any *special* syntax here; this is what is known as [Autolinks](https://spec.commonmark.org/0.16/#autolinks) in the commomark spec. Neuron simply leverages existing linking syntax to allow you to link to zettels; and the Neuron renderer can automtically fill in the zettel title, and other metadata, during rendering stage.
 
-### Random hash IDs [#151](https://github.com/srid/neuron/issues/151)
+### Random hash IDs [\#151](https://github.com/srid/neuron/issues/151)
 
 By default neuron now uses random hash when creating a new zettel. The (previous) date ID format is still available, but just not as the default. This was done mainly to avoid conflicts when multiple people are working on a shared Zettelkasten.
 
-### Full backlinks [#34](https://github.com/srid/neuron/issues/34)
+### Full backlinks [\#34](https://github.com/srid/neuron/issues/34)
 
 Each zettel now displays all zettels linking to it (regardless of it being a Folgezettel link).
 
-### Themes [#89](https://github.com/srid/neuron/pull/89)
+### Themes [\#89](https://github.com/srid/neuron/pull/89)
 
 The web interface can now be configured to use a particular color theme. See [the documentation](https://neuron.zettel.page/2014601.html) for a list of available themes.
 
-### In-browser search [#90](https://github.com/srid/neuron/pull/90)
+### In-browser search [\#90](https://github.com/srid/neuron/pull/90)
 
 The web interface includes a search page that users can use to search their zettelkasten by title or tag. This feature was contributed by a user.
 
-### Hierarchical tags [#115](https://github.com/srid/neuron/pull/115)
+### Hierarchical tags [\#115](https://github.com/srid/neuron/pull/115)
 
 You can now use the notion of "tag tree" in your Zettelkasten. It works like this. If you tag a zettel with say `math/calculus/definition`, then you have it linked automatically in any other zettel that queries for `math/**`, `math/calculus/*` or `math/calculus/definition`. It works with globbing pattern, allowing interesting possibilities like having a Zettel link to all definition zettels using `**/definition`. This feature was also an user contribution, and is documented [here](https://neuron.zettel.page/2011506.html).
 

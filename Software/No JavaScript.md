@@ -17,4 +17,6 @@ slug: nojs
 
 ## Blog posts on the topic
 
-[[z:zettels?tag=nojs&timeline]]#
+```query {.timeline}
+tag:#nojs
+```
