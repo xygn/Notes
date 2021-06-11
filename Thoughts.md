@@ -1,5 +1,5 @@
 ---
-slug: metacog
+slug: thoughts
 ---
 
 ```query
