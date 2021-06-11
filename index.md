@@ -11,7 +11,7 @@ Welcome to my little corner on the web. [GitHub](https://github.com/srid); [Matr
 tag:blog/**
 ```
 
-## Recent microposts from [[Srid's microblog]]
+## Recent [[Microblog]] posts
 
 ```query {.timeline}
 tag:micro/**

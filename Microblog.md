@@ -5,8 +5,6 @@ feed:
     count: 5
 ---
 
-# Srid’s microblog 🐜
-
 A [microblog](https://en.wikipedia.org/wiki/Microblogging) for small'ish updates.[^twit]
 
 ## Recent microposts

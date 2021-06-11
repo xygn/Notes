@@ -2,3 +2,6 @@
 slug: methods
 ---
 
+```query
+path:./*
+```

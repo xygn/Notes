@@ -2,4 +2,7 @@
 slug: software
 ---
 
-See [[Apps I use]].
+
+```query
+path:./*
+```
