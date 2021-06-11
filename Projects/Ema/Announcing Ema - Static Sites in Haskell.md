@@ -20,8 +20,8 @@ I decided to meld the ideas explored in the aforementioned projects and thereby 
 
 :::{.flex .justify-center .items-center .mb-8}
 <video autoplay="" loop="" muted="">
-  <source src="static/ema-demo.mp4" />
-  <p>Your browser doesn't support HTML5 video. Here is a <a href="static/ema-demo.mp4">link to the video</a> instead.</p>
+  <source src="https://ema.srid.ca/static/ema-demo.mp4" />
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="https://ema.srid.ca/static/ema-demo.mp4">link to the video</a> instead.</p>
 </video>
 :::
 
