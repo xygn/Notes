@@ -1,4 +1,5 @@
 ---
+slug: neuron-prismjs
 date: 2021-02-22
 tags: [micro/neuron]
 ---

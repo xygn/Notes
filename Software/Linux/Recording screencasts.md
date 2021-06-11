@@ -16,6 +16,6 @@ Some tips before recording:
 
 - Practice a few attempts before; it is good to avoid unnecessary delays, and unnecessary UI interactions and dialogs
 
-The screencast I produced is [available here](https://ema.srid.ca/ema-demo.mp4). It weighs almost 700KB, though perhaps it could be compressed (`ffmpeg`?) without much loss in quality.
+The screencast I produced is [available here](https://ema.srid.ca/static/ema-demo.mp4) (and is used in [[Announcing Ema - Static Sites in Haskell|this blog post]]). It weighs almost 700KB, though perhaps it could be compressed (`ffmpeg`?) without much loss in quality.
 
 [Peek]: https://github.com/phw/peek
