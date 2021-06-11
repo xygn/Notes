@@ -12,5 +12,4 @@ I began using Haskell in order to write fullstack web applications using [[Refle
 
 ## External Links
 
-* [Haskell Knowledgebase](https://taylor.fausak.me/haskell-knowledge-base/)
-* [Haskell Matrix Space](https://matrix.to/#/#haskell-space:matrix.org)
+* [Haskell Matrix Space](https://matrix.to/#/#haskell-space:matrix.org) (De-centralized Chat rooms for Haskell and various Haskell projects and related topics)

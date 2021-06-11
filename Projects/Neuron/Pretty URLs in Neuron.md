@@ -1,4 +1,5 @@
 ---
+slug: neuron-pretty-urls
 date: 2021-02-23
 tags: [micro/neuron]
 ---

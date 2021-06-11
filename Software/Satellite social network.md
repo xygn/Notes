@@ -1,7 +1,7 @@
 ---
 date: 2021-02-26
 tags: [micro]
-slug: satellite.earth
+slug: satellite
 ---
 
 [Satellite](https://satellite.earth) looks promising as an alternative to traditional social media. Read [introduction](https://satellite.earth/pub/@satellite:welcome-to-satellite), [FAQ](https://satellite.earth/pub/@satellite:frequently-asked-questions) and [reddit discussion](https://old.reddit.com/r/IntellectualDarkWeb/comments/lror9z/i_created_a_new_open_source_social_platform/). 
