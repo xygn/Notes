@@ -6,7 +6,7 @@ date: 2020-05-08
 
 In this article, I'll describe how to get a full-stack Haskell application up and running. In particular, the app will render user-entered Markdown text in real-time (the final version is hosted at <https://commonmark.srid.ca>). Notably, our app will use Haskell even on the frontend. This is made possible by the [GHCJS](https://github.com/ghcjs/ghcjs) compiler, that compiles Haskell code to JavaScript. 
 
-We will not work directly with GHCJS, however, and instead will use the [[Reflex-FRP]] library, through the excellent [[Obelisk]] full-stack framework.
+We will not work directly with GHCJS, however, and instead will use the [[Reflex-FRP]] library, through the excellent #[[Obelisk]] full-stack framework.
 
 ## Create an Obelisk project
 
@@ -181,5 +181,3 @@ You can even hack on commonmark-hs (see the Obelisk thunk interlude above), and 
 * Source code for this app on Github: <https://github.com/srid/MarkdownPreview>
 
 * Fully built version of it running at: <https://commonmark.srid.ca/>
-
-#[[Blog]] post created under #[[Obelisk]]

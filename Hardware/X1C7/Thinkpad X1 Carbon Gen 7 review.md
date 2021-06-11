@@ -4,7 +4,7 @@ tags: [blog/x1c7]
 date: 2020-12-21
 ---
 
-On September 10th, I received my [[X1C7]] (Gen 7, with 10th gen processor) shipped from Lenovo, and this is a brief review of having used it as my primary computer in the last 3+ months.
+On September 10th, I received my #[[X1C7]] (Gen 7, with 10th gen processor) shipped from Lenovo, and this is a brief review of having used it as my primary computer in the last 3+ months.
 
 ## Setting up Linux
 
@@ -37,5 +37,3 @@ My next computer, if I choose to buy one in ~3 years, would likely be similar to
 [nixos-hardware]: https://github.com/srid/nix-config/blob/48c1c44a7ed52c25c25a19a1771b71a16e174da5/nixos-configuration/x1c7.nix#L11-L13
 
 [^amd]: And if Thunderbolt wasn't a requirement, I'd easily go for a Thinkpad with AMD processor, such as the T14.
-
-#[[Blog]] post created under #[[X1C7]]

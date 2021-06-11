@@ -4,7 +4,7 @@ tags: [blog/neuron, nojs]
 date: 2020-09-03
 ---
 
-I'd like to announce the public beta of [Cerveau][cerveau][^pronounce], a web app for managing plain-text notes from a GitHub repository. Cerveau integrates directly with [[Neuron]] which supports [Zettelkasten](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)-style note-taking in Markdown. This very site you are reading is managed by Neuron and edited in Cerveau, and its Git repo is essentially [a directory of Markdown files](https://github.com/srid/srid.ca).
+I'd like to announce the public beta of [Cerveau][cerveau][^pronounce], a web app for managing plain-text notes from a GitHub repository. Cerveau integrates directly with #[[Neuron]] which supports [Zettelkasten](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)-style note-taking in Markdown. This very site you are reading is managed by Neuron and edited in Cerveau, and its Git repo is essentially [a directory of Markdown files](https://github.com/srid/srid.ca).
 
 [^pronounce]: "Cerveau" is prounced with the "eau" sounding like the "o" in "Go". See [audio playback](https://en.wiktionary.org/wiki/cerveau#Pronunciation).
 
@@ -26,7 +26,7 @@ Both the backend and frontend components of Cerveau are written in [[Haskell]]. 
 
 ### JavaScript is the new assembly language
 
-Cerveau's frontend too is written in Haskell. Wait, how is that possible? The GHCJS compiler compiles Haskell code to low-level JavaScript for running in the browser. Cerveau uses the [[Reflex-FRP]] library, via the excellent [[Obelisk]] framework, which takes care of all the plumbing required to produce such full-stack Haskell apps, so that I as a developer can focus on the [FRP](https://www.reddit.com/r/haskell/comments/31rat9/reflex_practical_functional_reactive_programming/) application logic. FRP, and similar models of UI programming, is simpler to write and extend than callback based code. Anybody who writes Elm[^elmcomp] can attest to that; however unlike Elm or PureScript, GHCJS code can be *shared* with the backend. This is what enables Cerveau to directly reuse much of the [[Neuron]] source code, thus enabling neuron's core features to work directly on the browser--for example, live HTML preview while editing the note.
+Cerveau's frontend too is written in Haskell. Wait, how is that possible? The GHCJS compiler compiles Haskell code to low-level JavaScript for running in the browser. Cerveau uses the [[Reflex-FRP]] library, via the excellent #[[Obelisk]] framework, which takes care of all the plumbing required to produce such full-stack Haskell apps, so that I as a developer can focus on the [FRP](https://www.reddit.com/r/haskell/comments/31rat9/reflex_practical_functional_reactive_programming/) application logic. FRP, and similar models of UI programming, is simpler to write and extend than callback based code. Anybody who writes Elm[^elmcomp] can attest to that; however unlike Elm or PureScript, GHCJS code can be *shared* with the backend. This is what enables Cerveau to directly reuse much of the [[Neuron]] source code, thus enabling neuron's core features to work directly on the browser--for example, live HTML preview while editing the note.
 
 [^elmcomp]: Incidentally, the paper [Explicitly Comprehensible Functional Reactive Programming](https://futureofcoding.org/papers/comprehensible-frp/comprehensible-frp.pdf) compares The Elm Architecture and Reflex Ecosystem’s frameworks.
 
@@ -88,5 +88,3 @@ Special thanks goes to the recent [sponsors][sponsor], including
 [cerveau]: https://www.cerveau.app
 [sponsor]: https://github.com/sponsors/srid
 [future-proof]: https://neuron.zettel.page/6f0f0bcc.html
-
-#[[Blog]] post created under #[[Neuron]], #[[Obelisk]].

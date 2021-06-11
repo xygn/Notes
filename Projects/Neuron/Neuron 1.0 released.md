@@ -4,7 +4,7 @@ tags: [blog/neuron]
 date: 2020-10-08
 ---
 
-[Neuron](https://github.com/srid/neuron) is a note-taking tool based on [Zettelkasten](https://neuron.zettel.page/zettelkasten.html), that aims to be [future-proof](https://neuron.zettel.page/philosophy.html), and is optimized for publishing on the web. Version [1.0](https://github.com/srid/neuron/releases/tag/1.0.0.0) just got released, with better linking support and many other improvements.
+#[[Neuron]] is a note-taking tool based on [Zettelkasten](https://neuron.zettel.page/zettelkasten.html), that aims to be [future-proof](https://neuron.zettel.page/philosophy.html), and is optimized for publishing on the web. Version [1.0](https://github.com/srid/neuron/releases/tag/1.0.0.0) just got released, with better linking support and many other improvements.
 
 ## Better Linking
 
@@ -77,5 +77,3 @@ If you enjoy using neuron and/or Cerveau, and would like to show your appreciati
 [cerveau]: https://www.cerveau.app
 
 [^ghcide]: See [this blog post](https://mpickering.github.io/posts/2020-03-16-ghcide-reflex.html) which details using [[Reflex-FRP]] as build engine in ghcide.
-
-#[[Blog]] post created under #[[Neuron]].

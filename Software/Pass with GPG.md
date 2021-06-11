@@ -80,5 +80,3 @@ gpg --edit-key <email> # and run `trust`
 
 [keybase]: https://book.keybase.io/docs/files
 [gpg]: https://wiki.archlinux.org/index.php/GnuPG
-
-#[[Blog]] post created under #[[Linux]]

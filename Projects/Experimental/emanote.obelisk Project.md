@@ -1,5 +1,5 @@
 ---
-slug: emanote
+slug: emanote.obelisk
 date: 2021-01-26
 ---
 

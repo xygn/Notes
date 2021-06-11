@@ -4,7 +4,7 @@ tags: [blog/neuron]
 date:  2020-07-28
 ---
 
-[Neuron](https://github.com/srid/neuron) is a note-taking tool based on [Zettelkasten](https://neuron.zettel.page/2011401.html), that aims to be [future-proof](https://neuron.zettel.page/6f0f0bcc.html). Version [0.6](https://github.com/srid/neuron/releases/tag/0.6.0.0) just got released; its major highlight is that neuron is now based on the **Pandoc** AST. This allows us to support any format supported by [Pandoc](https://pandoc.org/). Experimental **org-mode** support is [already in](https://github.com/srid/neuron/issues/313), to begin with.
+#[[Neuron]] is a note-taking tool based on [Zettelkasten](https://neuron.zettel.page/2011401.html), that aims to be [future-proof](https://neuron.zettel.page/6f0f0bcc.html). Version [0.6](https://github.com/srid/neuron/releases/tag/0.6.0.0) just got released; its major highlight is that neuron is now based on the **Pandoc** AST. This allows us to support any format supported by [Pandoc](https://pandoc.org/). Experimental **org-mode** support is [already in](https://github.com/srid/neuron/issues/313), to begin with.
 
 ## Better Markdown
 
@@ -57,5 +57,3 @@ Special thanks goes to the project sponsors, including: [Adam Bowen](https://git
 
 If you enjoy using neuron, please consider [sponsoring the project](https://github.com/sponsors/srid?o=sd&sc=t) on GitHub. 💖
 :::
-
-#[[Blog]] post created under #[[Neuron]].

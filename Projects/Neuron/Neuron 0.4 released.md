@@ -4,7 +4,7 @@ tags: [blog/neuron]
 date: 2020-05-13
 ---
 
-[Neuron](https://neuron.zettel.page) is a Zettelkasten note taking app I originally open sourced about two months ago (see [[Announcing Neuron - Zettelkasten in Haskell]]). Recently a new version was [released](https://github.com/srid/neuron/releases/tag/0.4.0.0) incorporating some interesting improvements, many of them were inspired by invaluable user feedback.
+#[[Neuron]] is a Zettelkasten note taking app I originally open sourced about two months ago (see [[Announcing Neuron - Zettelkasten in Haskell]]). Recently a new version was [released](https://github.com/srid/neuron/releases/tag/0.4.0.0) incorporating some interesting improvements, many of them were inspired by invaluable user feedback.
 
 ## Highlights
 
@@ -73,5 +73,3 @@ $
 The development version (not 0.4) supports Pandoc for Markdown. What this means is that it *is* possible to support other markup formats like reST, org-mode, Asciidoc, etc. All they must have in common is a syntax (like the markdown autolinks) that will produce the appropriate Pandoc AST node for neuron to process. 
 
 [Comments at lobste.rs](https://lobste.rs/s/kydg6q/neuron_0_4_zettelkasten_note_management)
-
-#[[Blog]] post created under #[[Neuron]].

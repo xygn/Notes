@@ -6,4 +6,3 @@ slug: lg-ultrafine-5k
 
 For brightness configuration in [[NixOS]] Linux, see [here](https://github.com/srid/nixos-config/blob/master/features/monitor-brightness.nix).
 
-#[[KB]]

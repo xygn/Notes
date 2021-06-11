@@ -1,5 +1,6 @@
 ---
 slug: microblog
+order: -10
 feed:
     count: 5
 ---
@@ -10,7 +11,9 @@ A [microblog](https://en.wikipedia.org/wiki/Microblogging) for small'ish updates
 
 ## Recent microposts
 
-[[z:zettels?tag=micro/**&timeline]]#
+```query {.timeline}
+tag:micro/**
+```
 
 [^twit]: 
     Why not popular social media platforms like Twitter? First, it is [not "social"](https://old.reddit.com/r/slatestarcodex/comments/njxq6h/status_anxiety_as_a_service/gzavjca/?context=3) in the felicitous sense of the word; second, to steer clear of the [hivemind contagion](https://www.pnas.org/content/111/24/8788) of their ill-humored ambiance, best expressed in:

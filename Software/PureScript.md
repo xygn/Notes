@@ -1,5 +1,3 @@
 ---
 slug: purescript
 ---
-
-#[[KB]]

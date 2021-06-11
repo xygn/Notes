@@ -5,7 +5,7 @@ date: 2020-03-25
 ---
 
 :::{.ui .message}
-If you wish to run NixOS container on a NixOS host, checkout NixOS's [declarative container management](https://nixos.org/manual/nixos/stable/#ch-containers) which may be a more appealing option than LXD.
+If you wish to run #[[NixOS]] container on a NixOS host, checkout NixOS's [declarative container management](https://nixos.org/manual/nixos/stable/#ch-containers) which may be a more appealing option than LXD.
 ::: 
 
 Often I find myself needing a *pristine* Linux system for testing some program that is expected to work on a user's machine with an environment that is possibly quite different to mine. I could spin up a virtual machine, but that is too heavyweight. Alternatively, I could use Docker, but a Docker container is conceptually more of a process and less of a system. 
@@ -104,4 +104,3 @@ lxc exec childnixos -- /run/current-system/sw/bin/su - srid  \
   -c 'tmux new-session -A -s main'
 ```
 
-#[[Blog]] post created under #[[NixOS]].

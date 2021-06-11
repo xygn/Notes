@@ -10,7 +10,7 @@ Two weeks ago I learned of a note-taking method called **Zettelkasten**, which a
 
 I was very impressed by Zettelkasten enough to start using it right away. I choose to stick with plain-text format, rather than using a custom app like [Roam](https://roamresearch.com/) or [Zettlr](https://www.zettlr.com/). To that end, I began developing my own "viewer" for zettels in Haskell (using the [rib](https://github.com/srid/rib) static site generator). Eventually I rewrote my website (the one you are reading) to be based on the very same system. This gave me the opportunity to open source the common parts of the system, in the name of [**neuron**](https://github.com/srid/neuron).
 
-I use neuron both for my private Zettelkasten, as well as the public site (this one). What follows below is summary of some of the capabilities neuron currently supports.
+I use #[[Neuron]] both for my private Zettelkasten, as well as the public site (this one). What follows below is summary of some of the capabilities neuron currently supports.
 
 ## Shorter Zettel ID
 
@@ -46,5 +46,3 @@ This is my favourite feature. A zettelkasten is a directed graph, so I used Hask
 
 * [Zulip discussion](https://funprog.srid.ca/general/zettelkasten.html)
 * [Comments on Lobste.rs](https://lobste.rs/s/iuqcbo/announcing_neuron_zettelkasten_haskell)
-
-#[[Blog]] post created under #[[Neuron]].

@@ -1,5 +1,6 @@
 ---
 slug: blog
+order: -12
 feed:
   count: 5
 ---

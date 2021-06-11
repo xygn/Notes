@@ -4,13 +4,7 @@ tags: [blog, nojs]
 date: 2020-04-16
 ---
 
-My Haskell app [[Neuron]] recently received a
-[contribution](https://github.com/srid/neuron/pull/90) that added support for
-the very useful client-side search feature. JavaScript was used to implement it;
-however after having gotten used to merrily creating
-[[Reflex-FRP]]-based web apps (frontend and backend both in
-Haskell), writing raw JavaScript had very little appeal to me, which left me
-with the following options:
+My #[[Haskell]] app [[Neuron]] recently received a [contribution](https://github.com/srid/neuron/pull/90) that added support for the very useful client-side search feature. JavaScript was used to implement it; however after having gotten used to merrily creating [[Reflex-FRP]]-based web apps (frontend and backend both in Haskell), writing raw JavaScript had very little appeal to me, which left me with the following options:
 
 * GHCJS: Reflex
 * GHCJS: Miso
@@ -155,5 +149,3 @@ PureScript as a Haskeller who comes from the world of Nix and GHCJS.
 ## External links
 
 - [Getting Started with PureScript](https://github.com/purescript/documentation/blob/master/guides/Getting-Started.md) (official guide)
-
-#[[Blog]] post created under #[[Haskell]], #[[PureScript]].

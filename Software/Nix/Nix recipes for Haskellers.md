@@ -4,7 +4,7 @@ tags: [blog]
 date: 2019-12-03
 ---
 
-The goal of this article is to get you comfortable managing simple [Haskell](https://www.haskell.org/) programs and projects using the **Nix** package manager without going too much into the details.
+The goal of this article is to get you comfortable managing simple #[[Haskell]] programs and projects using the **Nix** package manager without going too much into the details.
 
 ## Prerequisites
 
@@ -177,5 +177,3 @@ Setting up CI for a Haskell project that already uses Nix is rather simple. If y
 [^shell]: Use `pkgs.lib.haskell.inNixShell` to conditionally include dependencies on nix-shell but not nix-build.
 
 [^sec]: If you are however using a *self-hosted* runner in Github Actions with public repos, read this [security warning](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/about-self-hosted-runners#self-hosted-runner-security-with-public-repositories).
-
-#[[Blog]] post created under #[[Haskell]]

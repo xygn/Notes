@@ -3,5 +3,5 @@ slug: metacog
 ---
 
 ```query
-tag:#metacognition
+path:./*
 ```

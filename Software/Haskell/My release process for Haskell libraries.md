@@ -4,7 +4,7 @@ tags: [blog]
 date: 2020-04-08
 ---
 
-Just a note to myself as to the steps I normally follow when releasing a Haskell library to [Hackage](http://hackage.haskell.org/).
+Just a note to myself as to the steps I normally follow when releasing a #[[Haskell]] library to [Hackage](http://hackage.haskell.org/).
 
 ## Release steps
 
@@ -28,5 +28,3 @@ Just a note to myself as to the steps I normally follow when releasing a Haskell
 ## Open questions
 
 - [ ] Research a tool that automates much of the release process
-
-#[[Blog]] post created under #[[Haskell]].
