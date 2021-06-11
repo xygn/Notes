@@ -8,8 +8,12 @@ feed:
 
 ## Blog posts
 
-[[z:zettels?tag=blog/neuron&timeline]]#
+```query {.timeline}
+tag:blog/neuron
+```
 
 ## Microposts
 
-[[z:zettels?tag=micro/neuron&timeline]]#
+```query {.timeline}
+tag:micro/neuron
+```
