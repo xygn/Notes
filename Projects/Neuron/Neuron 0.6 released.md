@@ -1,5 +1,5 @@
 ---
-slug: neuron-0.6
+slug: neuron-v06
 tags: [blog/neuron]
 date:  2020-07-28
 ---
