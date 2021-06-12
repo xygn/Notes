@@ -2,21 +2,24 @@
 slug: apps
 ---
 
-| Type                 | App                                   | Why                                                                                                                                                                                                               |
-| -------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Email                | [ProtonMail](https://protonmail.com/) | DeGoogle                                                                                                                                                                                                          |
-| File Sync            | Syncthing                             | p2p Dropbox alternative                                                                                                                                                                                           |
-| File Storage         | ProtonDrive                           | DeGoogle; encryption-at-rest; [sync, in future][pd-sync]                                                                                                                                                          |
-| File Sharing         | [IPFS]                                | p2p[^ipfspinning]                                                                                                                                                                                                 |
-| Chat                 | [Element]                             | [decentralized moderation]                                                                                                                                                                                        |
-| Browser              | [Brave](https://brave.com/)           | DeGoogle; chromium-based; [peer-to-peer encrypted sync][brave-sync]; [decentralized-love](https://brave.com/ipfs-support/); [anti-censorship](https://www.theregister.com/2021/03/03/brave_buys_a_search_engine/) |
-| Password Manager     | [[Pass with GPG]]                     | plain-text; git; gpg                                                                                                                                                                                              |
-| OS                   | [[NixOS]] Linux  + GNOME              |
-| Desktop setup        | XMonad                                | Tiling windows; better automation                                                                                                                                                                                 |
-| Editor / IDE         | [[VSCode]]                            | UX; remote editing; extensions                                                                                                                                                                                    |
-| Note taking          | [[Neuron]], [[Emanote]]               | Open source; future-proof                                                                                                                                                                                         |
-| Programming Language | [[Haskell]], [[No JavaScript]], etc.  | [statically-typed; FP](https://wiki.haskell.org/Why_Haskell_matters)                                                                                                                                              |
+| Type                 | App                     | Why                                                                                                                                                                                                               |
+| -------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Email                | [ProtonMail]            | DeGoogle                                                                                                                                                                                                          |
+| File Sync            | Syncthing               | p2p Dropbox alternative                                                                                                                                                                                           |
+| File Storage         | ProtonDrive             | DeGoogle; encryption-at-rest; [sync, in future][pd-sync]                                                                                                                                                          |
+| File Sharing         | [IPFS]                  | p2p[^ipfspinning]                                                                                                                                                                                                 |
+| Chat                 | [Element]               | [decentralized moderation]                                                                                                                                                                                        |
+| Browser              | [Brave]                 | DeGoogle; chromium-based; [peer-to-peer encrypted sync][brave-sync]; [decentralized-love](https://brave.com/ipfs-support/); [anti-censorship](https://www.theregister.com/2021/03/03/brave_buys_a_search_engine/) |
+| Search Engine        | [Brave Search]          | DeGoogle; open and transparent                                                                                                                                                                                    |  |
+| Password Manager     | [[Pass with GPG]]       | plain-text; git; gpg                                                                                                                                                                                              |
+| OS                   | [[NixOS]] + GNOME       |
+| Editor / IDE         | [[VSCode]]              | UX; remote editing; extensions                                                                                                                                                                                    |
+| Note taking          | [[Neuron]], [[Emanote]] | Open source; future-proof                                                                                                                                                                                         |
+| Programming Language | [[Haskell]]             | [statically-typed; FP](https://wiki.haskell.org/Why_Haskell_matters), [[No JavaScript]]                                                                                                                           |
 
+[ProtonMail]: https://protonmail.com/
+[Brave]: https://brave.com/
+[Brave Search]: https://brave.com/search/
 [IPFS]: https://ipfs.io/
 [Element]: https://element.io/
 [decentralized moderation]: https://matrix.org/blog/2020/10/19/combating-abuse-in-matrix-without-backdoors
