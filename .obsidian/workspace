@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clinics/Dermatology/Identifying candida from skin scraping.md",
+            "file": "Core/Pharmacology/Lectures/CVS/Antiarrythmics.md",
             "mode": "preview"
           }
         }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bf7b4bc677279b7a",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clinics/Dermatology/Identifying candida from skin scraping.md",
+                "file": "Core/Pharmacology/Lectures/CVS/Antiarrythmics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clinics/Dermatology/Identifying candida from skin scraping.md"
+                "file": "Core/Pharmacology/Lectures/CVS/Antiarrythmics.md"
               }
             }
           }
@@ -110,12 +109,12 @@
   },
   "active": "a7b6ca1939c65236",
   "lastOpenFiles": [
+    "Core/Pharmacology/Lectures/CVS/Antiarrythmics.md",
     "Clinics/Dermatology/Identifying candida from skin scraping.md",
     "Core/Pharmacology/Lectures/CVS/Arrythmiaas.md",
     "Clinics/Dermatology/Untitled.md",
     "HSC/Templates/Title.md",
     "HSC/Templates/Greater HelterSkelter Cloze ShortSqueeze.md",
-    "Core/Pharmacology/Lectures/CVS/Antiarrythmics.md",
     "HSC/Templates/Untitled.md",
     "Clinics/Dermatology/Basics of Dermatology.md",
     "Pasted image 20210617071535.png",
