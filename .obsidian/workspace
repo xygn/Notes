@@ -1,0 +1,118 @@
+{
+  "main": {
+    "id": "928b870d356dde69",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7b6ca1939c65236",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe20e28454f048aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "57284c5727f8fc83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4c6ce39e2b999ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b4d4450f8597b9d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "bf7b4bc677279b7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "293bb9f53a5bff11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28a5ace60961c295",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aede489c78f98094",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "495ae8e495f97dd8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a7b6ca1939c65236",
+  "lastOpenFiles": [
+    "Clinics/Dermatology/Identifying candida from skin scraping.md",
+    "Core/Pharmacology/Lectures/CVS/Arrythmiaas.md",
+    "Clinics/Dermatology/Untitled.md",
+    "HSC/Templates/Title.md",
+    "HSC/Templates/Greater HelterSkelter Cloze ShortSqueeze.md",
+    "Core/Pharmacology/Lectures/CVS/Antiarrythmics.md",
+    "HSC/Templates/Untitled.md",
+    "Clinics/Dermatology/Basics of Dermatology.md",
+    "Pasted image 20210617071535.png",
+    "Core/Pharmacology/Lectures/CVS/Untitled.md"
+  ]
+}
