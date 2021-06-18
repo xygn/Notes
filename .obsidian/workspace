@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3faa3b8e40eda91b",
+        "id": "5032febb8f2f4ace",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Qbank-incorrects/Core/Pathology/1. Cell Injury.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "02c84ee80d359ec3",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Clinics/Dermatology/1. Introduction to Dermatology.md",
+            "file": "Notes/Core/Pathology/1 . Cell Injury.md",
             "mode": "source"
           }
         }
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Qbank-incorrects/Core/Pathology/1. Cell Injury.md",
+                "file": "Notes/Core/Pathology/1 . Cell Injury.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Qbank-incorrects/Core/Pathology/1. Cell Injury.md"
+                "file": "Notes/Core/Pathology/1 . Cell Injury.md"
               }
             }
           }
@@ -116,20 +105,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "3faa3b8e40eda91b",
+  "active": "5032febb8f2f4ace",
   "lastOpenFiles": [
+    "Notes/Core/Pathology/1 . Cell Injury.md",
+    "Qbank-incorrects/Core/Pathology/1. Cell Injury.md",
+    "Notes/Clinics/Dermatology/1. Introduction to Dermatology.md",
+    "Notes/Clinics/Dermatology/2. Identifying candida from skin scraping.md",
+    "Notes/Clinics/Dermat-Anki/1. Introduction to Dermatology.md",
+    "Notes/Core/Pathology/Untitled.md",
     "Qbank-incorrects/Core/Pathology/Untitled.md",
     "z-Assetland/Templates/HS-AnkiTemp 10x.md",
     "z-Assetland/Templates/Greater HelterSkelter Cloze ShortSqueeze.md",
-    "z-Assetland/Templates/Untitled.md",
-    "Clinics/Dermat-Anki/1. Introduction to Dermatology.md",
-    "Clinics/Dermatology/1. Introduction to Dermatology.md",
-    "Clinics/Dermat-Anki/Untitled.md",
-    "HSC/Templates/Greater HelterSkelter Cloze ShortSqueeze.md",
-    "Clinics/Dermatology/2. Identifying candida from skin scraping.md",
-    "Clinics/Dermatology/1. Basics of Dermatology.md"
+    "z-Assetland/Templates/Untitled.md"
   ]
 }
