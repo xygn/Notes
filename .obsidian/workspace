@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clinics/Dermatology/3. Identify and distinguish molluscum contagiosum from other skin lesions.md",
+            "file": "Clinics/Dermatology/1. Introduction to Dermatology.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clinics/Dermatology/3. Identify and distinguish molluscum contagiosum from other skin lesions.md",
+                "file": "Clinics/Dermatology/1. Introduction to Dermatology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clinics/Dermatology/3. Identify and distinguish molluscum contagiosum from other skin lesions.md"
+                "file": "Clinics/Dermatology/1. Introduction to Dermatology.md"
               }
             }
           }
@@ -105,11 +105,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "a7b6ca1939c65236",
   "lastOpenFiles": [
+    "Clinics/Dermatology/1. Basics of Dermatology.md",
     "Clinics/Dermatology/3. Identify and distinguish molluscum contagiosum from other skin lesions.md",
     "Clinics/Dermatology/Identifying candida from skin scraping.md",
     "Clinics/Dermatology/Basics of Dermatology.md",
@@ -118,7 +118,6 @@
     "Clinics/Dermatology/Untitled.md",
     "Core/Pharmacology/Lectures/Respiratory/Cough.md",
     "Core/Untitled.md",
-    "Core/Pharmacology/Lectures/Respiratory/Untitled.md",
-    "Core/Pharmacology/Lectures/Untitled.md"
+    "Core/Pharmacology/Lectures/Respiratory/Untitled.md"
   ]
 }
