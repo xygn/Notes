@@ -1,3 +1,9 @@
+---
+page:
+  description: |
+    Personal website of Sridhar Ratnakumar, software consultant specializing in Haskell.
+---
+
 # Sridhar Ratnakumar
 
 Welcome to my little corner on the web. [GitHub](https://github.com/srid) ; 
