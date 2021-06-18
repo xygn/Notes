@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Core/Pharmacology/Lectures/Respiratory/Cough.md",
+            "file": "Clinics/Dermatology/3. Identify and distinguish molluscum contagiosum from other skin lesions.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core/Pharmacology/Lectures/Respiratory/Cough.md",
+                "file": "Clinics/Dermatology/3. Identify and distinguish molluscum contagiosum from other skin lesions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core/Pharmacology/Lectures/Respiratory/Cough.md"
+                "file": "Clinics/Dermatology/3. Identify and distinguish molluscum contagiosum from other skin lesions.md"
               }
             }
           }
@@ -110,15 +110,15 @@
   },
   "active": "a7b6ca1939c65236",
   "lastOpenFiles": [
-    "Core/Pharmacology/Lectures/Respiratory/Untitled.md",
-    "Core/Pharmacology/Lectures/Untitled.md",
-    "Clinics/Dermatology/Basics of Dermatology.md",
-    "Core/Pharmacology/Lectures/CVS/Arrythmiaas.md",
-    "Core/Pharmacology/Lectures/CVS/Antiarrythmics.md",
+    "Clinics/Dermatology/3. Identify and distinguish molluscum contagiosum from other skin lesions.md",
     "Clinics/Dermatology/Identifying candida from skin scraping.md",
-    "Clinics/Dermatology/Untitled.md",
+    "Clinics/Dermatology/Basics of Dermatology.md",
+    "Clinics/Dermatology/Identify and distinguish molluscum contagiosum from other skin lesions.md",
     "HSC/Templates/Title.md",
-    "HSC/Templates/Greater HelterSkelter Cloze ShortSqueeze.md",
-    "HSC/Templates/Untitled.md"
+    "Clinics/Dermatology/Untitled.md",
+    "Core/Pharmacology/Lectures/Respiratory/Cough.md",
+    "Core/Untitled.md",
+    "Core/Pharmacology/Lectures/Respiratory/Untitled.md",
+    "Core/Pharmacology/Lectures/Untitled.md"
   ]
 }

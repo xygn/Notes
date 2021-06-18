@@ -47,3 +47,4 @@ Reduced sensory nerve of the cough center - Opioid group
 		- Antihistamine
 		- Peripherally acting
 
+#candida
