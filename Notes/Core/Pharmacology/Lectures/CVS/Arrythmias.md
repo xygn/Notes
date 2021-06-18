@@ -12,6 +12,10 @@ L type @ -40mV
 T type calcium
 voltage K+ 
 
+Depolarization: Entry through Na+ at resting stage
+Hyperpolarization -> Exit of K+ through K+ channel at resting stage
+Repolarization -> Exit of K+ through K+ channel at Depolarized state
+
 Events of polarity in Nodal Tissue
 - @-40mV rapid depolarization
 - Phase 1
@@ -23,10 +27,11 @@ of Nodal tissue -60 mV
 
 Events of polarity in Myocyte
 - when action potential is triggered in neighboring cells, sodium rushes into the RP
-- Phase 4
-- Phase 0
-- Phase 1
-- Phase 2
+- Phase 4 - Closed Na+ and K+ (resting state)
+- Phase 0 - Na+ opens
+- Phase 1 - Na+ closes, K+ opens
+- Phase 2 - Opening of K+ and Calcium channel
+- Phase 3 - Continuous exit of K+ channel, calcium channel closed
 
 Antiarrythmics - try to normalize ionic fluxes
 
@@ -79,12 +84,21 @@ Ventricular tachycardia
 
 Extra-systoles: ????
 
+## Treatment
+- Na+ blockers decreases slope(dv/dt) of Phase 0 
+- K+ blockers increases the AP duration (QT interval increased) 
+- K+ openers decrease the AP duration (QT interval)
+> **Torsades' de pointes** - twisting of the points
+> - Uncommon and distinctive form of polymorphic ventricular tachycardia (VT)
+	
+
 # Classification of Anti-arrythmics
-1. Sodium channel blocker
-	- Class IA
-	- Class IB
-	- Class IC
-2. Beta blockers
+**Vaughan William Classification**
+1. [[#Class 1 Sodium channel blocker]]
+	- [[#Class 1A]]
+	- [[#Class IB]]
+	- [[#Class 1C]]
+2. [[#Class 2 Beta blockers]]
 3. Agent widening action potential
 4. Calcium channel blockers
 Actions may overlap and not be a sole ion channel blocker. - multiple actions
@@ -95,15 +109,62 @@ Actions may overlap and not be a sole ion channel blocker. - multiple actions
 
 ### Class 1: Sodium channel blocker
 #### Class 1A
+1A -> Blocks K+ channels
+includes:
+- Quinidine
+- Procainamide
 
+Mmeonic: QP - Queen Prince
 #### Class IB
+ - 1B -> Opens K+ channels
  - Safer than 1A
+ - Useful only ventricular arrythmias
+ Includes: 
+- Lignocaine - DOC for Ventricular arrythmias
+- Phenytoin
+- Tocainide
 
+Blowjob category - 
+Lig - lick
+Pheny - penis
+Toca - toplessly
 #### Class 1C
+- 1C -> No effects K+
+Includes - 
+- Encainide
+- Flecainide
+- Propafenone
 
+Entry of fleeing Pro-Palestine 
 ### Class 2: Beta blockers
+- Used in tachychardias and tachyarrythmias
 ### Class 3: Agent widening action potential
+- Mostly potassium channel blockers
+- Action potential increased
+Includes: 
+- Bretylium [previously used as defibrillator pharmacologically]
+- Ibutilide [Atrial fibrillation]
+- Dofetlide [Atrial birallation]
+- Amiodarone [Longest acting AA drug w/ t-half | Omni-AA because it has mechanism all classes]
+- Sotalol [It's a beta blocker that has **dual mechanism**]
+BInDAS
+>Adverse effects of Am**iod**arone: 
+> The: Thyroid - can cause both hyperthyroidism and hypothyroidism (x Dronedarone doesn't contain iodine but is less effective)
+> Periphery: Peripheral neuropathy
+> My: Myocardial depression
+> Lung: *Lung fibrosis*
+> Liver: Hepatotoxic
+> Cornea: Corneal deposits
+> Photosensitive: Rashes on skin | May lead to Blue-man syndrome
 
+#lung
+Other pulmonary fibrosis causing drugs:
+>- Cyclophosphamide
+>- Busulfan
+>- Methotrexate
+>- Amiodarone
+>- Bleomycin
+> All are transport modes that can blow horn - Cycle, Bus, Metho-TRUCK-sate, D-a-RONE, BLEOing horn
 ### Miscellaneous
 - Adenosine
 - Atropine

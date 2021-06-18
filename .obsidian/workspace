@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Core/Pathology/1 . Cell Injury.md",
-            "mode": "source"
+            "file": "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md",
+            "mode": "preview"
           }
         }
       }
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Core/Pathology/1 . Cell Injury.md",
+                "file": "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Core/Pathology/1 . Cell Injury.md"
+                "file": "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md"
               }
             }
           }
@@ -109,6 +110,7 @@
   },
   "active": "5032febb8f2f4ace",
   "lastOpenFiles": [
+    "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md",
     "Notes/Core/Pathology/1 . Cell Injury.md",
     "Qbank-incorrects/Core/Pathology/1. Cell Injury.md",
     "Notes/Clinics/Dermatology/1. Introduction to Dermatology.md",
@@ -117,7 +119,6 @@
     "Notes/Core/Pathology/Untitled.md",
     "Qbank-incorrects/Core/Pathology/Untitled.md",
     "z-Assetland/Templates/HS-AnkiTemp 10x.md",
-    "z-Assetland/Templates/Greater HelterSkelter Cloze ShortSqueeze.md",
-    "z-Assetland/Templates/Untitled.md"
+    "z-Assetland/Templates/Greater HelterSkelter Cloze ShortSqueeze.md"
   ]
 }
