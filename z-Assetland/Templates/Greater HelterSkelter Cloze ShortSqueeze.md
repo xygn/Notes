@@ -1,4 +1,4 @@
-{{date}} {{time}}
+<!-- {{date}} {{time}} -->
 
 ```note-anki
 HELTER
