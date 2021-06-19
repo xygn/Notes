@@ -16,6 +16,7 @@ slug: apps
 | Editor / IDE         | [[VSCode]]              | UX; remote editing; extensions                                                                                                                                                                                                                                                                                                                             |
 | Note taking          | [[Neuron]], [[Emanote]] | Open source; future-proof                                                                                                                                                                                                                                                                                                                                  |
 | Programming Language | [[Haskell]]             | [statically-typed; FP](https://wiki.haskell.org/Why_Haskell_matters), [[No JavaScript]]                                                                                                                                                                                                                                                                    |
+| Video hosting | [Odysee](https://odysee.com/$/invite/@srid:2) | DeGoogle; decentralized
 
 [ProtonMail]: https://protonmail.com/
 [Brave]: https://brave.com/
@@ -31,6 +32,7 @@ Note that Chrome extensions work on Brave.
 
 * [Vimium](https://vimium.github.io/)
 * [De-Mainstream YouTube](https://demainstream.com/)
+* [Redirect: YouTube -> Odysee](https://reclaimthenet.org/watch-on-odysee-browser-extension/)
 
 ## To consider
 
