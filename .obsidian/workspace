@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md",
+            "file": "Notes/Core/Pathology/1 . Cell Injury.md",
             "mode": "source"
           }
         }
@@ -48,13 +48,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bf7b4bc677279b7a",
@@ -70,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md",
+                "file": "Notes/Core/Pathology/1 . Cell Injury.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md"
+                "file": "Notes/Core/Pathology/1 . Cell Injury.md"
               }
             }
           }
@@ -111,8 +109,8 @@
   },
   "active": "5032febb8f2f4ace",
   "lastOpenFiles": [
-    "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md",
     "Notes/Core/Pathology/1 . Cell Injury.md",
+    "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md",
     "Qbank-incorrects/Core/Pathology/1. Cell Injury.md",
     "Notes/Clinics/Dermatology/1. Introduction to Dermatology.md",
     "Notes/Clinics/Dermatology/2. Identifying candida from skin scraping.md",
