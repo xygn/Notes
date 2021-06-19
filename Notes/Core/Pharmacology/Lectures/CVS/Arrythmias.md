@@ -93,14 +93,15 @@ Extra-systoles: ????
 	
 
 # Classification of Anti-arrythmics
-**Vaughan William Classification**
+***Vaughan William Classification***
 1. [[#Class 1 Sodium channel blocker]]
 	- [[#Class 1A]]
 	- [[#Class IB]]
 	- [[#Class 1C]]
 2. [[#Class 2 Beta blockers]]
-3. Agent widening action potential
-4. Calcium channel blockers
+3. [[#Class 3 Agent widening action potential]]
+4. [[#Class 4 Calcium channel blocker]]
+5. [[#Class 5 Miscellaneous]]
 Actions may overlap and not be a sole ion channel blocker. - multiple actions
 
 ## How do they work:
@@ -114,20 +115,20 @@ includes:
 - Quinidine
 - Procainamide
 
-Mmeonic: QP - Queen Prince
+>Mmeonic: QP - Queen Prince
 #### Class IB
  - 1B -> Opens K+ channels
  - Safer than 1A
- - Useful only ventricular arrythmias
+ - **Useful only ventricular arrythmias**
  Includes: 
 - Lignocaine - DOC for Ventricular arrythmias
 - Phenytoin
 - Tocainide
 
-Blowjob category - 
-Lig - lick
-Pheny - penis
-Toca - toplessly
+>Blowjob category:
+>Lig - lick
+>Pheny - penis
+>Toca - (with) tongue
 #### Class 1C
 - 1C -> No effects K+
 Includes - 
