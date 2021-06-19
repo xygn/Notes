@@ -165,11 +165,23 @@ Other pulmonary fibrosis causing drugs:
 >- Amiodarone
 >- Bleomycin
 > All are transport modes that can blow horn - Cycle, Bus, Metho-TRUCK-sate, D-a-RONE, BLEOing horn
-### Miscellaneous
-- Adenosine
-- Atropine
+
+### Class 4: Calcium channel blocker
+L type - calcium channel
+Ver - heart and blood vessels
+Dil - heart and blood vessels 
+Dihydropyridines - blood vessels only
+
+Used in tachyarythmias
+- Beta blockers and Class 4 drugs must not be combined as there's a severe risk of brachycardia and depression 
+### Class 5: Miscellaneous
+- Adenosine - Shortest half-life (<10s) | DOC in PSVT 
+Due to it's half life, it is given as a rapid IV push in the central veins (jugular vein)
+>(Paroxysmal supraventricular tachycardia (**PSVT**) is a type of abnormal heart rhythm, or arrhythmia. It occurs when a short circuit rhythm develops in the upper chamber of the heart. This results in a regular but rapid heartbeat that starts and stops abruptly.)
+- Atropine - used in Bradycardia (anti-cholinergic effect) and AV block - DOC
 - Digitalis
-- MgSO4
+- Digoxin - used for Atrial fibrillation (decreases conduction between atria and ventricle, decreasing increase in ventricular rate)
+- MgSO4 - DOC for Torsades de Pointes/ Long QT Intervals 
 - Evabradine
 - Adrenaline
 
