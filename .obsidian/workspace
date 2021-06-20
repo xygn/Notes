@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6486a564c46dfbe4",
+        "id": "45b680862e9de56a",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -101,23 +101,23 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "6486a564c46dfbe4",
+  "active": "45b680862e9de56a",
   "lastOpenFiles": [
     "Notes/Core/Pharmacology/CVS/Arrythmias.md",
+    "ANKI/Clinics/Dermat-Anki/1. Introduction to Dermatology.md",
+    "Notes/Clinics/Dermatology/1. Introduction to Dermatology.md",
     "Qbank-incorrects/Core/Pathology/1. Cell Injury.md",
     "Notes/Core/Pathology/1. Cell Injury.md",
     "Notes/Core/Pathology/1 . Cell Injury.md",
     "P-Notes/ECG Made Easy/Untitled.md",
     "z-Assetland/Cache/Attachments/Pasted image 20210618184600.png",
     "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md",
-    "Notes/Clinics/Dermatology/1. Introduction to Dermatology.md",
-    "Notes/Clinics/Dermatology/2. Identifying candida from skin scraping.md",
-    "Notes/Clinics/Dermat-Anki/1. Introduction to Dermatology.md"
+    "Notes/Clinics/Dermatology/2. Identifying candida from skin scraping.md"
   ]
 }
