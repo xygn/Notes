@@ -1,6 +1,6 @@
 ---
 slug: calisthenics
-date: 2021-06-18
+date: 2019-06-18
 tags: [blog]
 ---
 

@@ -9,4 +9,4 @@ WiFi can disconnect from time to time. This is the most annoying problem with th
 
 In the end, I decided to just use an external wifi card ([[AC600M USB WiFi Adapter]]#)
 
-**Update**: Turns out, this only happens if there are multiple router channels (eg: different "pods" for the main router) in use.
+**Update**: Turns out, this only happens if there are multiple router channels (eg: different "pods" for the main router) in use; and the issue is not specific to the X1 Carbon.
