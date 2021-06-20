@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Core/Pathology/1. Cell Injury.md",
+            "file": "Notes/Core/Pharmacology/CVS/Arrythmias.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Core/Pathology/1. Cell Injury.md",
+                "file": "Notes/Core/Pharmacology/CVS/Arrythmias.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Core/Pathology/1. Cell Injury.md"
+                "file": "Notes/Core/Pharmacology/CVS/Arrythmias.md"
               }
             }
           }
@@ -109,15 +109,15 @@
   },
   "active": "6486a564c46dfbe4",
   "lastOpenFiles": [
-    "Notes/Core/Pathology/1. Cell Injury.md",
+    "Notes/Core/Pharmacology/CVS/Arrythmias.md",
     "Qbank-incorrects/Core/Pathology/1. Cell Injury.md",
+    "Notes/Core/Pathology/1. Cell Injury.md",
     "Notes/Core/Pathology/1 . Cell Injury.md",
     "P-Notes/ECG Made Easy/Untitled.md",
     "z-Assetland/Cache/Attachments/Pasted image 20210618184600.png",
     "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md",
     "Notes/Clinics/Dermatology/1. Introduction to Dermatology.md",
     "Notes/Clinics/Dermatology/2. Identifying candida from skin scraping.md",
-    "Notes/Clinics/Dermat-Anki/1. Introduction to Dermatology.md",
-    "Notes/Core/Pathology/Untitled.md"
+    "Notes/Clinics/Dermat-Anki/1. Introduction to Dermatology.md"
   ]
 }

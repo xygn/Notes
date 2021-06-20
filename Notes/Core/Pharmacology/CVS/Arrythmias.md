@@ -18,20 +18,34 @@ Repolarization -> Exit of K+ through K+ channel at Depolarized state
 
 Events of polarity in Nodal Tissue
 - @-40mV rapid depolarization
-- Phase 1
-- Phase 2
-- Phase 3
+- Phase 4 -  Phase 4 is not resting, because of funny current due to leakage of Na+ into the cells until it depolarizes
+- Phase 0 - L-type Calcium channels open -> Inward current -> Leads to depolarization 
+- Phase 3 - K+ Channels open -> outward current -> repolarization
+![[Pasted image 20210620155626.png | 400]]
+- **In AV Node**, Phase 4 is slower
+- SA node is dominant due to it's quicker Phase 4
 
 Resting MP of myocyte - -90mV
 of Nodal tissue -60 mV
 
 Events of polarity in Myocyte
-- when action potential is triggered in neighboring cells, sodium rushes into the RP
-- Phase 4 - Closed Na+ and K+ (resting state)
-- Phase 0 - Na+ opens
+- Phase 4 - Closed Na+ and Ca++ (resting state) [There's a constant outward leak of K+]
+- When action potential is triggered in neighboring cells, sodium rushes into the RP through the gap junctions
+- Phase 0 - Na+ opens [CLASS 1 AR]
 - Phase 1 - Na+ closes, K+ opens
-- Phase 2 - Opening of K+ and Calcium channel
+- Phase 2 - Opening of K+ and L-type Calcium channel -> Inward **Ca2+** current which is the trigger for myocyte contraction
 - Phase 3 - Continuous exit of K+ channel, calcium channel closed
+
+![[Pasted image 20210620154825.png | 400]]
+	
+> P wave - Atrial depolarization
+> QRS - Ventricular depolarization
+> The flat-line between P and Q - Time taken through AV Node, HIS bundle, Bundle branches and Purkinje fibers 
+- AV block - causes *Bradycardia*
+	 - prolonged PR interval
+	 - Can cause non-conducted P wave ![[Pasted image 20210620161907.png | 100]]
+	 - ![[Pasted image 20210620163546.png | 100]]
+
 
 Antiarrythmics - try to normalize ionic fluxes
 
@@ -76,8 +90,11 @@ PH
 ## Types of Arythmias
 - Supraventricular
 Atrial Fibrillation
+	- Irregularly irregular pulse
+	- Baseline in EKG is wavy 
+	- Absence of clearly defined P-wave
 Atrial Flutter
-Paroxysmal supraventricular tachycardia
+Paroxysmal (comes and goes) supraventricular tachycardia
 - Ventricular
 Ventricular fibrillation and flutter
 Ventricular tachycardia
@@ -139,6 +156,11 @@ Includes -
 Entry of fleeing Pro-Palestine 
 ### Class 2: Beta blockers
 - Used in tachychardias and tachyarrythmias
+- Modify slope of Phase 4 of Nodal tissue
+- Lesser slope leads to slower heart rate
+- Also prolongs repolarization
+- AV node conduction is slowed
+- ![[Pasted image 20210620160340.png]]
 ### Class 3: Agent widening action potential
 - Mostly potassium channel blockers
 - Action potential increased
