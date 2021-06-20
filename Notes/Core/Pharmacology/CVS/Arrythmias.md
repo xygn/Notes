@@ -31,7 +31,7 @@ of Nodal tissue -60 mV
 Events of polarity in Myocyte
 - Phase 4 - Closed Na+ and Ca++ (resting state) [There's a constant outward leak of K+]
 - When action potential is triggered in neighboring cells, sodium rushes into the RP through the gap junctions
-- Phase 0 - Na+ opens [CLASS 1 AR]
+- Phase 0 - Na+ opens [CLASS 1 AR] 
 - Phase 1 - Na+ closes, K+ opens
 - Phase 2 - Opening of K+ and L-type Calcium channel -> Inward **Ca2+** current which is the trigger for myocyte contraction
 - Phase 3 - Continuous exit of K+ channel, calcium channel closed
@@ -88,14 +88,19 @@ What is it?
 PH
 
 ## Types of Arythmias
-- Supraventricular
-Atrial Fibrillation
+- **Supraventricular**
+- Atrial Fibrillation
 	- Irregularly irregular pulse
 	- Baseline in EKG is wavy 
 	- Absence of clearly defined P-wave
-Atrial Flutter
-Paroxysmal (comes and goes) supraventricular tachycardia
-- Ventricular
+	Rate Control (<110bpm), Usually CCBs, Digoxin, Beta blockers
+	Chemical cardioversion is done by Ibutilide (Class 3 AR) [Less used]
+	Rhythm Control - Class 1 and Class 3
+- Atrial Flutter
+	- Flutter waves in the EKG
+	- Organized depolarizzation compared to fibrillation -> circuit usually within the right atrium
+- Paroxysmal (comes and goes) supraventricular tachycardia [Sudden onset - Electrical activity originates above ventricular]
+- **Ventricular**
 Ventricular fibrillation and flutter
 Ventricular tachycardia
 
@@ -105,8 +110,10 @@ Extra-systoles: ????
 - Na+ blockers decreases slope(dv/dt) of Phase 0 
 - K+ blockers increases the AP duration (QT interval increased) 
 - K+ openers decrease the AP duration (QT interval)
-> **Torsades' de pointes** - twisting of the points
+> **Torsades' de pointes** - twisting of the points | Feared outcome of QT prolongation
 > - Uncommon and distinctive form of polymorphic ventricular tachycardia (VT)
+> - Class IA and III (K+ blockers) - QT-prolongation drugs cause thus
+> ![[Pasted image 20210620173250.png]]
 	
 
 # Classification of Anti-arrythmics
@@ -123,24 +130,42 @@ Actions may overlap and not be a sole ion channel blocker. - multiple actions
 
 ## How do they work:
 - Change shape of Cardiac AP
-- PH
+- Class 1 and 3 (Na and K) mostly exert their effect on myocytes
+ ![[Pasted image 20210620171019.png]]
+- Class 2 and 4 (Beta blockers and CCB) mostly exert their effect on Nodal tissue
+![[Pasted image 20210620171129.png]]
 
 ### Class 1: Sodium channel blocker
+- Lengthens QRS 
+- ![[Pasted image 20210620171623.png]]
+- ![[Pasted image 20210620171750.png]]
+- Use dependance of Class I: Na-channel open/inactive state
+	- Thus in tachycardia, since the heart rate is higher, the state dependency is met more often
+	- Thus more binding at fast heart rates, most frequently in 1C
+- Reverse use dependence of Class III: K+ channel resting state
+	- As K+ resting state is longer when the heart is resting, lower heart rate meets state dependency for longer periods
 #### Class 1A
-1A -> Blocks K+ channels
+1A -> Blocks K+ channels along with Na+
+![[Pasted image 20210620171954.png]]
 includes:
 - Quinidine
 - Procainamide
 
 >Mmeonic: QP - Queen Prince
 #### Class IB
- - 1B -> Opens K+ channels
- - Safer than 1A
+ - 1B -> Opens K+ channels along with Na+
+ - Safer than 1A 
+ - Least effect on AP
+ - Effective for Ischemic arrythmias -  as during ischemia there are more depolarized myocytes
+	 - Most Na Channel blocking effect of Class 1B occurs when Na channels of heart is in depolarized state
  - **Useful only ventricular arrythmias**
+ - Especially *ischemic* **ventricular arrythmia**
  Includes: 
 - Lignocaine - DOC for Ventricular arrythmias
 - Phenytoin
 - Tocainide
+- Mexiletine - Oral lidocaine
+- Lidocaine - Converts Unidirectional  -> Bidirectional 
 
 >Blowjob category:
 >Lig - lick
@@ -148,6 +173,8 @@ includes:
 >Toca - (with) tongue
 #### Class 1C
 - 1C -> No effects K+
+- Used only in patients with structurally normal hearts
+- Susceptible for prolonged QRS -> Risk for cardiac arrest
 Includes - 
 - Encainide
 - Flecainide
@@ -156,17 +183,23 @@ Includes -
 Entry of fleeing Pro-Palestine 
 ### Class 2: Beta blockers
 - Used in tachychardias and tachyarrythmias
-- Modify slope of Phase 4 of Nodal tissue
+- Modify slope of Phase 4 of **Nodal tissue**
 - Lesser slope leads to slower heart rate
 - Also prolongs repolarization
 - AV node conduction is slowed
-- ![[Pasted image 20210620160340.png]]
+- ![[Pasted image 20210620174619.png]]
+- ![[Pasted image 20210620174742.png]]
+
 ### Class 3: Agent widening action potential
+![[Pasted image 20210620173043.png]]
 - Mostly potassium channel blockers
+- Lengthens QT interval : Risk of Torsade de pointes
+- ![[Pasted image 20210620171635.png]]
 - Action potential increased
+- Reverse use dependance - thus 
 Includes: 
 - Bretylium [previously used as defibrillator pharmacologically]
-- Ibutilide [Atrial fibrillation]
+- Ibutilide [Atrial fibrillation] [Chemical/Pharmacological Cardioversion]
 - Dofetlide [Atrial birallation]
 - Amiodarone [Longest acting AA drug w/ t-half | Omni-AA because it has mechanism all classes]
 - Sotalol [It's a beta blocker that has **dual mechanism**]
@@ -176,9 +209,9 @@ BInDAS
 > Periphery: Peripheral neuropathy
 > My: Myocardial depression
 > Lung: *Lung fibrosis*
-> Liver: Hepatotoxic
-> Cornea: Corneal deposits
-> Photosensitive: Rashes on skin | May lead to Blue-man syndrome
+> Liver: Hepatotoxic (longest half-life causes amiodarone accumulates)
+> Cornea: Corneal deposits due to secretion of amiodarone by lacrimal glands
+> Photosensitive: Rashes on skin, sunburn | May lead to Blue-man syndrome - prominent on face
 
 #lung
 Other pulmonary fibrosis causing drugs:
@@ -190,7 +223,12 @@ Other pulmonary fibrosis causing drugs:
 > All are transport modes that can blow horn - Cycle, Bus, Metho-TRUCK-sate, D-a-RONE, BLEOing horn
 
 ### Class 4: Calcium channel blocker
-L type - calcium channel
+L type - calcium channel of nodal tissue
+![[Pasted image 20210620174914.png]]
+- Prolonged PR interval
+- May lead to type 1 AV block
+- Conduction in AV node is reduced
+- Used commonly to control ventricular rate for **atrial fibrillation**
 Ver - heart and blood vessels
 Dil - heart and blood vessels 
 Dihydropyridines - blood vessels only
@@ -198,15 +236,19 @@ Dihydropyridines - blood vessels only
 Used in tachyarythmias
 - Beta blockers and Class 4 drugs must not be combined as there's a severe risk of brachycardia and depression 
 ### Class 5: Miscellaneous
-- Adenosine - Shortest half-life (<10s) | DOC in PSVT 
-Due to it's half life, it is given as a rapid IV push in the central veins (jugular vein)
+- Adenosine - Shortest half-life (<10s) | DOC in PSVT anfd AVNRT (AV node reentrant tachycardia)
+	- Due to it's half life, it is given as a rapid IV push in the central veins (jugular vein)
+	-  Activates K+ in AV Node -> Slowing of conduction through AV node
+	-  
 >(Paroxysmal supraventricular tachycardia (**PSVT**) is a type of abnormal heart rhythm, or arrhythmia. It occurs when a short circuit rhythm develops in the upper chamber of the heart. This results in a regular but rapid heartbeat that starts and stops abruptly.)
 - Atropine - used in Bradycardia (anti-cholinergic effect) and AV block - DOC
 - Digitalis
 - Digoxin - used for Atrial fibrillation (decreases conduction between atria and ventricle, decreasing increase in ventricular rate)
-- MgSO4 - DOC for Torsades de Pointes/ Long QT Intervals 
+- MgSO4 - DOC for Torsades de Pointes/ Long QT Intervals | Blocks calcium influx into cells 
 - Evabradine
 - Adrenaline
+- Adenosine -
+	- Very Short life
 
 Choice of drug varies with type of arrythmias and toxicity
 **All arrythmias need not be treated**
