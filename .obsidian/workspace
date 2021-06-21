@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Core/Pathology/12. The Heart.md",
+            "file": "Notes/Core/Pathology/1. Cell Injury.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Core/Pathology/12. The Heart.md",
+                "file": "Notes/Core/Pathology/1. Cell Injury.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Core/Pathology/12. The Heart.md"
+                "file": "Notes/Core/Pathology/1. Cell Injury.md"
               }
             }
           }
@@ -109,8 +109,8 @@
   },
   "active": "45b680862e9de56a",
   "lastOpenFiles": [
-    "Notes/Core/Pathology/Untitled.md",
     "Notes/Core/Pathology/1. Cell Injury.md",
+    "Notes/Core/Pathology/Untitled.md",
     "Notes/Clinics/Dermatology/4. Pediculosis.md",
     "Notes/Clinics/Dermatology/1. Introduction to Dermatology.md",
     "ANKI/Clinics/Dermat-Anki/1. Introduction to Dermatology.md",
