@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Core/Pharmacology/CVS/Arrythmias.md",
+            "file": "Notes/Clinics/Dermatology/4. Pediculosis.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bf7b4bc677279b7a",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Core/Pharmacology/CVS/Arrythmias.md",
+                "file": "Notes/Clinics/Dermatology/4. Pediculosis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Core/Pharmacology/CVS/Arrythmias.md"
+                "file": "Notes/Clinics/Dermatology/4. Pediculosis.md"
               }
             }
           }
@@ -105,10 +106,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "45b680862e9de56a",
   "lastOpenFiles": [
+    "Notes/Clinics/Dermatology/Untitled.md",
     "Notes/Core/Pharmacology/CVS/Arrythmias.md",
     "ANKI/Clinics/Dermat-Anki/1. Introduction to Dermatology.md",
     "Notes/Clinics/Dermatology/1. Introduction to Dermatology.md",
@@ -117,7 +120,6 @@
     "Notes/Core/Pathology/1 . Cell Injury.md",
     "P-Notes/ECG Made Easy/Untitled.md",
     "z-Assetland/Cache/Attachments/Pasted image 20210618184600.png",
-    "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md",
-    "Notes/Clinics/Dermatology/2. Identifying candida from skin scraping.md"
+    "Notes/Core/Pharmacology/Lectures/CVS/Arrythmias.md"
   ]
 }
