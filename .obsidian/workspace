@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Core/Pathology/1. Cell Injury.md",
+            "file": "Notes/Core/Pathology/12. The Heart.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Core/Pathology/1. Cell Injury.md",
+                "file": "Notes/Core/Pathology/12. The Heart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Core/Pathology/1. Cell Injury.md"
+                "file": "Notes/Core/Pathology/12. The Heart.md"
               }
             }
           }
@@ -109,6 +109,7 @@
   },
   "active": "45b680862e9de56a",
   "lastOpenFiles": [
+    "Notes/Core/Pathology/Untitled.md",
     "Notes/Core/Pathology/1. Cell Injury.md",
     "Notes/Clinics/Dermatology/4. Pediculosis.md",
     "Notes/Clinics/Dermatology/1. Introduction to Dermatology.md",
@@ -117,7 +118,6 @@
     "Notes/Core/Pharmacology/CVS/Arrythmias.md",
     "Qbank-incorrects/Core/Pathology/1. Cell Injury.md",
     "Notes/Core/Pathology/1 . Cell Injury.md",
-    "P-Notes/ECG Made Easy/Untitled.md",
-    "z-Assetland/Cache/Attachments/Pasted image 20210618184600.png"
+    "P-Notes/ECG Made Easy/Untitled.md"
   ]
 }
