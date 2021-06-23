@@ -7,6 +7,8 @@ feed:
 
 A [microblog](https://en.wikipedia.org/wiki/Microblogging) for small'ish updates.[^twit]
 
+See [my daily updates](https://app.element.io/#/room/#srid:matrix.org) for more frequent content.
+
 ## Recent microposts
 
 ```query {.timeline}
@@ -18,4 +20,4 @@ tag:micro/**
     > *Twitter's conversational landscape is like the Everglades; it's a big nasty swamp, stinking pools everywhere and lots of alligators and snakes.*
     ---[James Lindsay](https://www.youtube.com/watch?v=sAoguiwEHJg&feature=youtu.be), co-author of [How to Have Impossible Conversations](https://www.amazon.com/How-Have-Impossible-Conversations-Practical-ebook/dp/B07NL74KR2).
     
-    However, social media could work if they are [decentralized enough to encourage deviation from universal group-think](https://satellite.earth/pub/@srid:stay-niche). [[Satellite social network]] and [Element](https://element.io/) are some examples with potential for success. 
+    However, social media could work if they are [decentralized enough to encourage deviation from universal group-think](https://satellite.earth/pub/@srid:stay-niche). [[Satellite social network]] and [Element](https://element.io/) are some examples with potential for success. In regards to reddit, while most of its communities suffer from similar dynamics, some niche subreddits (eg: r/TheMotte) still uphold sensibility with little group-think.
