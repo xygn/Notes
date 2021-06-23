@@ -16,10 +16,3 @@ Welcome to my little corner on the web. [GitHub](https://github.com/srid) ;
 ```query {.timeline}
 tag:blog/**
 ```
-
-## Recent [[Microblog]] posts
-
-```query {.timeline}
-tag:micro/**
-```
-

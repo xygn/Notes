@@ -1,6 +1,6 @@
 ---
 slug: heist-start
-tags: [micro]
+tags: [blog]
 date: 2021-05-10
 ---
 

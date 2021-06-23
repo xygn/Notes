@@ -1,21 +1,11 @@
 ---
 slug: microblog
 order: -10
-feed:
-    count: 5
 ---
 
-A [microblog](https://en.wikipedia.org/wiki/Microblogging) for small'ish updates.[^twit]
-
-See [my daily updates][matrixpub] for more frequent content.
+I use Matrix to publish [more frequent updates][matrixpub].[^twit]
 
 [matrixpub]: https://matrix.to/#/#srid:matrix.org
-
-## Recent microposts
-
-```query {.timeline}
-tag:micro/**
-```
 
 [^twit]: 
     Why not popular social media platforms like Twitter? First, it is [not "social"](https://old.reddit.com/r/slatestarcodex/comments/njxq6h/status_anxiety_as_a_service/gzavjca/?context=3) in the felicitous sense of the word; second, to steer clear of the [hivemind contagion](https://www.pnas.org/content/111/24/8788) of their ill-humored ambiance, best expressed in:
