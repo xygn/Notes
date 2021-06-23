@@ -1,7 +1,7 @@
 ---
 slug: xmonad-conf-ide
 date: 2020-11-26
-tags: [nixos, blog/ema]
+tags: [nixos, blog]
 ---
 
 :::{.sticky-note}
