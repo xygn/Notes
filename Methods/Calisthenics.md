@@ -26,7 +26,7 @@ desired strength\) however is an anti-goal; It is fatuous to carry all that
 extra muscle around and then ravenously eat more to maintain it.
 
 > When strength, not hypertrophy, is the goal you maintain a lean physique.
-like Kohei Uchimura (who, incidentally, [eats one meal a day](https://www.youtube.com/watch?v=JKXOBxcNF3E))
+Like Kohei Uchimura - who, incidentally, [eats one meal a day](https://www.youtube.com/watch?v=JKXOBxcNF3E).
 
 As a result of doing calisthenics I noticed that "normal" activities like walking and
 standing became *more efficient* in that my posture has dramatically improved
@@ -34,10 +34,10 @@ owing to the direct translation of intent, and eventual habituation, to keep the
 correct body alignment \(which is what one means by "correct form"\) throughout
 any movement.
 
-## An natural routine
+## A natural routine
 
 Nowadays I tend practice a technique known as [greasing the
-groove](https://sealgrinderpt.com/blog/navy-seal-workout/pavels-grease-the-groove-gtg.html/) enabling practice on a daily basis. Sometimes I'll cease practicing it entirely for a few days. Occasionally I partake in naturally intensive work like an hour or two of gardening, or cycling or a long walk.
+groove](https://sealgrinderpt.com/blog/navy-seal-workout/pavels-grease-the-groove-gtg.html/) enabling practice on a daily basis. Sometimes I'll cease practicing it entirely for a few days. From time to time I naturally partake in intensive physical activities like an hour or two of gardening, cycling or a long walk.
 
 ## See also
 
