@@ -7,7 +7,9 @@ feed:
 
 A [microblog](https://en.wikipedia.org/wiki/Microblogging) for small'ish updates.[^twit]
 
-See [my daily updates](https://app.element.io/#/room/#srid:matrix.org) for more frequent content.
+See [my daily updates][matrixpub] for more frequent content.
+
+[matrixpub]: https://matrix.to/#/#srid:matrix.org
 
 ## Recent microposts
 
