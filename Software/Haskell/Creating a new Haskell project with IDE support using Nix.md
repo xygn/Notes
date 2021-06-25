@@ -79,7 +79,7 @@ Other things you might want to do:
 
 ## TODO
 
-- [ ] Hoogle ([cf](https://www.reddit.com/r/haskell/comments/k2htfz/template_github_project_using_nix_with_haddock/))
+- [ ] Hoogle ([cf](https://old.reddit.com/r/haskell/comments/k2htfz/template_github_project_using_nix_with_haddock/))
 - [ ] GitHub CI action workflow
 
 ## Alternatives

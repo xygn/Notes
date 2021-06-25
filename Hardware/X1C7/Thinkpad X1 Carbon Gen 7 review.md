@@ -30,9 +30,9 @@ I did not explicitly measure battery life on this laptop with a 4k screen. It lo
 
 My next computer, if I choose to buy one in ~3 years, would likely be similar to the X1C7 but with a bit more performance (assuming battery life does not suffer); i.e., if I were to make this decision again, I'd consider Thinkpad X1E or P1[^amd] - but with integrated graphics (nvidia has poor support on Linux). That said, I still use the Carbon as my primary computer, and use [[VSCode]] remote to shift much of the develoment heavylifting to the [[P71]] workstation at home.
   
-[bat-red]: https://www.reddit.com/r/thinkpad/comments/gc5nn2/x1_extreme_gen_2_4k_uhd_linux_battery_life/fp9ebs5/?utm_source=reddit&utm_medium=web2x&context=3
+[bat-red]: https://old.reddit.com/r/thinkpad/comments/gc5nn2/x1_extreme_gen_2_4k_uhd_linux_battery_life/fp9ebs5/?utm_source=reddit&utm_medium=web2x&context=3
 
-[bat-5h]: https://www.reddit.com/r/thinkpad/comments/hwonb5/x1_carbon_gen_8_4k_battery_life/
+[bat-5h]: https://old.reddit.com/r/thinkpad/comments/hwonb5/x1_carbon_gen_8_4k_battery_life/
 
 [nixos-hardware]: https://github.com/srid/nix-config/blob/48c1c44a7ed52c25c25a19a1771b71a16e174da5/nixos-configuration/x1c7.nix#L11-L13
 

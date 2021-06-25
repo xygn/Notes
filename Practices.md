@@ -1,5 +1,5 @@
 ---
-slug: methods
+slug: practices
 ---
 
 ```query

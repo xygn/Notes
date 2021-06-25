@@ -7,7 +7,7 @@ date: 2021-04-08
 While most would be satisfied with `rustup`, I wanted to use #[[Nix]] for writing any new project in #[[Rust]] - especially as I see the value of Nix, and I already use [[NixOS]]. It took a bit of digging to evaluate the existing options, and come up with a template Nix setup for new projects. 
 
 :::{.ui .message}
-All the code in this post is part of [rust-nix-template](https://github.com/srid/rust-nix-template) which you can use to bootstrap your Rust project using the Nix approach detailed here. Thanks to  [Alexander Bantyev](https://www.reddit.com/r/rust/comments/mmbfnj/nixifying_a_rust_project/) for the pointers.
+All the code in this post is part of [rust-nix-template](https://github.com/srid/rust-nix-template) which you can use to bootstrap your Rust project using the Nix approach detailed here. Thanks to  [Alexander Bantyev](https://old.reddit.com/r/rust/comments/mmbfnj/nixifying_a_rust_project/) for the pointers.
 :::
 
 Let's support [Flakes](https://nixos.wiki/wiki/Flakes) from the get-go. To nixify your Rust project, add the following files to your project *and* set the `name` and `description` fields in `flake.nix` file appropriately. Then run `nix develop` to get a nix shell (`nix-shell` also works), or `nix run` to run the app (`nix-build` also works).
