@@ -7,9 +7,9 @@ page:
 # Sridhar Ratnakumar
 
 Welcome to my little corner on the web. [GitHub](https://github.com/srid) ; 
-[Matrix](https://matrix.to/#/@srid:matrix.org) ; [[resume.pdf|Résumé]].
+[Matrix](https://matrix.to/#/@srid:matrix.org) ; [Microblog][matrixpub] ; [[resume.pdf|Résumé]].
 
-[avatar]: https://srid.keybase.pub/me.jpeg
+[matrixpub]: https://matrix.to/#/#srid:matrix.org
 
 ## Recent [[Blog]] posts
 
