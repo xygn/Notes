@@ -2,11 +2,14 @@
 order: -20
 date: 2019-10-01
 tags: [blog]
+slug: carnivore-diet
 ---
 
 I eat only animal-based foods.[^coffee]
 
 [^coffee]: Coffee being the delightful exception.
+
+![[steak.jpg]]
 
 ## Why?
 
@@ -14,7 +17,7 @@ In early 2013 a licensed medical doctor impetuously prescribed me enough antibio
 
 [^prescription]: Minocycline, 100g a day for 30 days--had to stop due to severe side effects. Then another prescription of the same but 50g a day, followed by same side effects. After stopping the second round of antibiotics, within about a week the skin reactions -- 30+ pus-filled inflammatory boils in face, neck and eventually scalp -- started.
 
-I suffered with this condition for over 4 years, and saw plethora of licensed dermatologists \(who knew naught but to prescribe ever more antibiotics[^moreanti]\; one even had me do low-dose Accutane). Then, just within two weeks of going on the carnivore diet \(beef, salt and pepper\) my symptoms reduced to about 95%. Over the next years I was to reintroduce several plant foods[^reint]; and everytime I do, my symptoms would come back in vengeance.
+I suffered with this condition for over 4 years, and saw plethora of licensed dermatologists \(who knew naught but to prescribe ever more antibiotics[^moreanti]\; one even had me do low-dose Accutane). Then, just within two weeks of going on the carnivore diet \(beef, salt and pepper\) my symptoms reduced to about 95%. Over the next years I was to reintroduce several plant foods; and everytime I do, my symptoms would come back in vengeance.
 
 **Takeaway**: don't blindly trust the doctors and [nutritionists](https://twitter.com/ifbacongrewont1/status/1322151733326450689), especially when it comes to the topic of antibiotics and diet. Although harbouring no ill-will, they can't help but regurgitate what they had been taught ([with bias][pmasondoc]) in medical school ... and [quackery][q1] and [misinformation][fl] is [not][q3] very [uncommon][q2] in medicine.
 
@@ -23,8 +26,6 @@ I suffered with this condition for over 4 years, and saw plethora of licensed de
 [q3]: https://www.bmj.com/content/360/bmj.k822/rr-13
 [pmasondoc]: https://www.youtube.com/watch?time_continue=1&v=bRzBGHx93hc&feature=emb_title
 [fl]: https://twitter.com/fleroy1974/status/1406667227210862595
-
-[^reint]: I have not totally lost interest in reintroducing plant foods; and this is something I try every once in a while. In the ideal world, I'd love to be able to eat some plant carbohydrates on a predominantly animal-based diet.
 
 [^moreanti]: Cefalexin, doxycycline and one another antibiotic that I don't remember the name of. They work temporarily, anywhere from 2 weeks to 3 months, and then the symptoms return even more severely than before!
 
