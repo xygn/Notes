@@ -1,6 +1,5 @@
 ---
 slug: x1c7-wifi
-tags: [x1c7]
 ---
 
 WiFi can disconnect from time to time. This is the most annoying problem with the #[[X1C7]]. It vanishes for some days, before returning.
