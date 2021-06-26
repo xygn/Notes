@@ -31,7 +31,7 @@ slug: apps
 Note that Chrome extensions work on Brave.
 
 * [Vimium](https://vimium.github.io/)
-* [De-Mainstream YouTube](https://demainstream.com/)
+* [De-Mainstream YouTube](https://demainstream.com/) ([Extension link](https://chrome.google.com/webstore/detail/de-mainstream-youtube/dkcdmdpcapjlaoioeenamjdanpeehjan?hl=en))
 * [Redirect: YouTube -> Odysee](https://reclaimthenet.org/watch-on-odysee-browser-extension/)
 
 ## To consider
