@@ -17,6 +17,6 @@ feed:
 
 That is all it takes to generate an atom feed, `blog.xml`, that will aggregate all of your blog posts linked from `blog.md`. See neuron's documentation on the [Web feeds plugin](https://neuron.zettel.page/feed) for details.
 
-On this site, you have three examples: add any of these -- [[Blog]], [[Microblog]], or [[Neuron]] -- to your feed reader, if you want to keep yourself abreast of new content in those zettels.
+~~On this site, you have three examples: add any of these -- `[[Blog]], [[Microblog]], or [[Neuron]]` -- to your feed reader, if you want to keep yourself abreast of new content in those zettels.~~ (This website has migrated to [[Emanote]] as of June 2021)
 
 [^tmpl]: See https://github.com/srid/neuron-template for a template to instantly get started with little fuss (requires a GitHub account).
