@@ -23,4 +23,4 @@ tag:#nojs
 
 ## Related
 
-- [[PureScript]] generally relies on NodeJS toolchain, but [purs-nix](https://github.com/ursi/purs-nix) aims to provide a "No JavaScript" development environment using [[Nix]].
+- [[PureScript]] generally relies on NodeJS toolchain being peppered in the project repo, but [purs-nix](https://github.com/ursi/purs-nix) aims to provide a "No JavaScript" development environment using [[Nix]].
