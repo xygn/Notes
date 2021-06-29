@@ -6,8 +6,17 @@ page:
 
 # Sridhar Ratnakumar
 
-Welcome to my little corner on the web. [GitHub](https://github.com/srid) ; 
-[Matrix](https://matrix.to/#/@srid:matrix.org) ; [Microblog][matrixpub] ; [[resume.pdf|Résumé]] ; [[Projects]].
+Welcome to my little corner on the web. 
+
+Open Source
+: [GitHub](https://github.com/srid) 
+: [[Projects]]
+
+Work
+: [[resume.pdf|Résumé]] 
+
+Elsewhere
+: [Matrix Microblog][matrixpub] 
 
 [matrixpub]: https://matrix.to/#/#srid:matrix.org
 
