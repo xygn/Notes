@@ -2,4 +2,4 @@
 slug: nix
 ---
 
-Nix package manager.
+Nix package manager. See also [[NixOS]].
