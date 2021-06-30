@@ -7,7 +7,7 @@ page:
     <link rel="stylesheet" href="static/background-pattern.css" />
 
 template:
-  theme: teal
+  theme: pink
   iconUrl: static/favicon.jpeg
   sidebar:
     collapsed: true
