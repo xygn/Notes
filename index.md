@@ -1,29 +1,22 @@
 ---
 page:
   description: |
-    Personal website of Sridhar Ratnakumar, software consultant specializing in Haskell.
+    Notes for dynamic worldwide access.
 ---
 
-# Sridhar Ratnakumar
+# XYGN's notes
 
-Welcome to my little corner on the web. 
+Well... these are my notes.
 
 Open Source
-: [GitHub](https://github.com/srid) 
+: [GitHub](https://github.com/xygn)
 : [[Projects]]
 
-Work
-: [[resume.pdf|Résumé]] 
 
-Elsewhere
-: [Matrix Microblog][matrixpub] 
 
-[matrixpub]: https://matrix.to/#/#srid:matrix.org
-
+: [Blog](o.xygn.us)
 ## Recent [[Blog]] posts
 
 ```query {.timeline}
 tag:blog/**
 ```
-
-

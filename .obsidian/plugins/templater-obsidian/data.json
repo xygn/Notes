@@ -1,0 +1,1 @@
+{"command_timeout":5,"template_folder":"","templates_pairs":[["assethelper","C:\\Users\\jason\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python3.9.exe \"<% tp.file.path(false) %>\"  D:\\AutoHotKey\\asset-helper.py"],["",""]],"trigger_on_file_creation":false,"enable_system_commands":true,"shell_path":""}

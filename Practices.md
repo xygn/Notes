@@ -1,7 +1,0 @@
----
-slug: practices
----
-
-```query
-path:./*
-```

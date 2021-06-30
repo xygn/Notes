@@ -1,7 +1,0 @@
----
-slug: thoughts
----
-
-```query
-path:./*
-```

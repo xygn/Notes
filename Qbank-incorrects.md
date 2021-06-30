@@ -1,0 +1,7 @@
+---
+slug: qbank
+---
+
+```query
+path:./*
+```

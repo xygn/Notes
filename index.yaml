@@ -1,13 +1,13 @@
 page:
-  siteTitle: Sridhar Ratnakumar
-  siteName: Srid
+  siteTitle: Notes de XYGM
+  siteName: XYGN
   headHtml: |
     <link href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/combine/npm/prismjs@1.23.0/prism.min.js,npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
     <link rel="stylesheet" href="static/background-pattern.css" />
 
 template:
-  theme: pink
+  theme: teal
   iconUrl: static/favicon.jpeg
   sidebar:
     collapsed: true
