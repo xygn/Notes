@@ -1,6 +1,5 @@
 ---
 slug: Core
 ---
-```query
-path:./C-Notes/*
-```
+
+[[C-Notes/Core/Pathology/Systemic/1. Cell Injury]]

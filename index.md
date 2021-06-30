@@ -4,19 +4,19 @@ page:
     Notes for dynamic worldwide access.
 ---
 
-# XYGN's notes
+# Notes de XYGN
 
 Well... these are my notes.
 
+[Index](https://n.xygn.us/-/)
+
 Open Source
 : [GitHub](https://github.com/xygn)
-: [[Projects]]
+
+: [Blog](https://xygn.us)
 
 
-
-: [Blog](o.xygn.us)
-## Recent [[Blog]] posts
-
-```query {.timeline}
+<!---## Recent [[Blog]] posts>
+<```query {.timeline}>
 tag:blog/**
-```
+``` --->
