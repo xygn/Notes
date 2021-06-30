@@ -1,5 +1,5 @@
 ---
-slug: p-nots
+slug: P-Notes
 order: -10
 template:
   sidebar:
