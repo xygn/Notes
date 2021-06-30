@@ -1,0 +1,2615 @@
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <title>
+    1. Cell Injury – Notes de XYGM
+  </title>
+  
+    
+      <meta property='og:description' content />
+      <meta property='og:site_name' content='XYGN' />
+    
+    
+      <base href='/' />
+      <link href='static/favicon.jpeg' rel='icon' />
+    
+    <link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/combine/npm/prismjs@1.23.0/prism.min.js,npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js'></script>
+<link rel='stylesheet' href='static/background-pattern.css' />
+
+  
+  <!-- CSSSTART -->
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>// Be silent to avoid complaining about non-tailwind classes
+// https://github.com/tw-in-js/twind/discussions/180#discussioncomment-678272
+console.log("ema: Twind: setup & observe")
+twind.setup({mode: 'silent'})
+window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
+  <!-- CSSEND -->
+  <head-extra></head-extra>
+</head>
+
+<!-- DoNotFormat -->
+
+
+<!-- DoNotFormat -->
+
+<body class='overflow-y-scroll bg-gray-400'>
+  
+    <div class='container mx-auto'>
+
+      
+  <nav id='breadcrumbs' class='w-full text-gray-700 md:hidden'>
+    <div class='flex justify-left'>
+      <div class='w-full px-2 py-2 bg-gray-50'>
+        <ul class='flex flex-wrap text-lg'>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href=''>
+                XYGN’s notes
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='Core'>
+                C-Notes
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='C-Notes/Core'>
+                Core
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='C-Notes/Core/Pathology'>
+                Pathology
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='C-Notes/Core/Pathology/Systemic'>
+                Systemic
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+      <div class='flex flex-nowrap bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8'>
+        <!-- Sidebar column -->
+        <nav id='sidebar' class='flex-auto hidden leading-relaxed md:block md:sticky md:top-0 md:h-full md:max-w-xs'>
+          <div class='px-2 py-2 text-gray-800'>
+
+            <div id='indexing-links' class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
+              <a href='-/tags' title='View tags'>
+                <svg style='width: 1rem;' class='hover:text-teal-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
+                  </path>
+                </svg>
+              </a>
+              <a href='-' title='Expand full tree'>
+                <svg style='width: 1rem;' class='hover:text-teal-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4'>
+                  </path>
+                </svg>
+              </a>
+            </div>
+
+            <div id='site-logo' class='pl-2'>
+              <div class='flex items-center my-2 space-x-2 justify-left'>
+                <a href='' title='Go to Home'>
+                  
+                    
+                      <!-- The style width attribute here is to prevent huge
+                      icon from displaying at those rare occasions when Tailwind
+                      hasn't kicked in immediately on page load 
+                      -->
+                      <img style='width: 1rem;' class='transition transform hover:scale-110 hover:opacity-80' src='static/favicon.jpeg' />
+                    
+                  
+                </a>
+                <a class='font-bold truncate' title='Go to Home' href=''>
+                  Home
+                </a>
+              </div>
+            </div>
+
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Blog' href='blog'>
+      Blog
+    </a>
+    
+      
+        
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='P-notes' href='p-nots'>
+      P-notes
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='C-Notes' href='Core'>
+      C-Notes
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Clinics' href='C-Notes/Clinics'>
+      Clinics
+    </a>
+    
+      
+        <span class='text-gray-300' title='1 children inside'>
+          1
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Core' href='C-Notes/Core'>
+      Core
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Microbiology' href='C-Notes/Core/Microbiology'>
+      Microbiology
+    </a>
+    
+      
+        <span class='text-gray-300' title='2 children inside'>
+          2
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Pathology' href='C-Notes/Core/Pathology'>
+      Pathology
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='12. The Heart' href='C-Notes/Core/Pathology/12.%20The%20Heart'>
+      12. The Heart
+    </a>
+    
+      
+        
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Systemic' href='C-Notes/Core/Pathology/Systemic'>
+      Systemic
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+  
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
+        </path>
+      </svg>
+      
+  
+    <a class='font-bold text-teal-600 hover:underline truncate' title='1. Cell Injury' href='C-Notes/Core/Pathology/Systemic/1.%20Cell%20Injury'>
+      1. Cell Injury
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='2. Inflammation' href='C-Notes/Core/Pathology/Systemic/2.%20Inflammation'>
+      2. Inflammation
+    </a>
+    
+      
+        
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+  
+</div>
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Pharmacology' href='C-Notes/Core/Pharmacology'>
+      Pharmacology
+    </a>
+    
+      
+        <span class='text-gray-300' title='3 children inside'>
+          3
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+  
+</div>
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='P-Notes' href='P-Notes'>
+      P-Notes
+    </a>
+    
+      
+        <span class='text-gray-300' title='2 children inside'>
+          2
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Qbank-incorrects' href='qbank'>
+      Qbank-incorrects
+    </a>
+    
+      
+        <span class='text-gray-300' title='1 children inside'>
+          1
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='static' href='static'>
+      static
+    </a>
+    
+      
+        <span class='text-gray-300' title='1 children inside'>
+          1
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
+
+          </div>
+        </nav>
+
+        <!-- Main body column -->
+        <div class='flex-1 w-full overflow-x-auto bg-white'>
+          <main class='px-4 py-4'>
+            <h1 class='flex items-end justify-center mb-4 p-3 bg-teal-100 text-5xl font-extrabold text-black rounded'>
+  <a class='z-40 tracking-tighter '>
+    1. Cell Injury
+  </a>
+</h1>
+            <article class='overflow-auto'>
+  <!-- What goes in this file will appear on top of note body-->
+  
+    <p class='mb-3'>
+      Qbank - <a href='Qbank-incorrects/Core/Pathology/1.%20Cell%20Injury' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>1. Cell Injury</a>
+    </p>
+  <h1 id='introduction' class='pb-2 mb-2 text-5xl font-bold text-center'>Introduction</h1><h2 id='cellular-adaptations' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Cellular Adaptations</h2><h3 id='atrophy' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Atrophy</h3>
+    <p class='mb-3'>
+      <strong>n</strong> -&gt; n
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <strong>Physiologic</strong>:<br />Uterus after parturition<br />Organ atrophy (fetal development)
+        </li>
+      
+        <li>
+          <strong>Pathologic</strong>:<br />Disuse<br />Denervation e.g. : Polio<br />Inadequate nutrition e.g.: PEM<br />Chronic Ischemic Atrophy e.g.: Senile dementia (Alzheimer’s)
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Atrophy is now considered <strong>Pre-malignant</strong> instead of Benign
+    </p>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      <img class='mb-3' src='static/Pasted image 20210627214134.png' alt='[[Pasted image 20210627214134.png]]' />
+    </blockquote>
+  <h3 id='hypertrophy' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Hypertrophy</h3>
+    <p class='mb-3'>
+      n -&gt; N
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Increased cellular protein production
+        </li>
+      
+        <li>
+          Mechanical sensors (integrins?) or Agonists or Growth factors -&gt; Signal Transduction pathways -&gt; Transcription factors -&gt; Increased cellular protein synthesis
+        </li>
+      
+        <li>
+          Physiologic<br />Uterine hypertrophy during pregnancy<br />Skeltal muscles
+        </li>
+      
+        <li>
+          Pathologic:<br />Cardiac hypertrophy (in hypertension/valvular disease) - left ventricle most affected
+        </li>
+      
+    </ul>
+  <h3 id='hyperplasia' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Hyperplasia</h3>
+    <p class='mb-3'>
+      n -&gt; 10n
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Physiologic:<br />Uterus and breast (during puberty and pregnancy<br />Bone Marrow (hemolytic anemia)
+        </li>
+      
+        <li>
+          Pathologic<br />Prostatic Hyperplasia (due to increased secretion of Dihydrotestosterone (DHT)) -&gt; Increased prostate cells -&gt; Periurethral zone enlarges as prostate size increases-&gt; Urethra compression BENIGN
+        </li>
+      
+        <li>
+          Endometrial Hyperplasia
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      When uncontrolled hyperplasia occurs it may progress to cancer, thus endometrial hyperplasia is pre-malignant as uncontrolled irregular hyperplasia will lead to malignancies.
+    </p>
+  <h3 id='metaplasia' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Metaplasia</h3>
+    <p class='mb-3'>
+      n -&gt; h
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Epithelial Metaplasia<br />e.g: Pseudostratified ciliated columnar Epithelium to squamous in the lungs (due to smoking) (Squamous metaplasia) –––––––––––––––––––&gt; Squamous cancer
+        </li>
+      
+        <li>
+          Vitamin A deficiency can also result in metaplasia. It is necessary for differentiation of specialized epithelial surfaces such as the conjunctiva covering the eye.
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          In vitamin A deficiency, the thin squamous lining ofthe conjunctiva undergoes metaplasia into stratified keratinizing squamous epithelium. This change is called keratomalacia <a href='static/Pasted%20image%2020210624103225.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210624103225.png</a>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Acid reflux causes squamous to columnar epithelia (intestinal columnar metaplasia<br />Barret’s esophagus - Gastroesophageal reflux disease (Goblet cells are present secretes mucin identified by Alcian blue stain [Goblet cells appear blue in color]
+        </li>
+      
+        <li>
+          Connective Tissue Metaplasia<br />Myositis Ossificans<br />Hemorhhage/traumatic injury in muscle -&gt; stemcells differentiate into other mesenchymal cells -&gt; muscle replaced like bone-like tissue
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      <strong>H</strong> - Hypoxic Hypoxia <strong>A</strong> - Anemic Hypoxia <strong>S</strong> - Stagnant Hypoxia <strong>H</strong> - Histotoxic Hypoxia
+    </p>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Low partial pressure of O2 in blood - <strong>HYPOXEMIA</strong> SaO2 is &lt; 90 % PaO2 &lt; 60mmHg |||| SaO2 - percentage of RBC bound to O2 ||| PaO2 - pressure of O2 inside arterioles
+        </li>
+      
+    </ul>
+  <div class='line-through italic' title='Wiki-link does not refer to any known file'>
+    <p class='mb-3'>
+      <a href='Pasted image 20210618183900.png ' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'> 250</a>
+    </p>
+  </div><h2 id='hypoxia' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Hypoxia</h2><h3 id='hypoxic-hypoxia' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Hypoxic hypoxia</h3>
+    <p class='mb-3'>
+      <strong>Hypoxic hypoxia</strong> - less O2 enters the blood stream due to
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          less partial pressure of O2’
+        </li>
+      
+        <li>
+          Pulmonary pathology impairing diffusion • High altitudes<br />• ILD Interstitial Lung Disease) • Right -&gt; Left Shunt
+        </li>
+      
+    </ul>
+  <h3 id='anemic-hypoxia' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Anemic hypoxia</h3>
+    <p class='mb-3'>
+      Anemic Hypoxia - functional Hb is reduced in number E.g:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Altered Hb
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      CO poisonig -&gt; CO-Hb <strong>headache</strong>, <em><strong>cherry red color</strong></em> present
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Met-Hb - <a href='static/Pasted%20image%2020210618184600.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210618184600.png</a> - Associated with Cyt B5 reductase deficiency - Fe2 binds O2 -&gt; Met-Hb has Fe3 - <strong>Chocolate colored blood</strong> with cyanosis - Methemoglobemia is treated with <strong>Methylene Blue IV</strong> and vitamin C
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      PaO2 and SaO2 is normal (as SaO2 is qualitative rather than quantitative) in quantiative anemias, while SaO2 is decreased in qualitative anemias
+    </p>
+  
+        </li>
+      
+    </ul>
+  <h3 id='stagnant-hypoxia' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Stagnant Hypoxia</h3>
+    <p class='mb-3'>
+      Ischemia - arterial obstruction - most common reason for development of hypoxia Congestion - venous obstruction
+    </p>
+  <h3 id='histotoxic-hypoxia' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Histotoxic hypoxia</h3>
+    <p class='mb-3'>
+       - Cell or a tissue is exposed to toxins leading to inability to use O2<br />e.g,<br />- Cytochrome inhibited by cyanide (associated with IV Nitroprusside long duration - usually given by microdrip set<br />- Cyanide posioning - <strong>brick red</strong> Rx -<br />- Vit B12 [methylcobalamine] converts into cyanocobaiamine which is water soluble, excerted by kidneys - Amyl nitrate - Sodium Thiosufate
+    </p>
+  <h2 id='reversible-injury' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Reversible injury</h2><hr class='mb-3' />
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Hallmark: Cellular swelling
+    </p>
+  
+    </blockquote>
+  
+    <p class='mb-3'>
+      Injury:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Onset - CNS 2 minutes &gt; Cardiac Fiber 20-30 minutes &gt; Skeletal Muscle fiber &gt; Fibroblast In the CNS, Purkinje cells of the cerebellum is most susceptible<br />Cerebral cortical neurons 3,5,6 layers<br />In the cardiac tissue - Sub endocardial area in the most sensitive area<br />GIT - Splenic flexure and rectosigmoid colon There is a time lag between stress and onset of morphologic changes
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      e.g. Angina is reversible injury
+    </p>
+  
+    <p class='mb-3'>
+      <strong>Mitochondria</strong> is the first organelle that’s affected from hypoxia, leading to decreased ATP. - Cell Membrane - Endoplasmic Reticulum - Misc. Changes - Amorphous/mitochondrial density occurs due to calcium accumulation due to decreased ATP
+    </p>
+  
+    <p class='mb-3'>
+      // <strong>Cell Membrane</strong>:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Na+K+ Pump reduced
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Na+ increased
+        </li>
+      
+        <li>
+          Water content inside increased as water follows
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Leads to Cellular Swelling (hydropic change) - 1st microscopic feature
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Bleb formation
+        </li>
+      
+        <li>
+          Microvilli formation
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Myelin figures | denatured phospholipid from cell membrane or membrane of organelles
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Seen in ICM and ECM
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Resembles of Myelin sheath surrounding neuron <a href='static/Pasted%20image%2020210618190851.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210618190851.png</a>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      // <strong>Endoplasmic Reticulum</strong> Decreased ATP leads to
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Swelling of the RER
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Ribosome breaks away (polyribosomes become monoribosomes)
+        </li>
+      
+        <li>
+          Decreased protein synthesis
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Accumulation of misfolded proteins due to loss/impaired secondary and tertiary structures
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Accumulation of misfolded proteins leads the ER to produce an <em>Unfolderd Protein Response</em> activating
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Increased chaperone production
+        </li>
+      
+        <li>
+          Decreased protein translation
+        </li>
+      
+        <li>
+          Proteosomal degradation of misfolded proteins This leads to reduction in misfolded proteins. If ER is unable to cope with this -&gt; ER stress which leads to activation of caspase -&gt; Apoptosis
+        </li>
+      
+    </ul>
+  
+    </blockquote>
+  
+    <p class='mb-3'>
+      // <strong>Miscellaneous changes</strong>
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Increased glycolysis (anaerobic pathway) leading to decreased glycogen
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Increased accumulation of lactic acid and pyruvic acid leading of Acidosis Nuclear changes:
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Chromatin clumping due to acidosis <a href='static/Pasted%20image%2020210618191049.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210618191049.png</a>
+        </li>
+      
+        <li>
+          Liver becomes fatty
+        </li>
+      
+    </ul>
+  <h2 id='irreversible-cell-injury' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Irreversible Cell Injury</h2><hr class='mb-3' />
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Hallmark: Membrane damage of:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Plasma membrane
+        </li>
+      
+        <li>
+          Inner mitochondrial membrane
+        </li>
+      
+        <li>
+          Lysosome membrane
+        </li>
+      
+    </ul>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <strong>Loss of nucleus</strong>
+        </li>
+      
+    </ul>
+  
+    </blockquote>
+  
+    <p class='mb-3'>
+      e.g: Myocardial Infarction Two important patterns
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Apoptosis
+        </li>
+      
+        <li>
+          Necrosis
+        </li>
+      
+    </ul>
+  <h3 id='apoptosis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Apoptosis</h3>
+    <p class='mb-3'>
+      Due to persistent reversible injury -&gt; Mitochondrial Dysfunction
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          leakage of cytochrome C into cytoplasm
+        </li>
+      
+        <li>
+          This leads to Apoptosis
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Pyknosis (ink-dot appearance) is seen
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Apoptosis - Falling of leaves
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          **Caspase **dependent Programmed Cell death
+        </li>
+      
+        <li>
+          Controlled cell death - by genes
+        </li>
+      
+        <li>
+          May affect single or multiple cells
+        </li>
+      
+    </ul>
+  <h4 id='types-of-genes' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Types of genes</h4>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Anti-apoptotic - Contain 4 domains (BH1-4)
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          BCL-2 [Associated with follicular lymphoma]
+        </li>
+      
+        <li>
+          BCL-XL
+        </li>
+      
+        <li>
+          MCL-1 gene [Associated with development of resistance to chemotherapy]
+        </li>
+      
+    </ul>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Sex steroids [Drug that inhibits apoptosis]
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      L - genes - Anti-apoptotic except Xs
+    </p>
+  
+    </blockquote>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Pro apoptoptic - Contains 3 domains (BH1-3)
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          BAK
+        </li>
+      
+        <li>
+          BAX
+        </li>
+      
+        <li>
+          BCL-Xs
+        </li>
+      
+        <li>
+          P53
+        </li>
+      
+    </ul>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Glucocorticoids [Drug that promotes apoptosis]
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Regulated (by Sensors) apoptosis initiators - Contains BH-3 domain (1 domain only)
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          When upregulated and activate they can initiate apoptosis, by directly activating the two critical pro-apoptotic family members, BAX and BAK
+        </li>
+      
+        <li>
+          BH3-only proteins may also bind to and block the function of BCL2 and BCL-XL
+        </li>
+      
+    </ul>
+  
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          BAD
+        </li>
+      
+        <li>
+          BiM
+        </li>
+      
+        <li>
+          BiD
+        </li>
+      
+        <li>
+          PUMA
+        </li>
+      
+        <li>
+          NOXA
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h4 id='types-of-apoptosis' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Types of Apoptosis</h4>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <strong>Physiological</strong>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Embryogenesis
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          removal of tail cells in developing fetus
+        </li>
+      
+        <li>
+          separation of finger due to death of cells present between fingers [Syndactemy - presence of webbed fingers due to non-apoptosis]
+        </li>
+      
+        <li>
+          Menstrual cycle - endometrial shedding
+        </li>
+      
+        <li>
+          Post-Infection -&gt; Leukocytes are killed off
+        </li>
+      
+        <li>
+          Self-reactive B and T cells (lymphocytes) are resigned through Apoptosis
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          <strong>Pathological</strong>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          DNA damage such as exposure to DNA damage
+        </li>
+      
+        <li>
+          Duct obstruction ( in kidneys, salivary glands, pancreas etc)
+        </li>
+      
+        <li>
+          Viral infection (such as of hepatocytes) | CD8+ T-cell mediated killing
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <strong>Councilmann</strong> bodies (Apoptitic bodies) are an indication of apoptosis <span class='font-bold bg-gray-100 py-1 px-2 rounded-lg' title='Tag' data-tag='hepatitis'><a href='-/tags/hepatitis' title='Tag' class='text-teal-600 font-bold hover:underline'>#hepatitis</a></span>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Transplant rejection / <em>Graft vs Host disease</em>
+        </li>
+      
+        <li>
+          Retinitis pigemontosa
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <em>Excessive apoptosis of Rod pigmentation</em> [causes Night Blindness]
+        </li>
+      
+        <li>
+          (rods -&gt; dim vision | cones -&gt; daylight vision/color vision)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h4 id='process' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Process</h4>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Normal mitochondria has Cyt-C
+        </li>
+      
+        <li>
+          BCL-2 inhibits movement of Cyt-C by keeping outer mitochondrial membrane impermeable
+        </li>
+      
+        <li>
+          BCL-2 recieves signals from growth factors
+        </li>
+      
+        <li>
+          Whenever there’s a deficiency of growth factor (cellular injury, DNA damage, decreased hormonal stimulation, expression of BCL-2 decreases
+        </li>
+      
+        <li>
+          At the same time, BAK/BAX is expressed -&gt; Increases permeability of Mitochondria
+        </li>
+      
+        <li>
+          This causes Cyt-C leaks into cytoplasm
+        </li>
+      
+    </ul>
+  <table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Apoptosis</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Necrosis</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Affects single/small group</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Affects large group</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Physiological or pathological</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Always pathological</td></tr></tbody></table><h5 id='pathways' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Pathways</h5><h6 id='intrinsic-pathway' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Intrinsic Pathway</h6>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Leakage of Cytochrome C causes activation of APAF-1 (Apoptosis Protease Activating Factor-1) [Cyt-C + APAF-1 = Apoptosome]
+        </li>
+      
+        <li>
+          This leads to activation of Caspases [Cysteine containing protease enzymes - Attacking Aspartic Acid residues | C-Asp-Ase]
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Initiator caspase: Caspase-9
+        </li>
+      
+        <li>
+          Executioner caspases- Caspase-3/6/7
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      <strong>In</strong>tiator - N<strong>in</strong>e
+    </p>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Executioner caspases activate
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Proteases - breaks down cytoskeleton
+        </li>
+      
+        <li>
+          Endonucleases - breaks down DNA
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h6 id='extrinsic-pathway' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Extrinsic Pathway</h6>
+    <p class='mb-3'>
+      Receptor-ligand pathway (e.g. seen in T-Cell Selection) Receptors: - Type 1 TNF-R (TNFR1) - FAS-R a.k.a CD95
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          On cell injury, ligands for the above receptors are released. FasL is expressed on T cells that recognize self antigens and on some CTLs that kill virus-infected and tumor cells.
+        </li>
+      
+        <li>
+          Whenever TNF-alpha or FAS-L/Cd95-L attaches to the receptor, the receptor trimerizes
+        </li>
+      
+        <li>
+          This activates is FADD [Fas Associated Death Domain]
+        </li>
+      
+        <li>
+          This converts Pro-Caspase 8 -&gt; Caspase 8 (in humans, it’s caspase 10 || Homo sapien - 10 letters)
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      <strong>Ei</strong>ght - Extrinisic initiator
+    </p>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          This leads to activation of Executioner Pathways
+        </li>
+      
+        <li>
+          Extrinsic apoptosis pathway can be inhibited by a protein called FLIP, which binds to procaspase-8
+        </li>
+      
+        <li>
+          Executioner caspases activate
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Proteases
+        </li>
+      
+        <li>
+          Endonucleases
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <img class='mb-3' src='static/Pasted image 20210620134806.png' alt='[[Pasted image 20210620134806.png]]' />
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      <strong>Sailent features</strong>
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Cell size - <strong>Shrinkage</strong> <em>vs</em> Necrosis had swelling | <strong>Earliest feature</strong>
+        </li>
+      
+        <li>
+          No inflammation occurs | As the cell membrane remains intact
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      //<em><strong>HALLMARK FEATURE</strong></em>
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Due to activation of endonucleases, Chromatin fragmentation occurs -&gt; <strong>Chromatin condensation</strong> //<em><strong>HALLMARK FEATURE</strong></em>
+        </li>
+      
+        <li>
+          On gel electrophoresis - Step-ladder appearance
+        </li>
+      
+    </ul>
+  <div class='line-through italic' title='Wiki-link does not refer to any known file'>
+    <p class='mb-3'>
+      <a href='Pasted image 20210618181443.png ' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'> 100</a>
+    </p>
+  </div>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Tunel technique [TdT terminaldeoxy nucleotide transferase - UTP - Nick End Labelling] - This is a diagnostic
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          DUTP dye is a dye that attaches to 3’-OH of DNA
+        </li>
+      
+        <li>
+          Since there’s multiple fragments, higher intensifed <strong>brown</strong> color
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Staining: Annexin V is used
+        </li>
+      
+        <li>
+          Apoptotic cells have flipped molecules (such as <strong>phosphatidylserine</strong>) that are normally present within the cell membrane
+        </li>
+      
+        <li>
+          These flipped molecules attract phagocytic cells immediately
+        </li>
+      
+        <li>
+          Thus there is no enzyme leakage as there’s no time for it. -&gt; Cell membrane are intact
+        </li>
+      
+        <li>
+          Annexin V attaches to the flipped molecules ** Molecules that flip are** &gt; - Phospitidyl serine - Attaches to ANNEXIN V &gt; - C1q &gt; - Thrombospondin
+        </li>
+      
+    </ul>
+  
+    </blockquote>
+  
+    <p class='mb-3'>
+      AIF - Apoptosis Initiating Factor is secreted in traumatic neuronal injury <em>instead of APAF - Apoptosis Activating Factor</em>
+    </p>
+  <div class='py-0.5 mb-3 text-sm'><pre><code class='language-none'> These do not inititate Caspases
+ They directly activate Endonucleases and Proteases</code></pre></div>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      <em>Di-amibino-phenyl-indole (DAPI) - useful for detection of apoptosis | Another is DUTP - tunnel technique</em>
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      There may be interconnections between EP and IP, for instance, in hepatocytes and pancreatic β cells, caspase-8 produced by Fas signaling cleaves and activates the BH3-only protein BID, which then feeds into the mitochondrial pathway
+    </p>
+  
+        </li>
+      
+    </ul>
+  <h6 id='cytotoxic-cd8-t-cell-pathway' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Cytotoxic CD8+ T-Cell Pathway</h6>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          CD8+ recognizes antigens on MHC class 1 and then kill them
+        </li>
+      
+        <li>
+          C8+ T cell secretes perforins in membrane of target cell and create pores
+        </li>
+      
+        <li>
+          Granzyme enters pores and activates caspases
+        </li>
+      
+    </ul>
+  <h4 id='clinical' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Clinical</h4>
+    <p class='mb-3'>
+      <strong>Excessive apoptosis</strong>
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Neurodegenerative disorders
+        </li>
+      
+        <li>
+          Viral infections <strong>Reduced Apoptosis</strong>
+        </li>
+      
+        <li>
+          Autoimmune disorders
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      p53 -&gt; activates when there’s DNA damage
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          causes cell death in mutated DNA cells
+        </li>
+      
+        <li>
+          located on chromosme 17 (Executioner - <strong>3 + 6 + 7</strong> + 1)
+        </li>
+      
+        <li>
+          50% of human cancer are due to p53 mutation
+        </li>
+      
+        <li>
+          <a href='static/Pasted%20image%2020210620140207.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210620140207.png</a>
+        </li>
+      
+    </ul>
+  <h3 id='necrosis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Necrosis</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          It’s the spectrum of changes in the morphological appearance of tissue seen after cell death
+        </li>
+      
+        <li>
+          Local <strong>acute</strong> inflammation is induced to clear the damaged cells
+        </li>
+      
+        <li>
+          Due to reduced ATP supply, Calcium increases as pumps (in cell and within sarcoplasmic reticulum) fails as intracellular stores open up and also an influx through concentration gradient.
+        </li>
+      
+        <li>
+          Increased <strong>calcium</strong> leads to 1. Mitochondrial swelling with amorphous densities in the matrix. This is due to transient pore formation -&gt; Cell death 2. Enzyme activation of intracellular enzymes - <strong>Lysosomal enzymes</strong> - Phospholipase activation -&gt; cell membrane damage due to breakage of phospholipids - ATPase -&gt; reduced ATP - Proteases -&gt; Cell Damage - Endonucleases - Nucleic acid -&gt; <strong>leads to Pyknosis (ink dot like) Karyorrhexis (destructive fragmentation) and karyorrlysis</strong> <a href='static/Pasted%20image%2020210618181638.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210618181638.png</a><a href='static/Pasted%20image%2020210618181244.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210618181244.png</a><a href='static/Pasted%20image%2020210618181250.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210618181250.png</a>
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Smeared pattern during cell necrosis compared to step-laddern (apoptosis).<br /><span class='line-through italic' title='Wiki-link does not refer to any known file'><a href='Pasted image 20210618181443.png ' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'> 100</a></span> Normal pattern is a single band
+    </p>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Abundant myelin figures, eosinophilia, pyknosis, karyorrhexis, karyorrlysis - Main features
+        </li>
+      
+    </ul>
+  <h4 id='types-of-necrosis' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Types of Necrosis</h4><h5 id='coagulative-necrosis' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Coagulative necrosis</h5>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Commonest pattern of necrosis seen microscopically
+        </li>
+      
+        <li>
+          Commonest reason is Ischemia
+        </li>
+      
+        <li>
+          Due to severe lactic acidosis resulting from lack of O2, denaturation/inactivation of hydrolytic enzymes occurs This prevents hydrolysis and coagulation of cellular proteins occurs Thus the structural outline of the cell is preserved
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Hallmark
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Tombstone appearance
+        </li>
+      
+    </ul>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          CNS ischemia is not associated with coagulative necrosis
+        </li>
+      
+        <li>
+          Commonly associated with neutrophilic infiltration - for clearing the dead cells
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Zenker’s degeneration is a type of necrosis
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Associated with Typhoid, it is the coagulative necrosis in the Skeletal Muscle
+        </li>
+      
+    </ul>
+  
+    </blockquote>
+  
+    <p class='mb-3'>
+      Infarct - <strong>localized area</strong> undergoing (coagulative) necrosis
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Usually wedge/triangular area and pale in color usually
+        </li>
+      
+        <li>
+          Apex points towards area of ischemia
+        </li>
+      
+        <li>
+          Two types
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          White - seen in (solid) organs with <strong>end arterial blood supply</strong>
+        </li>
+      
+        <li>
+          Red - seen in organs with (soft) loose connective tissue Seen in organs that have dual supply such as lungs, liver Usually because of venous drain blockage (testicular torsion)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h5 id='liquefactive-necrosis' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Liquefactive necrosis</h5>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          A.k.a Colliquative necrosis
+        </li>
+      
+        <li>
+          Seen in focal bacterial infections and fungal infections
+        </li>
+      
+        <li>
+          Here <em><strong>activation of hydrolytic enzymes</strong></em> occurs - creamy yellow pus
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          CNS ischemia -&gt; damage of microglial cells leading to Hydrolytic enzyme present within getting activated
+        </li>
+      
+        <li>
+          Abscess -&gt; Walled off area of dead tissue -&gt; Hydrolytic enzymes present in neutrophils liquefact it
+        </li>
+      
+        <li>
+          Pancreatitis - enzymes in pancreas are blocked from flowing into duct, thus pancreatic liquefaction occurs
+        </li>
+      
+        <li>
+          Also seen in infections (pus formation such as in Staph. aureus)
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Microbes stimulate the accumulation of leukocytes and the liberation of enzymes from these cells. <span class='line-through italic' title='Wiki-link does not refer to any known file'><a href='Pasted image 20210619183950.png ' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'> 500</a></span>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h5 id='caseous-necrosis' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Caseous necrosis</h5>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Cottage-Cheese-like necrosis
+        </li>
+      
+        <li>
+          Coagulative + Liquefactive necrosis
+        </li>
+      
+        <li>
+          Coagulative necrosis is predominant contributor. However cell structural outline is not preserved
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Organisms associated with high lipid content
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Coci of tuberculous infection -&gt; <strong>Ghon’s complex</strong> is a lesion seen in the lung that is caused by tuberculosis
+        </li>
+      
+        <li>
+          Fungi
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Histoplasmosis
+        </li>
+      
+        <li>
+          Coccidiodomycosis/valley fever
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Syphillis
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Granulomatous reaction - Monocyte and lymphocyte infiltration is seen rather than neutrophils
+        </li>
+      
+        <li>
+          Granuloma - a structureless <em>collection of fragmented or lysed cells</em> and <em>amorphous <strong>(no definite shape)</strong> granular debris</em> enclosed <strong>within a distinctive inflammatory border</strong>.
+        </li>
+      
+        <li>
+          <strong>Langhans</strong> Giant Cells are associated Tuberculosis and formed by fusion of macrophages (epitheloid cells) and surrounding cells
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          They are not the <em>same</em> as Lang<em><strong>er</strong></em>hans cells
+        </li>
+      
+        <li>
+          <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Granulation_tissue_containg_a_poorly_formed_granuloma_with_a_Langhan%27s_giant_cell.jpg/220px-Granulation_tissue_containg_a_poorly_formed_granuloma_with_a_Langhan%27s_giant_cell.jpg' alt />
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h5 id='fat-necrosis' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Fat necrosis</h5>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Seen in organs containing high fat or lipase activation
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Injury to breast tissue
+        </li>
+      
+        <li>
+          Injury to omentum tissue
+        </li>
+      
+        <li>
+          Pancreatitis-mediated damage of pancreatic fat
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Acute pancreatitis is usually caused from gall stones or alcohol (both of them together cause 80% of pancreatitis)
+        </li>
+      
+        <li>
+          Gall stones -&gt; Lipase activation due to cholecystitis -&gt; Lipids turn into fatty acids
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          saponification: Fatty acids combine, fat converts to soap through lipase with calcium deposits | DYSTROPHIC
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Hallmark: Chalk-like yellow white deposit When there’s lower serum calcium, there’s higher inflammation <a href='static/Pasted%20image%2020210619180910.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210619180910.png</a>
+    </p>
+  
+    </blockquote>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      If cellular debris is not promptly destroyed, they provide a nidus for deposiition of calcium salts and other minerals. This phenomenon is dystrophic <span class='font-bold bg-gray-100 py-1 px-2 rounded-lg' title='Tag' data-tag='calcification'><a href='-/tags/calcification' title='Tag' class='text-teal-600 font-bold hover:underline'>#calcification</a></span>
+    </p>
+  
+    </blockquote>
+  <h5 id='fibrinoid-necrosis' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Fibrinoid necrosis</h5>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Antigen-antibody (immune complexes) are deposited in the endothelium along with fibrin
+        </li>
+      
+        <li>
+          Entry/leakage of plasma protein into the endothelium, forming deposits
+        </li>
+      
+        <li>
+          Together these deposits result in bright pink and amorphous appearance (fibrinoid/fibrin-like)
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Malignant hypertension
+        </li>
+      
+        <li>
+          Pneuatic fever: Aschoff body
+        </li>
+      
+        <li>
+          Preeclempsia - fibrinoid necrosis of placenta as a consequence of Preeclempsia
+        </li>
+      
+        <li>
+          Vasculitis syndrome
+        </li>
+      
+        <li>
+          Type 3 hypersensitivity [Ppolyarteritis nodosa, Henoch-Schonlein purpura (HSP)]
+        </li>
+      
+        <li>
+          <a href='static/Pasted%20image%2020210619181936.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210619181936.png</a>
+        </li>
+      
+        <li>
+          Pinkish appearance inside of the vessel
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      <span class='font-bold bg-gray-100 py-1 px-2 rounded-lg' title='Tag' data-tag='GANGRENE'><a href='-/tags/GANGRENE' title='Tag' class='text-teal-600 font-bold hover:underline'>#GANGRENE</a></span> Surgical term
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Dry Gangrene (mummified)
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Blood supply reduced (ischemia)
+        </li>
+      
+        <li>
+          Usually coagulative necrosis
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Wet gangrene
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Ischemia + Secondary infection
+        </li>
+      
+        <li>
+          Usually liquifactive necrosis superimposed over coagulative
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Gas gangrene
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Subtype of wet gangrene
+        </li>
+      
+        <li>
+          Associated with Clostridium welchi
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h3 id='pyroptosis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Pyroptosis</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Infections -&gt; Intracellular/cytoplasmic receptors (Nod Like receptors) attach to the infective agent
+        </li>
+      
+        <li>
+          Forms Inflammasome which activate Caspase <strong>1</strong> or Caspase <strong>11</strong>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Caspase 1 -&gt; cleaves precursor of Interleukin-1 (IL-1) -&gt; Pyrexia/Fever
+        </li>
+      
+        <li>
+          Caspase 11 -&gt; Causes Cell death
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Autoinflammatory syndrome - There’s overactivity of NLRs -&gt; Periodic fever syndrome
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Treated by IL-1 Antagonists
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Morphological features
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Cellular swelling (<strong>unlike Apoptosis</strong>)
+        </li>
+      
+        <li>
+          Damage of plasma membrane -&gt; thus Inflammation is present
+        </li>
+      
+    </ul>
+  <h3 id='necroptosis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Necroptosis</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          A.k.a Programmed necrosis
+        </li>
+      
+        <li>
+          Caspase <strong>independent</strong> Cell death
+        </li>
+      
+        <li>
+          TNF attaches to TNF-R1
+        </li>
+      
+        <li>
+          This leads to activation of Receptor associated kinase (RIPK1 and RIPK3)
+        </li>
+      
+        <li>
+          Leads to
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Formation of Reactive oxygen species
+        </li>
+      
+        <li>
+          Decreased ATP
+        </li>
+      
+        <li>
+          No activation of <strong>caspase</strong>
+        </li>
+      
+        <li>
+          Cell membrane damage occurs
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          RIPK3 phosphorylates MLKL (a cytoplasmic protein) -&gt; MLKL translocates to Plasma membrane -&gt; Membrane disruption
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Physiological
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          During formation of Mammalian bone growth plate
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Pathological
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Pancreatitis
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Steatohepatitis
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Ischemia-Repurfusion injury
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Neurodegenrative disorders Parkinsonism
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      CMV (<em>Cytomegalovirus</em>) produces FLIP which inhibits Caspase-8
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Thus necroptosis is done
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h3 id='ferroptosis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Ferroptosis</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Triggered when excessive intracellular levels of iron or reactive oxygen species overwhelm the glutathione-dependent antioxidant defenses to cause unchecked membrane lipid peroxidation
+        </li>
+      
+        <li>
+          The overall effect is the loss of plasma membrane permeability
+        </li>
+      
+    </ul>
+  <h2 id='free-radical-injury' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Free Radical Injury</h2>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Free radicals molecule having single unpaired electron in an outer orbit
+        </li>
+      
+        <li>
+          Highly reactive molecule
+        </li>
+      
+        <li>
+          Can be generated physiologically/pathologically
+        </li>
+      
+    </ul>
+  <h3 id='causes' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Causes</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <strong>Physiologically</strong>: During Oxidative Phosphorylation - during partial reduction of O2 leads to formation of superoxide <strong>Pathologically</strong>
+        </li>
+      
+        <li>
+          Radiation exposure
+        </li>
+      
+        <li>
+          Reperfusion injury
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          When reperfusion occurs, inflammatory cells also reaches the dying tissue along with oxygen which leads to generation of free radicals
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Heavy metal injury such as Copper and Iron (Cu and Fe)
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          As they exist in dual state oxidative state
+        </li>
+      
+        <li>
+          Fe excessive - <strong>hemochromatosis</strong> - tissue damage
+        </li>
+      
+        <li>
+          Cu - <strong>Wilson’s disease</strong> - tissue damage
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Infections
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Oxidative Stress from inability to detoxify - overwhelming attack on detoxifying enzymes
+        </li>
+      
+        <li>
+          Inflammation: Oxidative Stress - Oxygen-dependent HOCl generation - usually generated by NADPH oxidase/Xanthine oxidase
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Chemicals and drugs
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          CCL4 -&gt; CCL3**·** [Carbon tetrachloride is used in dry cleaning industry - damages the liver in the P450 sites -&gt; Apolipoprotein syntheis is <strong>impaired</strong> thus there is <em><strong>fatty liver</strong></em>]
+        </li>
+      
+        <li>
+          Paracetamol -&gt; Liver necrosis due to free radical generation
+        </li>
+      
+        <li>
+          Nitric oxide
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      O2 -&gt; O2·- (Superoxide) -&gt; H2O2 -&gt; OH· (hydroxy radical)
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Causes damage to DNA/Proteins/Lipids
+        </li>
+      
+        <li>
+          Lipids undergo peroxidation results in generating of more free radicals
+        </li>
+      
+        <li>
+          Thus free radical injury is an auto-catalytic reaction
+        </li>
+      
+        <li>
+          Fenton’s reaction: <a href='static/Pasted%20image%2020210622133355.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210622133355.png</a> Generates hydroxy radical
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Fe3+ is more in intracellular thus the produced Fe3+ is then reduced by a superoxide (O2·)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Most dangerous: hydroxyl radical
+        </li>
+      
+    </ul>
+  <h3 id='elimination' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Elimination</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Anti-oxidants such as:
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Vitamins:
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Vitamin A, <strong>C</strong>, E
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Plasma proteins:
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Transferrin/lactoferrin (with Fe)
+        </li>
+      
+        <li>
+          Ceruloplasmin (with Cu)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Enzymes: <a href='static/Pasted%20image%2020210622133653.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210622133653.png</a>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Super Oxide Dismutase
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          When present in the mitochondri Mg is a co-factor
+        </li>
+      
+        <li>
+          When present in the cytoplasm, Cu and Zn is a co-factor
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Mutation in SOD1 leads to ALS (Amyotrophic Lateral Sclerosis)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Catalase
+        </li>
+      
+        <li>
+          Glutathione Peroxidase catalyzes this reaction: <a href='static/Pasted%20image%2020210622133902.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210622133902.png</a> GS-SG:GSH ratio is thus higher if there’s oxidative stress
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h3 id='pathologic-effects' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Pathologic effects</h3>
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Lipid peroxidation in membranes -&gt; Interactions with lipids lead to formation of peroxides which are again reactive. Thus it is an autocatalytic chain <em>propagation</em> reaction.
+        </li>
+      
+        <li>
+          Oxidative modification of proteins -&gt; Breakdown/misfolding
+        </li>
+      
+        <li>
+          DNA damage - Lesion in DNA -&gt; Mutations
+        </li>
+      
+    </ul>
+  <h2 id='pigmentation' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Pigmentation</h2><h3 id='endogenous' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Endogenous</h3><h4 id='melanin' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Melanin</h4>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Black pigment -&gt; endogenous
+        </li>
+      
+        <li>
+          Provides hair and skin color
+        </li>
+      
+        <li>
+          Derived from tyrosine
+        </li>
+      
+        <li>
+          Identified by Masson-Fontana stain [Not specific] <a href='static/Pasted%20image%2020210623161412.png' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210623161412.png</a>
+        </li>
+      
+        <li>
+          More specific: Dopa-oxidase method
+        </li>
+      
+        <li>
+          
+        </li>
+      
+    </ul>
+  <h3 id='exogenous' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Exogenous</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Most common: Coal dust
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Asymptomatic mostly - causes Anthracosis
+        </li>
+      
+        <li>
+          Progressive massive pigmentation
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Tattooing
+        </li>
+      
+    </ul>
+  
+</article>
+            
+            
+  <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+    
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-teal-500' href='-/tags/hepatitis'>
+        <!-- DoNotFormat -->
+        #hepatitis
+        <!-- DoNotFormat -->
+      </a>
+    
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-teal-500' href='-/tags/calcification'>
+        <!-- DoNotFormat -->
+        #calcification
+        <!-- DoNotFormat -->
+      </a>
+    
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-teal-500' href='-/tags/GANGRENE'>
+        <!-- DoNotFormat -->
+        #GANGRENE
+        <!-- DoNotFormat -->
+      </a>
+    
+  </section>
+
+          </main>
+        </div>
+      </div>
+      <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-800'>
+  <div class='flex space-x-2'>
+    <div>Generated by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
+      <span class='font-mono text-sm tracking-tighter'>
+        0.1.29.3
+      </span>
+    </div>
+  </div>
+</footer>
+    </div>
+  
+</body>
+
+</html>

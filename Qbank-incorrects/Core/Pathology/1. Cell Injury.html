@@ -1,0 +1,866 @@
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <title>
+    1. Cell Injury – Notes de XYGM
+  </title>
+  
+    
+      <meta property='og:description' content />
+      <meta property='og:site_name' content='XYGN' />
+    
+    
+      <base href='/' />
+      <link href='static/favicon.jpeg' rel='icon' />
+    
+    <link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/combine/npm/prismjs@1.23.0/prism.min.js,npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js'></script>
+<link rel='stylesheet' href='static/background-pattern.css' />
+
+  
+  <!-- CSSSTART -->
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>// Be silent to avoid complaining about non-tailwind classes
+// https://github.com/tw-in-js/twind/discussions/180#discussioncomment-678272
+console.log("ema: Twind: setup & observe")
+twind.setup({mode: 'silent'})
+window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
+  <!-- CSSEND -->
+  <head-extra></head-extra>
+</head>
+
+<!-- DoNotFormat -->
+
+
+<!-- DoNotFormat -->
+
+<body class='overflow-y-scroll bg-gray-400'>
+  
+    <div class='container mx-auto'>
+
+      
+  <nav id='breadcrumbs' class='w-full text-gray-700 md:hidden'>
+    <div class='flex justify-left'>
+      <div class='w-full px-2 py-2 bg-gray-50'>
+        <ul class='flex flex-wrap text-lg'>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href=''>
+                XYGN’s notes
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='qbank'>
+                Qbank-incorrects
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='Qbank-incorrects/Core'>
+                Core
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='Qbank-incorrects/Core/Pathology'>
+                Pathology
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+      <div class='flex flex-nowrap bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8'>
+        <!-- Sidebar column -->
+        <nav id='sidebar' class='flex-auto hidden leading-relaxed md:block md:sticky md:top-0 md:h-full md:max-w-xs'>
+          <div class='px-2 py-2 text-gray-800'>
+
+            <div id='indexing-links' class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
+              <a href='-/tags' title='View tags'>
+                <svg style='width: 1rem;' class='hover:text-teal-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
+                  </path>
+                </svg>
+              </a>
+              <a href='-' title='Expand full tree'>
+                <svg style='width: 1rem;' class='hover:text-teal-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4'>
+                  </path>
+                </svg>
+              </a>
+            </div>
+
+            <div id='site-logo' class='pl-2'>
+              <div class='flex items-center my-2 space-x-2 justify-left'>
+                <a href='' title='Go to Home'>
+                  
+                    
+                      <!-- The style width attribute here is to prevent huge
+                      icon from displaying at those rare occasions when Tailwind
+                      hasn't kicked in immediately on page load 
+                      -->
+                      <img style='width: 1rem;' class='transition transform hover:scale-110 hover:opacity-80' src='static/favicon.jpeg' />
+                    
+                  
+                </a>
+                <a class='font-bold truncate' title='Go to Home' href=''>
+                  Home
+                </a>
+              </div>
+            </div>
+
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Blog' href='blog'>
+      Blog
+    </a>
+    
+      
+        
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='P-notes' href='p-nots'>
+      P-notes
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='C-Notes' href='Core'>
+      C-Notes
+    </a>
+    
+      
+        <span class='text-gray-300' title='2 children inside'>
+          2
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='P-Notes' href='P-Notes'>
+      P-Notes
+    </a>
+    
+      
+        <span class='text-gray-300' title='2 children inside'>
+          2
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Qbank-incorrects' href='qbank'>
+      Qbank-incorrects
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Core' href='Qbank-incorrects/Core'>
+      Core
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Pathology' href='Qbank-incorrects/Core/Pathology'>
+      Pathology
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+  
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
+        </path>
+      </svg>
+      
+  
+    <a class='font-bold text-teal-600 hover:underline truncate' title='1. Cell Injury' href='Qbank-incorrects/Core/Pathology/1.%20Cell%20Injury'>
+      1. Cell Injury
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+  
+</div>
+    
+  
+</div>
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='static' href='static'>
+      static
+    </a>
+    
+      
+        <span class='text-gray-300' title='1 children inside'>
+          1
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
+
+          </div>
+        </nav>
+
+        <!-- Main body column -->
+        <div class='flex-1 w-full overflow-x-auto bg-white'>
+          <main class='px-4 py-4'>
+            <h1 class='flex items-end justify-center mb-4 p-3 bg-teal-100 text-5xl font-extrabold text-black rounded'>
+  <a class='z-40 tracking-tighter '>
+    1. Cell Injury
+  </a>
+</h1>
+            <article class='overflow-auto'>
+  <!-- What goes in this file will appear on top of note body-->
+  
+    <p class='mb-3'>
+      <span class='line-through italic' title='Wiki-link does not refer to any known file'><a href='Notes/Core/Pathology/Systemic/1. Cell Injury' class='text-teal-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>Notes/Core/Pathology/Systemic/1. Cell Injury</a></span>
+    </p>
+  <h1 id='prepladder' class='pb-2 mb-2 text-5xl font-bold text-center'>Prepladder</h1><h2 id='basic-concepts' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Basic Concepts</h2>
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      55% | 47% | 25s /Q
+    </p>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Signalling pathways that trigger hypertrophy activate transcription factors such as
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          GATA 4
+        </li>
+      
+        <li>
+          Nuclear factor of Activated T-cells (NFAT)
+        </li>
+      
+        <li>
+          Myocyte Enhancer Factor 2 (MEF2)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Glutaraldehyde is the most commonly used fixative for electron microscopy
+        </li>
+      
+        <li>
+          10% neutral buffered Formalin is most commonly used fixative for light microscopic
+        </li>
+      
+        <li>
+          Lipids in the tissue are detected by Oil Red O (histologic stain) <span class='font-bold bg-gray-100 py-1 px-2 rounded-lg' title='Tag' data-tag='histology'><a href='-/tags/histology' title='Tag' class='text-teal-600 font-bold hover:underline'>#histology</a></span>
+        </li>
+      
+        <li>
+          Mallory bodies are composed of interwoven bundles of cytoskeletol intermediate filaments (cytokeratins)
+        </li>
+      
+        <li>
+          The pancreas of fetus (of diabetic mothers) may undergo hyperplasia due to increased demand. This is because islets of pancreas have proliferative capacity during fetal development
+        </li>
+      
+        <li>
+          Hydropic swelling reflects the acute, reversible cell injury Plasma membrane sodium transport is impaired due to unavailability of ATP
+        </li>
+      
+        <li>
+          Cellular ageing is inflenced by:
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          DNA damage -&gt; causes mutatuin
+        </li>
+      
+        <li>
+          Telomere shortening -&gt; cellular replication reduced -&gt; cell loss
+        </li>
+      
+        <li>
+          Defective protein <strong>homeostasis</strong> -&gt; Both normal folding and degradation of misfolded proteins are impaired with aging
+        </li>
+      
+        <li>
+          Dysregulated nutrient sensing -&gt; Mediators may be reduced IGF-1 signaling and increase sirutins
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h2 id='reversible-cell-injury' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Reversible cell injury</h2>
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      48% | 57% | 19 s/Q
+    </p>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Breast does not undergo both hypertrophy and hyperplasia during lactation -&gt; prolactin and estrogen only cause hypertrophy
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          However during pregnancy and puberty it does undergo both
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      In Fenton reaction, iron is converted from ferrous to ferric form, and a hydroxyl radical is generated
+    </p>
+  
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      <img src='https://ars.els-cdn.com/content/image/1-s2.0-S0304389419309367-gr1.jpg' alt='Assessment of a Fenton reaction driven by insoluble tannins from pine bark in treating an emergent contaminant - ScienceDirect' />
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Pleomorphic adenoma are the most common salivary gland neoplasms
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Mixed tumor - Epithelial + Mesenchymal component
+        </li>
+      
+        <li>
+          Warthin tumor is the 2nd most common neoplasm
+        </li>
+      
+        <li>
+          Mucoepidermoid carcinoma is the most common primary malignant tumor of salivary glands
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Ground glass hepatocytes are seen in chronic hepatits B
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Autoimmune hepatitis features
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Autoantibodies
+        </li>
+      
+        <li>
+          IgG level increased (1.1x)
+        </li>
+      
+        <li>
+          Histology of liver
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          In interface hepatitis: Lymphocytic/lymphoplasmacytic infiltrates in portal cells and extending in the lobule
+        </li>
+      
+        <li>
+          Emperipolesis: Active penetration by one cell into another and through a larger cell (cell within a cell)
+        </li>
+      
+        <li>
+          Hepatic rosette formation
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Absence of viral hepatits
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Kayorrhexis is a feature of necrosi (irreversible cell injury)
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Inflammasome is mediated by IL-1β
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          It’s a cytosolic multiprotein complex consisting of NLRP-3 sensor, an adaptor and inactive Caspase-1 enzyme
+        </li>
+      
+        <li>
+          It’s triggered by NOD-like receptors (NLRs) that sense the ingested microbial particles
+        </li>
+      
+        <li>
+          NLRs signals activate IL-1β, cleaving it from precursor form -&gt; biologically active form
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h2 id='irreversible-cell-injurynecrosis' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Irreversible Cell Injury/Necrosis</h2>
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      77% | 65% | 21 S/Q
+    </p>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Micro-RNAs are non-coding RNAs 21-30 nucleotides in length
+        </li>
+      
+        <li>
+          Metastatic calcification is prone to organs that have an internal alkaline component
+        </li>
+      
+        <li>
+          Cellular maturation shows abnormal pattern in dysplasia which is preneoplastic
+        </li>
+      
+        <li>
+          Abscess is a clear example of liquefactive infarct as a cavity is formed by liquefaction of solid tissue
+        </li>
+      
+        <li>
+          <strong>Ghon’s complex</strong> is a lesion seen in the lung that is caused by tuberculosis
+        </li>
+      
+        <li>
+          Nuclear features are hallmark of necrosis, other features like cytoplasmic swelling can be of both
+        </li>
+      
+        <li>
+          Extracted DNA from apoptotic cells gives a ladder pattern in electrophoresis
+        </li>
+      
+        <li>
+          Pyogenic Infection: infection that produces pus -
+        </li>
+      
+        <li>
+          Pyroptosis causes highly inflammatory form of death
+        </li>
+      
+    </ul>
+  <h2 id='apoptosis' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Apoptosis</h2>
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      87% | 84% | 19s /q
+    </p>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Caspases exist as inactive proenzymes/zymogens
+        </li>
+      
+        <li>
+          Platlet degranulation is a component of primary hemostasis
+        </li>
+      
+        <li>
+          Councilman body - Apoptotic hepatocytes
+        </li>
+      
+        <li>
+          FasL is not involved in INTRINISC PATHWAY
+        </li>
+      
+        <li>
+          LC3 is involved in Autophagy
+        </li>
+      
+        <li>
+          Efferocytosis: Apoptotic cell phagocytposis -occurs because of Cq1 coated that attracts <strong>macrophages</strong>
+        </li>
+      
+    </ul>
+  <h2 id='free-radical-injury' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Free Radical Injury</h2>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          SOD (Superoxide Dismutase) protects from production of free radicals
+        </li>
+      
+    </ul>
+  
+</article>
+            
+  <div class='p-4 mt-8 bg-gray-100 rounded'>
+    <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
+    <ul class='space-y-1'>
+      
+        <li>
+          <a class='text-teal-600 font-bold hover:bg-teal-50' href='C-Notes/Core/Pathology/Systemic/1.%20Cell%20Injury'>
+            1. Cell Injury
+          </a>
+          <div class='mb-4 overflow-auto text-sm text-gray-500'>
+            <!-- TODO: How to style the backlinks list item element? Or render each separately?
+              Also, group contexts from same source.
+            -->
+            <div><p>Qbank - <a href='Qbank-incorrects/Core/Pathology/1.%20Cell%20Injury' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>1. Cell Injury</a></p></div>
+          </div>
+        </li>
+      
+    </ul>
+  </div>
+
+            
+  <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+    
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-teal-500' href='-/tags/histology'>
+        <!-- DoNotFormat -->
+        #histology
+        <!-- DoNotFormat -->
+      </a>
+    
+  </section>
+
+          </main>
+        </div>
+      </div>
+      <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-800'>
+  <div class='flex space-x-2'>
+    <div>Generated by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
+      <span class='font-mono text-sm tracking-tighter'>
+        0.1.29.3
+      </span>
+    </div>
+  </div>
+</footer>
+    </div>
+  
+</body>
+
+</html>
