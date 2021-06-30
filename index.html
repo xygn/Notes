@@ -4,7 +4,7 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    XYGN’s notes – Notes de XYGM
+    Notes de XYGN – Notes de XYGM
   </title>
   
     
@@ -285,7 +285,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
           <main class='px-4 py-4'>
             <h1 class='flex items-end justify-center mb-4 p-3 bg-pink-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    XYGN’s notes
+    Notes de XYGN
   </a>
 </h1>
             <article class='overflow-auto'>
@@ -293,6 +293,10 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   
     <p class='mb-3'>
       Well… these are my notes.
+    </p>
+  
+    <p class='mb-3'>
+      <a href='https://n.xygn.us/-/' class='text-pink-600 hover:underline' target='_blank' rel='noopener'>Index</a>
     </p>
   
     <dl class='flex flex-col mb-3'>
@@ -310,29 +314,18 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
           
             <div class='flex flex-col pl-1'>
               <dd class='pl-2 my-1 text-gray-700 border-l-2'>
-                <span class='line-through italic' title='Wiki-link does not refer to any known file'><a href='Projects' class='text-pink-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>Projects</a></span>
-              </dd>
-            </div>
-          
-            <div class='flex flex-col pl-1'>
-              <dd class='pl-2 my-1 text-gray-700 border-l-2'>
-                <span class='line-through italic' title='Link does not refer to any known file'><a href='o.xygn.us' class='text-pink-600 font-bold hover:underline'>Blog</a></span>
+                <a href='https://xygn.us' class='text-pink-600 hover:underline' target='_blank' rel='noopener'>Blog</a>
               </dd>
             </div>
           
         </div>
       
     </dl>
-  <h2 id='recent--posts' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Recent <span class='line-through italic' title='Wiki-link does not refer to any known file'><a href='Blog' class='text-pink-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>Blog</a></span> posts</h2><!-- TODO: DRY (same as query-default.tpl, except for date column)--><nav>
-  <!-- This should be a grid -->
-  <div class='grid grid-cols-12 gap-2 mb-8'>
-    <span class='col-span-3'></span>
-    <header class='col-span-9 pb-2 mb-2 font-semibold text-gray-600 border-b-2'>
-      Pages tagged by 'blog/**'
-    </header>
-    
-  </div>
-</nav>
+  <div xmlhtmlRaw><!---## Recent [[Blog]] posts>
+<```query {.timeline}>
+tag:blog/**
+``` --->
+</div>
 </article>
             
             
