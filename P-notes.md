@@ -5,4 +5,6 @@ template:
   sidebar:
     collapsed: false
 ---
-[[]]
+```query
+path:./*
+```
