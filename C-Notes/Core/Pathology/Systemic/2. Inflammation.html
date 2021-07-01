@@ -27,6 +27,15 @@ console.log("ema: Twind: setup & observe")
 twind.setup({mode: 'silent'})
 window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   <!-- CSSEND -->
+
+  <!-- Heist error element -->
+  <style type='text/css'>
+    strong.error {
+      color: lightcoral;
+      font-size: 90%;
+      font-family: mono;
+    }
+  </style>
   <head-extra></head-extra>
 </head>
 
@@ -98,7 +107,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
 
       <div class='flex flex-nowrap bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8'>
         <!-- Sidebar column -->
-        <nav id='sidebar' class='flex-auto hidden leading-relaxed md:block md:sticky md:top-0 md:h-full md:max-w-xs'>
+        <nav id='sidebar' class='flex-shrink hidden leading-relaxed md:block md:sticky md:top-0 md:h-full md:max-w-xs'>
           <div class='px-2 py-2 text-gray-800'>
 
             <div id='indexing-links' class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
@@ -237,8 +246,8 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
     </a>
     
       
-        <span class='text-gray-300' title='1 children inside'>
-          1
+        <span class='text-gray-300' title='2 children inside'>
+          2
         </span>
       
     
@@ -2696,7 +2705,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
     <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
       
     <p class='mb-3'>
-      <em><strong>Cytokines</strong></em> <strong>IL1</strong> - Systemic effects of inflammation IL2 - Autocrine action (stimulates the cell that produced it (T-Cell)) IL3 - Hemopoeitic precursor IL4 & IL5 - Increase B-Cell proliferation and differentiation <strong>IL-6</strong> - Systemic Effects of Inflammation <strong>IL-7</strong> - Normal functioning of B/T-Cell -&gt; Causes SCID [Severe combined ImmunoDisorder] IL-8 Continued acute inflammation - produced by macrophage to call in neutrophil IL - 10 Resolution and healing IL-11 - Increased platelets IL-17 - Secreted by T-cells | Responsible for recruitment of Neutrophils | e.g: in hepatitis, kaposis sarcoma
+      <em><strong>Cytokines</strong></em> <strong>IL1</strong> - Systemic effects of inflammation IL2 - Autocrine action (stimulates the cell that produced it (T-Cell)) IL3 - Hemopoeitic precursor IL4 & IL5 - Increase B-Cell proliferation and differentiation <strong>IL-6</strong> - Systemic Effects of Inflammation <strong>IL-7</strong> - Normal functioning of B/T-Cell -&gt; Causes SCID [Severe combined ImmunoDisorder] IL-8 Continued acute inflammation - produced by macrophage to call in neutrophil IL - 10 Resolution and healing IL-11 - Increased platelets IL-13 - Activation of M2 Macrophages (along with IL4) IL-17 - Secreted by Th17 cells | Responsible for recruitment of Neutrophils | e.g: in hepatitis, kaposis sarcoma
     </p>
   
     </blockquote>
@@ -2852,7 +2861,423 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
     </ul>
   
     </blockquote>
-  <h5 id='interferons' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Interferons</h5><table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Source</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Action</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Clinical Use</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Leukocytes</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Antiviral</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Viral infections</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Fibroblasts</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Immunomodulatary</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Multiple Sclerosis</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>T-Cells (TH1) and CD8 cells</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Macrophage activation</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Chronic Granulatmous disease</td></tr></tbody></table>
+  <h5 id='interferons' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Interferons</h5><table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Source</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Action</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Clinical Use</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Leukocytes</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Antiviral</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Viral infections</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Fibroblasts</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Immunomodulatary</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Multiple Sclerosis</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>T-Cells (TH1) and CD8 cells</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Macrophage activation</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Chronic Granulatmous disease</td></tr></tbody></table><h3 id='chemical-mediators-in-plasma' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Chemical mediators in Plasma</h3><h4 id='kinin-system' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Kinin System</h4>
+    <p class='mb-3'>
+      Injury to blood vessel -&gt; XII -&gt;XIIa Pre-Kallikrein -&gt; [XIIa] -&gt;Kallikrein
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Activation of Bradykinin
+        </li>
+      
+        <li>
+          Activation of Complement system
+        </li>
+      
+        <li>
+          Activation of Plasminogen - Plasmin
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Kininogen -&gt; [Kallikrein] -&gt; Bradykinin
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Venular permeability (postcapillary venules) - incresased
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Pain
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Vasodilation
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Bronchospasm
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      drycough is due to vasospasm caused by increased bradykinin
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Angioedema
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h4 id='complement-system' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Complement System</h4>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          These are a group of more than 20 proteins
+        </li>
+      
+        <li>
+          Responsible for immunity
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Activated by both innate and adaptive
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Regulates normal function
+        </li>
+      
+    </ul>
+  <h5 id='classical-pathway' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Classical Pathway</h5>
+    <p class='mb-3'>
+      GM Manufactures Classic Cars - IgG and <strong>IgM</strong>
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Adaptive Immunity
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      IgM is more important
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          IgG1 IgG2 Ig3 can activate complement system
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          IgG4 cannot - LOW-YIELD
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      C1 -&gt; [Immunoglobulin] -&gt; Activated C1
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          C2a + C4b -&gt; [Activated C1] -&gt; C4b2a <strong>(C3 Convertase)</strong>
+        </li>
+      
+        <li>
+          C3b -&gt; [C3 Convertase - C4b2a] -&gt; C4b2a3b <strong>(C5 Convertase)</strong>
+        </li>
+      
+        <li>
+          C5 -&gt; [C5 Convertase] -&gt; C5b + C6-C9 <strong>Membrane Attack Complex</strong>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h5 id='lectin-pathway' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Lectin pathway</h5>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Mannose-binding lectin -&gt; Activating C4
+        </li>
+      
+        <li>
+          C1-like complex instead of C1
+        </li>
+      
+        <li>
+          C4 is the first component that’s activated
+        </li>
+      
+        <li>
+          Rest is similar to Classical Pathway
+        </li>
+      
+    </ul>
+  <h5 id='alternate-pathway' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Alternate Pathway</h5>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Innate immunity
+        </li>
+      
+        <li>
+          Activated by
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Endotoxins (LPS)
+        </li>
+      
+        <li>
+          Venom
+        </li>
+      
+        <li>
+          IgA IgD very rarely
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          C3 -&gt; [Hydrolysis] -&gt; C3b
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          C3b + Bb -&gt; [Factor D] -&gt; C3Bb [C3 convertase]
+        </li>
+      
+        <li>
+          3b -&gt; [C3 convertase - C3bBb] -&gt; C3bBb3b <strong>(C5 Convertase)</strong>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Pathway that is activated can be diagnosed by assessing Complement proteins levels and mark those that have decreased
+    </p>
+  
+    </blockquote>
+  <table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Complement</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Action</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>C3a</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Anaphylotoxin</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>C3b</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Opsonin</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>C4a</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Anaphylotoxin</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>C5a</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Chemotactant/Anaphylotaxin</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>C5b</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Membrane Attack Complex</td></tr></tbody></table><table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Complement Protein Deficiency</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Assosciated Defect</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>C1/C2/C4 [Early Proteins]</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Autoimmune Disorders (SLE)</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>C3</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Pyogenic infections</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>C5/C6/C7/C8 [Late Proteinas]</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Increased susceptibility to Neisseria - Toxoplasmosis</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>C9</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>No significant effect</td></tr></tbody></table><h5 id='regulation' class='mt-6 mb-2 text-xl font-bold text-gray-700'>Regulation</h5>
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      C1 Inhibitor
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Blocks activation of C1
+        </li>
+      
+        <li>
+          Deficiency leads to:
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Increased C1 Activation
+        </li>
+      
+        <li>
+          Release of C3a/C5a
+        </li>
+      
+        <li>
+          Hereditary Angioneurotic Edema
+        </li>
+      
+    </ul>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Females are more susceptible
+        </li>
+      
+        <li>
+          Edema - Non pitting -&gt; in face/cutaneous tissue
+        </li>
+      
+        <li>
+          Laryngeal edema/GIT -&gt; Emergency
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      CD46/Factor H Factor
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Controls the alternate pathway
+        </li>
+      
+        <li>
+          Deficiency leads to increased complement system activation
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          -&gt; Endothelial Cell Damage -&gt; Atypical Hemolytic Uremic Syndrome [HUS]
+        </li>
+      
+        <li>
+          Age Related Macular Degeneration is also associated
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      CD55/CD59
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          present on normal blood cell: prevent RBC/WBC/platelets from damage by Complement system
+        </li>
+      
+        <li>
+          Deficiency occurs -&gt; Decreased RBC/WBC/Platelets
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          -&gt; Pancytopenia -&gt; Paroxysmal Nocturnal Hemoglobinuria
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h1 id='chronic-inflammation' class='pb-2 mb-2 text-5xl font-bold text-center'>Chronic Inflammation</h1>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          This is an ongoing prolonged inflammation
+        </li>
+      
+        <li>
+          Associated with tissue destruction
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Hallmark: Tissue Destruction
+    </p>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Associated with repair/healing
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Monoblast -&gt; Monocyte -&gt; Macrophage Bone -&gt; Blood -&gt; Tissue
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Macrophage survives for a much longer duration <a href='static/Pasted%20image%2020210701093452.png' class='text-pink-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210701093452.png</a>
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Types:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          M1: Activated by Interferon-gamma - secreted by CD8 T Cells and Th1 -&gt; <strong>Pro-inflammatory</strong>
+        </li>
+      
+        <li>
+          M2: Activated by IL-4, IL13 - secreted by Th2 -&gt; <strong>Anti-inflammatory</strong>
+        </li>
+      
+    </ul>
+  <h2 id='granulmatous-inflammation' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Granulmatous inflammation</h2>
+    <p class='mb-3'>
+      Granuloma - Inflammatory core with a Macrophage crust surrounded by a ring of lymphocytes
+    </p>
+  
+    <p class='mb-3'>
+      <strong>Examples of granulomatous infections</strong>
+    </p>
+  <table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Infection</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Type of Granuloma</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Tuberculosis</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Caseating Granuloma/Soft Granuloma (more frequently)</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Sarcoidosis</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Non-Caesating Granuloma/Hard Granuloma/Naked Granuloma</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Syphilis</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Gumma -&gt; Caseating Granuloma</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Cerebral Malaria</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Durck Granuloma (CNS)</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Q Fever</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Donut granuloma</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Inflammatory Bowel Disease</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Seen in Crohn’s subtype only</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Vasculitis</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Tempo</td></tr></tbody></table>
 </article>
             
             
@@ -2867,7 +3292,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   <div class='flex space-x-2'>
     <div>Generated by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
       <span class='font-mono text-sm tracking-tighter'>
-        0.1.29.3
+        0.1.29.4
       </span>
     </div>
   </div>
