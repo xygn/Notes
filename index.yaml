@@ -7,8 +7,12 @@ page:
     <link rel="stylesheet" href="static/background-pattern.css" />
 
 template:
-  theme: pink
-  iconUrl: static/favicon.jpeg
+  theme: red
+  iconUrl: static/favicon.png
   sidebar:
     collapsed: true
   urlStrategy: pretty
+
+pandoc:
+  rewriteClass:
+    prose: max-w-prose mx-auto
