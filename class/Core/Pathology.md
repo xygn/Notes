@@ -26,6 +26,10 @@ path:General/*
 path:./General/*
 ```
 
+```query
+path:./General/
+```
+
 // Systemic
 -------------
 
@@ -43,4 +47,8 @@ path:Systemic/*
 
 ```query
 path:./Systemic/*
+```
+
+```query
+path:./Systemic/
 ```
