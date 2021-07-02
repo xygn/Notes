@@ -1,0 +1,7 @@
+---
+slug: Core
+---
+
+```query
+path:./*
+```

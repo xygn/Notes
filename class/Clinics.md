@@ -1,0 +1,7 @@
+---
+slug: Clinics
+---
+
+```query
+path:./*
+```

@@ -1,0 +1,7 @@
+---
+slug: pathre
+---
+
+```query
+path:./*
+```

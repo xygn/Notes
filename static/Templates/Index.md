@@ -1,0 +1,7 @@
+---
+slug: {{title}}
+---
+
+```query
+path:./*
+```
