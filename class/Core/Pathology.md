@@ -52,3 +52,6 @@ path:./Systemic/*
 ```query
 path:./Systemic/
 ```
+```query
+path:"Systemic"
+```
