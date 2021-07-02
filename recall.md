@@ -1,0 +1,7 @@
+---
+slug: recall
+---
+
+```query
+path:./*
+```

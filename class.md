@@ -1,5 +1,5 @@
 ---
-slug: qbank
+slug: class
 ---
 
 ```query
