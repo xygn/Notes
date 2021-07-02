@@ -16,7 +16,7 @@ Well... these are my notes.
 
 : [Blog](https://xygn.us)
 
-> And disciplinary remains mercifully
+        And disciplinary remains mercifully
 
 :::
 
