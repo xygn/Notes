@@ -90,6 +90,15 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
             </li>
           
             <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='class'>
+                class
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
               <a class='px-1 font-bold' href='recall'>
                 recall
               </a>
@@ -108,7 +117,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
             </li>
           
             <li class='inline-flex items-center'>
-              <a class='px-1 font-bold' href='recall/Core/Pathology'>
+              <a class='px-1 font-bold' href='class/recall/Core/Pathology'>
                 Pathology
               </a>
               <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
@@ -165,7 +174,9 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
               <!-- Variable bindings for this tree-->
   
     
-  
+      
+      
+    
 
 
 
@@ -178,30 +189,25 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
-        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
       </svg>
-    
+      
   
-    <a class='hover:underline truncate' title='class' href='class'>
+    <a class='font-bold hover:underline truncate' title='class' href='class'>
       class
     </a>
     
       
-        <span class='text-gray-300' title='2 children inside'>
-          2
-        </span>
-      
-    
   </div>
 
   <!-- Node's children forest, displayed only on active trees
     TODO: Use <details> to toggle visibility?
   -->
   
-</div>
-            
-              <!-- Variable bindings for this tree-->
+    
+      <!-- Variable bindings for this tree-->
   
     
   
@@ -222,8 +228,8 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
       </svg>
     
   
-    <a class='hover:underline truncate' title='priv' href='priv'>
-      priv
+    <a class='hover:underline truncate' title='Clinics' href='Clinics'>
+      Clinics
     </a>
     
       
@@ -239,8 +245,47 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   -->
   
 </div>
-            
-              <!-- Variable bindings for this tree-->
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Core' href='Core'>
+      Core
+    </a>
+    
+      
+        <span class='text-gray-300' title='3 children inside'>
+          3
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
   
     
       
@@ -336,7 +381,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
       </svg>
       
   
-    <a class='font-bold hover:underline truncate' title='Pathology' href='recall/Core/Pathology'>
+    <a class='font-bold hover:underline truncate' title='Pathology' href='class/recall/Core/Pathology'>
       Pathology
     </a>
     
@@ -368,7 +413,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
       </svg>
       
   
-    <a class='font-bold text-red-600 hover:underline truncate' title='1. Cell Injury' href='recall/Core/Pathology/1.%20Cell%20Injury'>
+    <a class='font-bold text-red-600 hover:underline truncate' title='1. Cell Injury' href='class/recall/Core/Pathology/1.%20Cell%20Injury'>
       1. Cell Injury
     </a>
     
@@ -405,7 +450,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
       </svg>
     
   
-    <a class='hover:underline truncate' title='2. Inflammation' href='recall/Core/Pathology/2.%20Inflammation'>
+    <a class='hover:underline truncate' title='2. Inflammation' href='class/recall/Core/Pathology/2.%20Inflammation'>
       2. Inflammation
     </a>
     
@@ -426,6 +471,48 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   
 </div>
     
+  
+</div>
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='privnotes' href='priv'>
+      privnotes
+    </a>
+    
+      
+        <span class='text-gray-300' title='2 children inside'>
+          2
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
   
 </div>
             
@@ -825,7 +912,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
               Also, group contexts from same source.
             -->
-            <div><p>Qbank - <a href='recall/Core/Pathology/1.%20Cell%20Injury' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>1. Cell Injury</a></p></div>
+            <div><p>Qbank - <a href='class/recall/Core/Pathology/1.%20Cell%20Injury' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>1. Cell Injury</a></p></div>
           </div>
         </li>
       
