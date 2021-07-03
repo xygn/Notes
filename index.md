@@ -20,7 +20,17 @@ Well... these are my notes.
 
 :::
 
-<!---## Recent [[Blog]] posts>
-<```query {.timeline}>
-tag:blog/**
-``` --->
+:::{class="grid grid-cols-1 lg:grid-cols-2 grid-flow-row gap-0 p-3 bg-gray-500"}
+![[class/Core/Pathology]]
+
+![[Pharmacology]]
+
+![[Microbiology]]
+:::
+
+
+## Recent posts
+
+```query {.timeline}>
+*
+``` 
