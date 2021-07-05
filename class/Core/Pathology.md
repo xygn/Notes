@@ -1,9 +1,6 @@
-```query
-path:./*
-```
 
 ```query
-path:./*/*
+path:./*
 ```
 
 
@@ -11,47 +8,28 @@ path:./*/*
 -------------
 
 ```query
-path:./Pathology/General/
-```
-
-```query
 path:General
 ```
 
-```query
-path:General/*
-```
-
-```query
-path:./General/*
-```
-
-```query
-path:./General/
-```
 
 // Systemic
 -------------
 
-```query
-path:./Pathology/Systemic/
-```
 
 ```query
 path:Systemic
 ```
 
+// All
+-----------
 ```query
-path:Systemic/*
+path:./*/*
 ```
 
-```query
-path:./Systemic/*
-```
 
-```query
-path:./Systemic/
-```
-```query
-path:"Systemic"
-```
+Resources used:
+- Pathoma by Husain A. Sattar MD
+- Prepladder by Sparsh Gupta
+- Robbins and Cotran's Pathologic Basis of Disease 10e
+- First Aid for the USMLE 2021
+
