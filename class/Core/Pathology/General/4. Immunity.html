@@ -1,0 +1,1681 @@
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <title>
+    4. Immunity – Notes de XYGN
+  </title>
+  
+    
+      <meta property='og:description' content />
+      <meta property='og:site_name' content='XYGN' />
+    
+    
+      <base href='/' />
+      <link href='static/favicon.png' rel='icon' />
+    
+    <link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-dark.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/combine/npm/prismjs@1.23.0/prism.min.js,npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js'></script>
+<link rel='stylesheet' href='static/background-pattern.css' />
+
+  
+  <!-- CSSSTART -->
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>// Be silent to avoid complaining about non-tailwind classes
+// https://github.com/tw-in-js/twind/discussions/180#discussioncomment-678272
+console.log("ema: Twind: setup & observe")
+twind.setup({mode: 'silent'})
+window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
+  <!-- CSSEND -->
+
+  <!-- Heist error element -->
+  <style type='text/css'>
+    strong.error {
+      color: lightcoral;
+      font-size: 90%;
+      font-family: monospace;
+    }
+  </style>
+  <!-- What goes in this file will appear on near the end of <head>--><link rel='preload' href='_emanote-static/fonts/Nunito/Nunito-Regular.ttf' as='font' type='font/ttf' crossorigin />
+<link rel='preload' href='_emanote-static/fonts/Nunito/Nunito-ExtraBold.ttf' as='font' type='font/ttf' crossorigin />
+
+<style>
+  @font-face {
+    font-family: 'Nunito';
+    src: url('_emanote-static/fonts/Nunito/Nunito-Regular.ttf') format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Nunito-Bold';
+    src: url('_emanote-static/fonts/Nunito/Nunito-ExtraBold.ttf') format("truetype");
+    font-display: swap;
+  }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  header {
+    font-family: 'Nunito-Bold', sans-serif;
+  }
+</style>
+</head>
+
+<!-- DoNotFormat -->
+
+
+<!-- DoNotFormat -->
+
+<body class='overflow-y-scroll bg-gray-400'>
+  
+    <div class='container mx-auto'>
+
+      
+  <nav id='breadcrumbs' class='w-full text-gray-700 md:hidden'>
+    <div class='flex justify-left'>
+      <div class='w-full px-2 py-2 bg-gray-50'>
+        <ul class='flex flex-wrap text-lg'>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href=''>
+                Notes de XYGN
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='class'>
+                class
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='Core'>
+                Core
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='class/Core/Pathology'>
+                Pathology
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='class/Core/Pathology/General'>
+                General
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+      <div class='flex flex-nowrap bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8'>
+        <!-- Sidebar column -->
+        <nav id='sidebar' class='flex-shrink hidden leading-relaxed md:block md:sticky md:top-0 md:h-full md:w-48 xl:w-64'>
+          <div class='px-2 py-2 text-gray-800'>
+
+            <div id='indexing-links' class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
+              <a href='-/tags' title='View tags'>
+                <svg style='width: 1rem;' class='hover:text-red-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
+                  </path>
+                </svg>
+              </a>
+              <a href='-' title='Expand full tree'>
+                <svg style='width: 1rem;' class='hover:text-red-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4'>
+                  </path>
+                </svg>
+              </a>
+            </div>
+
+            <div id='site-logo' class='pl-2'>
+              <div class='flex items-center my-2 space-x-2 justify-left'>
+                <a href='' title='Go to Home'>
+                  
+                    
+                      <!-- The style width attribute here is to prevent huge
+                      icon from displaying at those rare occasions when Tailwind
+                      hasn't kicked in immediately on page load 
+                      -->
+                      <img style='width: 1rem;' class='transition transform hover:scale-110 hover:opacity-80' src='static/favicon.png' />
+                    
+                  
+                </a>
+                <a class='font-bold truncate' title='Go to Home' href=''>
+                  Home
+                </a>
+              </div>
+            </div>
+
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='class' href='class'>
+      class
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Clinics' href='Clinics'>
+      Clinics
+    </a>
+    
+      
+        <span class='text-gray-300' title='2 children inside'>
+          2
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Core' href='Core'>
+      Core
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Microbiology' href='class/Core/Microbiology'>
+      Microbiology
+    </a>
+    
+      
+        <span class='text-gray-300' title='2 children inside'>
+          2
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Pathology' href='class/Core/Pathology'>
+      Pathology
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='General' href='class/Core/Pathology/General'>
+      General
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='1. Cell Injury' href='class/Core/Pathology/General/1.%20Cell%20Injury'>
+      1. Cell Injury
+    </a>
+    
+      
+        
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='2. Inflammation' href='class/Core/Pathology/General/2.%20Inflammation'>
+      2. Inflammation
+    </a>
+    
+      
+        
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='3. Neoplasia' href='class/Core/Pathology/General/3.%20Neoplasia'>
+      3. Neoplasia
+    </a>
+    
+      
+        
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+  
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
+        </path>
+      </svg>
+      
+  
+    <a class='font-bold text-red-600 hover:underline truncate' title='4. Immunity' href='class/Core/Pathology/General/4.%20Immunity'>
+      4. Immunity
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Systemic' href='class/Core/Pathology/Systemic'>
+      Systemic
+    </a>
+    
+      
+        <span class='text-gray-300' title='1 children inside'>
+          1
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Pharmacology' href='class/Core/Pharmacology'>
+      Pharmacology
+    </a>
+    
+      
+        <span class='text-gray-300' title='4 children inside'>
+          4
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='recall' href='recall'>
+      recall
+    </a>
+    
+      
+        <span class='text-gray-300' title='1 children inside'>
+          1
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='privnotes' href='priv'>
+      privnotes
+    </a>
+    
+      
+        <span class='text-gray-300' title='2 children inside'>
+          2
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='static' href='static'>
+      static
+    </a>
+    
+      
+        <span class='text-gray-300' title='1 children inside'>
+          1
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
+
+          </div>
+        </nav>
+
+        <!-- Main body column -->
+        <div class='flex-1 w-full overflow-x-auto bg-white'>
+          <main class='px-4 py-4'>
+            <h1 class='flex items-end justify-center mb-4 p-3 bg-red-100 text-5xl font-extrabold text-black rounded'>
+  <a class='z-40 tracking-tighter '>
+    4. Immunity
+  </a>
+</h1>
+            <article class='overflow-auto'>
+  <!-- What goes in this file will appear on top of note body-->
+  
+    <p class='mb-3'>
+      <span class='line-through italic' title='Wiki-link does not refer to any known file'><a href='class/recall/Core/Pathology/4. Immunity' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>class/recall/Core/Pathology/4. Immunity</a></span>
+    </p>
+  <h2 id='-4-immunity' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>// 4. Immunity</h2>
+    <p class='mb-3'>
+      07.07.21 | 20:13 tags:
+    </p>
+  <hr class='mb-3' />
+    <p class='mb-3'>
+      Immunity is divided into
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Innante
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Non-specific
+        </li>
+      
+        <li>
+          No memory (amnesic)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Adaptive
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          specific
+        </li>
+      
+        <li>
+          Memory (a-amnesic)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h1 id='innate-immunity' class='pb-2 mb-2 text-5xl font-bold text-center'>Innate Immunity</h1>
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Barriers
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Anatomical [skin]
+        </li>
+      
+        <li>
+          Physiological [Secretions and their contents]
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Proteins
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          C-reactive proteins
+        </li>
+      
+        <li>
+          Lectin <a href='class/Core/Pathology/General/2. Inflammation#Lectin pathway' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          e.g: Mannose Binding Lectins [CD14 of macrophage recognizes]
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Complement proteins <a href='class/Core/Pathology/General/2. Inflammation#Complement System' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+        </li>
+      
+        <li>
+          Surfactants and plasma proteins
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Cells
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Neutrophils
+        </li>
+      
+        <li>
+          Macrophages
+        </li>
+      
+        <li>
+          NK Cellss
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Natural Killer (NK) Cells are lymphocytes in the <strong>same family as T and B cells</strong>, coming from a common progenitor. However, as cells of the innate immune system, NK cells are classified as group I Innate Lymphocytes (ILCs) and respond quickly to a wide variety of pathological challenges.
+        </li>
+      
+        <li>
+          They kill <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>virus infected</span> cells
+        </li>
+      
+        <li>
+          Kills <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>tumor cells</span>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      <strong>How are pathogens recognized?</strong>
+    </p>
+  <h2 id='pattern-recognition-receptors' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Pattern Recognition receptors</h2>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Bacteria:
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Pathogen/Microbe Associated Molecular Patterns
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Inflammation
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Damage Associated Molecular Patterns
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Types:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Toll-like receptor
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Causes activation of
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          NF-Kappa-Beta
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Causes recruitment of leukocytes
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          IFN-1 (type 1)
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Antiviral action ]
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          C-type LR (Lectin Receptor)
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Important against fungal infections
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h3 id='cytosolic-receptors' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Cytosolic Receptors</h3>
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          RIG-like receptor
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Act against viral nucleic acids
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          NOD-like receptor
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Identifies:
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Bacteria
+        </li>
+      
+        <li>
+          K+ levels (eflux)
+        </li>
+      
+        <li>
+          Uric Acid
+        </li>
+      
+        <li>
+          ROS
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Activates inflammasome
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Which activates Caspase 1 -&gt; IL1 -&gt; Fever Inflammation <a href='class/Core/Pathology/General/1. Cell Injury#Pyroptosis' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h1 id='adaptive-immunity' class='pb-2 mb-2 text-5xl font-bold text-center'>Adaptive Immunity</h1>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          specific
+        </li>
+      
+        <li>
+          Memory (a-amnesic)
+        </li>
+      
+        <li>
+          Contributed by
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          T-cells - <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>Cell-mediated</span>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Effective against intracellular microbeszb
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          B-Cells - <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>Humoral immunity</span>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Effective against extracellular microbes
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h2 id='b-cells' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>B-cells</h2>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Located in the lymph node
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Spleen
+        </li>
+      
+        <li>
+          GIT
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Mucosa Associated Lymphoid Tissue <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>MALT</span>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Present highly in the Peyer’s patches of the Ileum
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>Enteric fever</span> is due to the ulceration of Peyer Patches and thus commonly it’s in the ileum
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Tonsils
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      The lymph node has muliple zones
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Cortex - <strong>B Cells</strong>
+        </li>
+      
+        <li>
+          Paracortex - <strong>T-cells</strong>
+        </li>
+      
+        <li>
+          Medulla <strong>Macrophages</strong>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <img class='mb-3' src='static/Pasted image 20210707215520.png' alt='[[Pasted image 20210707215520.png]]' /><h3 id='b-cell-markers' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>B-Cell markers</h3>
+    <p class='mb-3'>
+      <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>CD stands for Cluster of Differentiation</span>
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          CD 1923 (19 to 23)
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          CD19 - Pan B Marker (present in all stages of B-cell development)
+        </li>
+      
+        <li>
+          CD21 - Receptor for <strong>EBV</strong> (Epstein <em><strong>B</strong></em>arr Virus)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          CD 40
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          CD40 ligand is expressed on the T-cells
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          CD40L of T-cell and CD40
+        </li>
+      
+        <li>
+          <em><strong>B-cell : T-cell interaction</strong></em>
+        </li>
+      
+        <li>
+          Important in production of high quality antibody formation
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          CD80 <strong>/</strong> B7-1 CD86 <strong>/</strong> B7-2
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          CD80/86 are known as the <strong>B7</strong> (B7-1 and B7-2 respectively)
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          These interact with <strong>CD28</strong> on the T-cell to produce <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>co-stimulatory signal</span>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <div class='px-3 py-1 rounded shadow bg-yellow-100 mx-2 transform -skew-y-1 scale-95 hover:scale-100 hover:border-yellow-400 hover:shadow-lg border-t-8 border-yellow-200 mb-8 mt-8'>
+    <p class='mb-3'>
+      B-cells on activation -&gt; Plasma-cell
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Plasma cells secrete antibodies (immunoglobulins)
+        </li>
+      
+    </ul>
+  </div><h2 id='immunoglobulins' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Immunoglobulins</h2><img class='mb-3' src='static/Pasted image 20210707220953.png' alt='[[Pasted image 20210707220953.png]]' />
+    <p class='mb-3'>
+      Made up of:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Light Chains
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          λ (lambda)
+        </li>
+      
+        <li>
+          κ (kappa)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Normal ratio : 3:1 κ:λ
+        </li>
+      
+    </ul>
+  
+    </blockquote>
+  
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Heavy Chains
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          α (alpha)
+        </li>
+      
+        <li>
+          γ (gamma)
+        </li>
+      
+        <li>
+          δ (delta)
+        </li>
+      
+        <li>
+          ε (epsilon)
+        </li>
+      
+        <li>
+          μ (mu)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <div class='px-3 py-1 rounded shadow bg-yellow-100 mx-2 transform -skew-y-1 scale-95 hover:scale-100 hover:border-yellow-400 hover:shadow-lg border-t-8 border-yellow-200 mb-8 mt-8'>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Isotype
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Different classes of antibodies in the same person
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Allotype
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Difference in antibody taken from two people
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Idiotype
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Variable part of antibody is different in same person
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  </div><h3 id='immunoglobulin-classes--isotypes' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Immunoglobulin Classes / Isotypes</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          These are dependent upon the heavy Chains present
+        </li>
+      
+    </ul>
+  <h3 id='igg' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>IgG</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Presence of Gamma γ heavy chain
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>Maxiumum concentration</span>
+        </li>
+      
+        <li>
+          Crosses <strong>Placenta</strong>
+        </li>
+      
+        <li>
+          <em>Complement Activation</em> <a href='class/Core/Pathology/General/2. Inflammation#^0c3b7d' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+        </li>
+      
+        <li>
+          <em><strong>Opsonization</strong></em>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h3 id='iga' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>IgA</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Presence of the Alpha heavy chain
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Forms:
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          Monomer in the <em>Serum</em>
+        </li>
+      
+        <li>
+          Dimer in the <em>Mucosa and Secretions</em> - joined by <strong>J</strong> joining chain
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'><strong>First Line of Defense</strong></span> (as majority of the infections have to pass through <strong>mucosal</strong> layer)
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          It activates the Alternate pathway <em>rarely</em> <a href='class/Core/Pathology/General/2. Inflammation#Alternate Pathway' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h3 id='igm' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>IgM</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Presence of mu heavy chain
+        </li>
+      
+        <li>
+          M for
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Max Size
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>Pentameric</span>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Max Molecular Weight
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          <em>Complement Pathway Activation</em> <a href='class/Core/Pathology/General/2. Inflammation#^0c3b7d' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Primary Immune Response - IgM is mostly produced than IgG (predominant)
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Monomeric form is present on B-Cell Receptor
+        </li>
+      
+    </ul>
+  <h3 id='igd' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>IgD</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Presence of Delta Heavy Chain
+        </li>
+      
+        <li>
+          Functions as acts as B-cell receptor
+        </li>
+      
+    </ul>
+  <h3 id='ige' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>IgE</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Presence of Epsilon Heavy Chain
+        </li>
+      
+        <li>
+          Lowest Concentration
+        </li>
+      
+        <li>
+          Attached to the surface of Mast Cells <a href='class/Core/Pathology/General/2. Inflammation#^a7504d' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Responsible for Type-1 Hypersensitivity Reaction
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Heat labile antibody
+        </li>
+      
+    </ul>
+  <h2 id='antigens' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Antigens</h2>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Exogenous
+        </li>
+      
+        <li>
+          Endogenous
+        </li>
+      
+        <li>
+          Autogenous
+        </li>
+      
+    </ul>
+  <table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Types of Antigens based on B-Cell activation</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Non-Proteinaceous</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Proteinaceous/T-Cell Dependent</td></tr></tbody></table><h4 id='non-proteinaceous-antigens' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Non-Proteinaceous Antigens</h4>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          These are free antigens that do not require any additional cells for activation
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Thus also known as thymic-independent antigens/T-cell independent
+        </li>
+      
+        <li>
+          <strong>Pentameric</strong> IgM antibodies are produced when bound to <strong>monomeric</strong> form of IgM present on BCR
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Leads to T-cell indepent activation of B-Cell
+        </li>
+      
+    </ul>
+  <img class='mb-3' src='static/Pasted image 20210707224227.png' alt='[[Pasted image 20210707224227.png]]' /><h4 id='proteinaceous-antigens' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Proteinaceous Antigens</h4>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Requires the support of T-CeLLS for proper activation of Immune System
+        </li>
+      
+    </ul>
+  <img class='mb-3' src='static/Pasted image 20210707224246.png' alt='[[Pasted image 20210707224246.png]]' />
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          B-Cell or APCs (antigen presenting cells) expresses antigen on the surface
+        </li>
+      
+        <li>
+          T-CR (T-cell receptor) then recognizes the antigen
+        </li>
+      
+        <li>
+          T-cell then attaches to the MHC class
+        </li>
+      
+        <li>
+          CD40(B-cell) and CD40L (T-Cell) interaction occurs
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          This leads to secretion of IL-4/IL-5
+        </li>
+      
+        <li>
+          <a href='class/Core/Pathology/General/2. Inflammation#^d2a132' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>Cytokine Reference</a>
+        </li>
+      
+        <li>
+          This causes IgM -&gt; IgG/A/E [isotype/class switching : change in heavy chain by IL-4/IL-5]
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          This is <em>reaaallyy</em> important for somatic hypermutation ^4e39b6
+        </li>
+      
+        <li>
+          If this is cytokine secretion is blocked -&gt; Hyper IgM syndrome
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+</article>
+            
+  <div class='p-4 mt-8 bg-gray-100 rounded'>
+    <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
+    <ul class='space-y-1'>
+      
+        <li>
+          <a class='text-red-600 font-bold hover:bg-red-50' href='class/Core/Pathology/General/3.%20Neoplasia'>
+            3. Neoplasia
+          </a>
+          <div class='mb-4 overflow-auto text-sm text-gray-500'>
+            <!-- TODO: How to style the backlinks list item element? Or render each separately?
+              Also, group contexts from same source.
+            -->
+            <div>CTLA-4 : removes B7 molecules on APCs (tumor itself here) preventing binding to CD28 <a href='class/Core/Pathology/General/4.%20Immunity' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>4. Immunity</a></div>
+          </div>
+        </li>
+      
+    </ul>
+  </div>
+
+            
+  <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+    
+  </section>
+
+          </main>
+        </div>
+      </div>
+      <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-800'>
+  <div class='flex space-x-2'>
+    <div>Generated by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
+      
+        
+          <span class='font-mono text-sm tracking-tighter' title='And rendered with /templates/layouts/book'>
+            0.1.37.2
+          </span>
+        
+      
+    </div>
+  </div>
+</footer>
+    </div>
+  
+</body>
+
+</html>

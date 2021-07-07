@@ -505,6 +505,43 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   
 </div>
     
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='4. Immunity' href='class/Core/Pathology/General/4.%20Immunity'>
+      4. Immunity
+    </a>
+    
+      
+        
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+    
   
 </div>
     
@@ -1126,13 +1163,23 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
     <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
       <img class='mb-3' src='static/Pasted image 20210703184253.png' alt='[[Pasted image 20210703184253.png]]' />
     </blockquote>
-  <h3 id='2-rapid-rate-of-growth' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>2. Rapid Rate of Growth</h3><div class='py-0.5 mb-3 text-sm'><pre><code class='language-none'>- Minimum mass of tumor cells to be detected clinically is -&gt; Billion (10^9) cells (1g of tumor cells)
-- [[#^a2faae]]
-- Maximum number of cells compaitable with life -&gt; Trillion (10^12) cells</code></pre></div>
+  <h3 id='2-rapid-rate-of-growth' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>2. Rapid Rate of Growth</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Minimum mass of tumor cells to be detected clinically is -&gt; Billion (10^9) cells (1g of tumor cells) <a href='#^a2faae' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+        </li>
+      
+        <li>
+          Maximum number of cells compaitable with life -&gt; Trillion (10^12) cells
+        </li>
+      
+    </ul>
+  
     <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
       
     <p class='mb-3'>
-      Warber effect
+      <strong>Warburg effect</strong>
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
@@ -1142,7 +1189,15 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
         <li>
-          Pyurvate -&gt; Intermediates -&gt; Growth Factors synthesis
+          Pyurvate -&gt; Intermediates -&gt; Growth Factors synthesis -&gt; Tumor cell proliferation
+        </li>
+      
+        <li>
+          This is basically Aerobic Glycolysis but no EMP
+        </li>
+      
+        <li>
+          Physiologically seen in embryonic tissues, lymphoid cells where M2 isoform of pyurvate kinase is present
         </li>
       
     </ul>
@@ -1274,6 +1329,22 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
       
     </ul>
   
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Epithelial -&gt; Mesenchymal Transition:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          For spread of tumor, properties are up regulated and mesenchymal property is down regulated
+        </li>
+      
+    </ul>
+  <img class='mb-3' src='static/Pasted image 20210707104535.png' alt='[[Pasted image 20210707104535.png]]' />
         </li>
       
     </ul>
@@ -2308,17 +2379,17 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         <li>
           
     <p class='mb-3'>
-      <strong>Beta-catenin</strong>
+      <strong>Beta-catenin</strong> ^8c95e7
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          Responible fot MYC activity
+          Responsible for increased MYC (nuclear transcription facor) activity
         </li>
       
         <li>
-          APC gene and E-Cadherin inhibit this
+          APC gene and E-Cadherin inhibit the activity
         </li>
       
         <li>
@@ -2582,8 +2653,12 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Cycle</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Gene</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>G1 -&gt; S</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Rb, p53</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>S -&gt; G2</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>p53</td></tr></tbody></table><h4 id='p53' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>p53</h4>
+  <table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Cycle</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Gene</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>G1 -&gt; S</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Rb, p53</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>S -&gt; G2</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>p53</td></tr></tbody></table><img class='mb-3' src='static/Pasted image 20210707092822.png' alt='[[Pasted image 20210707092822.png]]' /><h4 id='p53' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>p53</h4>
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Most common genetic mutation seen in human cancers
+        </li>
       
         <li>
           G1 -&gt; S phase traffic cop bitch
@@ -2640,6 +2715,30 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
       
         <li>
           Germline mutation results in knock out of one copy of p53 (1 corrupt fucker) - in <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>Li-Fraumeni syndrome</span> and the second hit is <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>somatic</span>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <strong>S</strong> - Sarcoma
+        </li>
+      
+        <li>
+          <strong>L</strong> - Lymphoma
+        </li>
+      
+        <li>
+          <strong>O</strong> - Osteosarcoma
+        </li>
+      
+        <li>
+          <strong>C</strong> - CNS Tumor
+        </li>
+      
+        <li>
+          <strong>A</strong> - Adrenal Cortex Tumor
+        </li>
+      
+        <li>
+          <strong>B</strong> - Breast Cancer
         </li>
       
     </ul>
@@ -2652,16 +2751,16 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
       
     </ul>
   
-    <p class='mb-3'>
-      <span class='font-bold bg-gray-100 py-0.5 px-2 rounded-lg' title='Tag' data-tag='###n'><a href='-/tags/%23%23%23n' title='Tag' class='text-red-600 font-bold hover:underline'>####n</a></span> Retinoblastoma (Rb)
-    </p>
-  <div class='px-3 py-1 rounded shadow bg-yellow-100 mx-2 transform -skew-y-1 scale-95 hover:scale-100 hover:border-yellow-400 hover:shadow-lg border-t-8 border-yellow-200 mb-8 mt-8'>
+        </li>
+      
+    </ul>
+  <h4 id='retinoblastoma-rb' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>Retinoblastoma (Rb)</h4><div class='px-3 py-1 rounded shadow bg-yellow-100 mx-2 transform -skew-y-1 scale-95 hover:scale-100 hover:border-yellow-400 hover:shadow-lg border-t-8 border-yellow-200 mb-8 mt-8'>
     <p class='mb-3'>
       Retinoblastoma is a cancer that starts in the retina
     </p>
   <img class='mb-3' src='static/Pasted image 20210705164527.png' alt='[[Pasted image 20210705164527.png]]' />
     <p class='mb-3'>
-      Retinoblastoma (Rb, RB, RB1) protein is a tumor suppressor protein.
+      Retinoblastoma (Rb, RB, RB1) protein is a tumor suppressor protein. It is the most common tumor supressor gene associated with cancers
     </p>
   </div>
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
@@ -2711,23 +2810,27 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
     <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
       
         <li>
-          Sporadic mutation - both hits are somatic -&gt; Unilateral retinoblastoma
+          Sporadic mutation - Hits are somatic -&gt; Unilateral retinoblastoma - During birth, no genes are mutated - Bilateral retinoblastoma sporadic mutation is very rare as in order for tumor to be develop, <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'><strong>Both</strong></span> copies of Rb gene should be mutated of which the probability is extremely slim
         </li>
       
         <li>
           Germline mutation - bilateral retinoblastoma and <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>osteosarcoma</span>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          1 gene of the allele is mutated (Autosomal dominant)
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          One more mutation in the normal gene leads to loss of this heterozygosity
         </li>
       
     </ul>
   
-    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
-      
-        <li>
-          In order for tumor to be develop, <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'><strong>Both</strong></span> copies of Rb gene should be mutated of which the probability is extremely slim -&gt; thus Retinoblastoma the cancer itself is very rare in a familial fashion
         </li>
       
         <li>
-          However in sporadic mutation, the chance is higher relatively as one gene is knocked out and mutation of the other normal gene
+          In germline mutation, the chance is higher relatively as one gene is knocked out and mutation of the other normal gene
         </li>
       
         <li>
@@ -2750,11 +2853,63 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h2 id='regulators-of-apoptosis' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Regulators of Apoptosis</h2>
+  
+        </li>
+      
+    </ul>
+  <h4 id='brca' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>BRCA</h4>
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='class/recall/Core/Pathology/1.%20Cell%20Injury' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>1. Cell Injury</a> <a href='1. Cell Injury#^565948' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+          BRCA:BReast CAncer gene
+    <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
+      
+        <li>
+          BRCA-1: Breast/ovarian cancer
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          presence of BRCA1 mutation is an indication for prophylactic mastectomy and Oopherectomy: <em>important in familiak variant of breast cancer</em>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          BRCA-2: Male breast/prostate cancer
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Normal role: involved in DNA repair
+        </li>
+      
+    </ul>
+  <h4 id='apc' class='mt-6 mb-2 text-2xl font-bold text-gray-700'>APC</h4>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          The APC protein is a negative regulator that controls beta-catenin concentrations and interacts with E-cadherin <a href='#^8c95e7' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+        </li>
+      
+        <li>
+          Mutations of APC leads to inactivation of APC thus allowing activating mutations in beta-catenin -&gt; increased MYC activity -&gt; cell proliferation
+        </li>
+      
+    </ul>
+  <h2 id='cellular-metabolic-alterations' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Cellular Metabolic Alterations</h2><h3 id='regulators-of-apoptosis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Regulators of Apoptosis</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      <a href='class/recall/Core/Pathology/1.%20Cell%20Injury' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>1. Cell Injury</a> <a href='1. Cell Injury#^565948' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
+    </p>
+  
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
@@ -2770,7 +2925,11 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
         <li>
-          In follicular Lymphoma overexpression of BCL2 is overexpressed
+          
+    <p class='mb-3'>
+      In follicular Lymphoma overexpression of BCL2 is overexpressed
+    </p>
+  
     <ul class='my-3 ml-4 space-y-1 list-decimal list-inside'>
       
         <li>
@@ -2794,7 +2953,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
         <li>
-          But in the follicle, B-cells are undergoing hypermutation to increase diversity in antibodies
+          But in the follicle, B-cells are undergoing somatic hypermutation to increase diversity in antibodies <a href='4. Immunity#Proteinaceous Antigens' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'></a>
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
@@ -2821,8 +2980,16 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   
         </li>
       
+        <li>
+          
+    <p class='mb-3'>
+      <strong>Altered Autophagy</strong> maybe present depending upon the need of cancer cells
+    </p>
+  
+        </li>
+      
     </ul>
-  <div class='px-3 py-1 rounded shadow bg-yellow-100 mx-2 transform -skew-y-1 scale-95 hover:scale-100 hover:border-yellow-400 hover:shadow-lg border-t-8 border-yellow-200 mb-8 mt-8'>
+  <h3 id='upregulation-and-downregulation' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Upregulation and Downregulation</h3><div class='px-3 py-1 rounded shadow bg-yellow-100 mx-2 transform -skew-y-1 scale-95 hover:scale-100 hover:border-yellow-400 hover:shadow-lg border-t-8 border-yellow-200 mb-8 mt-8'>
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
@@ -2830,11 +2997,11 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          Normally telomeres shorten with cell divisions eventually leading to cellular sensecence
+          Normally telomeres shorten with cell divisions eventually leading to cellular sensecence : <strong>Hay Flick limit - 60-70 times</strong>
         </li>
       
         <li>
-          Often, cancers have upregulated telomerase, an enzyme that preserves telomeress
+          Often, cancers have upregulated telomerase, an enzyme that preserves telomeres, normally present in stem and germ cells
         </li>
       
     </ul>
@@ -2854,6 +3021,34 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
         <li>
+          They grow antigen negative variant
+        </li>
+      
+        <li>
+          Secretion of TgF-Beta, IL-10 : <strong>reduced inflammatory response</strong>
+        </li>
+      
+        <li>
+          Secretion of PgE2, VEgF -&gt; T-cell migration is reduced
+        </li>
+      
+        <li>
+          Immune checkpoint bypass through
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          PD-L1 : inhibits T-cell Activation
+        </li>
+      
+        <li>
+          CTLA-4 : removes B7 molecules on APCs (tumor itself here) preventing binding to CD28 <a href='class/Core/Pathology/General/4.%20Immunity' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>4. Immunity</a>
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
           Immunodeficiency (primary or secondary) increases the risk for cancer
         </li>
       
@@ -2862,7 +3057,35 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  </div><h2 id='clinical-features' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Clinical Features</h2><table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Benign</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Malignant</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Slow growing</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Rapid growing</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Well circumscribed (restricted)</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Poorly Circumscribed</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Distinct and mobile</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Infiltrative and fixed to surrounding tissues</td></tr></tbody></table>
+  </div><h3 id='oncometabolism' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Oncometabolism</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          A few enzymes have been revealed to have shown a new mechanism of oncogenenesis
+        </li>
+      
+        <li>
+          One such example is the Isocitrate Dehydrogenase - IDH, part of the Kreb’s cycle
+        </li>
+      
+    </ul>
+  <img class='mb-3' src='static/Pasted image 20210707103728.png' alt='[[Pasted image 20210707103728.png]]' />
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          2-HG in turn acts as an inhibitor of several other enzymes that require a metabolite called α-ketoglutarate as a cofactor.
+        </li>
+      
+        <li>
+          Among the proteins that are inhibited by 2-HG are several members of the TET family, including TET2, which are normally responsible for methylation of DNA
+        </li>
+      
+        <li>
+          IDH mutation seen in <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>glioma, AML, cholongiocarcinoma</span>
+        </li>
+      
+    </ul>
+  <h2 id='clinical-features' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Clinical Features</h2><table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Benign</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Malignant</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Slow growing</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Rapid growing</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Well circumscribed (restricted)</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Poorly Circumscribed</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Distinct and mobile</td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Infiltrative and fixed to surrounding tissues</td></tr></tbody></table>
     <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
       
     <p class='mb-3'>
@@ -2921,11 +3144,455 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
         <li>
-          N - spreadto regional lymph nodes; second most important prognostic factor
+          N - spread to regional lymph nodes; second most important prognostic factor
         </li>
       
         <li>
           M - metastasis; single <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>most important prognostic factor</span>
+        </li>
+      
+    </ul>
+  <h1 id='paraneoplastic-syndromes' class='pb-2 mb-2 text-5xl font-bold text-center'>Paraneoplastic Syndromes</h1>
+    <p class='mb-3'>
+      Syndrome non explicable par le caractéristiques du cancer:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Direct spread
+        </li>
+      
+        <li>
+          Metastasis
+        </li>
+      
+        <li>
+          Indigenous hormones
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Pourquoi c’est important?
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Can be an initial manifestation
+        </li>
+      
+        <li>
+          May mimic metastasis
+        </li>
+      
+        <li>
+          May indicate worsening condition
+        </li>
+      
+    </ul>
+  <h2 id='endocrinopathies' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Endocrinopathies</h2><h3 id='1-hypercalcemia' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>1. Hypercalcemia</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Most common paraneoplastic syndrome
+        </li>
+      
+        <li>
+          Presence is due to prostaglandins or parathyroid hormone related peptide
+        </li>
+      
+        <li>
+          Seen in:
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'><strong>Squamous cell carcinoma</strong></span> of lung
+        </li>
+      
+        <li>
+          Kidney cancer
+        </li>
+      
+        <li>
+          Breast cancer
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h3 id='2-cushing-syndrome' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>2. Cushing syndrome</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          A condition that occurs from exposure to high cortisol levels for a long time
+        </li>
+      
+        <li>
+          It is seen in carcinoid tumor
+        </li>
+      
+        <li>
+          Seen in <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'><strong>Small Cell</strong></span> lung cancer
+        </li>
+      
+        <li>
+          <em><strong>Most common endrocrinological PNS</strong></em>
+        </li>
+      
+    </ul>
+  <h3 id='3-siadh' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>3. SIADH</h3>
+    <p class='mb-3'>
+      Initialism of Syndrome of inappropriate antidiuretic hormone secretion
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Seen in lung cancer <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>[Small Cell Cancer]</span>
+        </li>
+      
+        <li>
+          CNS tumors
+        </li>
+      
+        <li>
+          Clinical manifestation: Hyponatriemia
+        </li>
+      
+    </ul>
+  <h3 id='4-hypoglycemia' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>4. Hypoglycemia</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Seen mostly in tumors with mesenchymal origin/connective tissue
+        </li>
+      
+        <li>
+          Seen in Fibrosarcoma (connective tissue)
+        </li>
+      
+        <li>
+          Hepatocellular carcinoma
+        </li>
+      
+        <li>
+          Ovarian cancer
+        </li>
+      
+    </ul>
+  <h3 id='5-polycthemia' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>5. Polycthemia</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Erythropoeitin
+        </li>
+      
+        <li>
+          HCC
+        </li>
+      
+        <li>
+          Kidney
+        </li>
+      
+        <li>
+          Fibromyoma (uterine muscles)
+        </li>
+      
+        <li>
+          Cerebellar hemangoblastoma
+        </li>
+      
+    </ul>
+  <h2 id='vascular-and-hematological' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Vascular and Hematological</h2><h3 id='1-venous-thrombophlebitis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>1. Venous Thrombophlebitis</h3>
+    <p class='mb-3'>
+      <strong>Thrombophlebitis</strong> (throm-boe-fluh-BY-tis) is an inflammatory process that causes a blood clot to form and block one or more veins
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Mucin is secreted by the tumor
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          This secretion slowly migrates causing migratory venous throbophlebitis
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          This is the <strong>Trousseau</strong> sign of malignancy/ <strong>Trousseau</strong> syndrome [Different from trossaeu sign seen in latent tetany] <a href='static/Pasted%20image%2020210707145427.png' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkEmbed'>File:Pasted image 20210707145427.png</a>
+        </li>
+      
+        <li>
+          a.k.a Thrombophlebitis Migrans
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Seen in AML-M3
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Pancreatic cancer
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Bronchogenic cancer/adenocarcinoma
+    </p>
+  
+        </li>
+      
+    </ul>
+  <h3 id='2-marantic-endocarditis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>2. Marantic Endocarditis</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          A.k.a Non-bacterial Thrombotic Endocardiatis (NBTE)
+        </li>
+      
+        <li>
+          Due to secretion of mucin, <a href='#1 Venous Thrombophlebitis ' class='text-red-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'> similar to venous thrombophlebitis</a>
+        </li>
+      
+        <li>
+          Carcinoma of pancreas
+        </li>
+      
+        <li>
+          AML-M3
+        </li>
+      
+    </ul>
+  <h3 id='3-anemia' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>3. Anemia</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Seen in thyoma
+        </li>
+      
+    </ul>
+  <h2 id='dermatological' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Dermatological</h2><h3 id='acanthosis-nigricans' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Acanthosis nigricans</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <strong>Thickened</strong> and **hyperpigmented ** skin Seen in:
+        </li>
+      
+        <li>
+          Stomach cancer
+        </li>
+      
+        <li>
+          Lung cancer
+        </li>
+      
+        <li>
+          Uterine malignancy
+        </li>
+      
+    </ul>
+  <h3 id='dermatomyositis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Dermatomyositis</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Involvement of skin and muscle tissue
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Involves Antip140Ab Antip155Ab
+    </p>
+  
+        </li>
+      
+        <li>
+          
+    <p class='mb-3'>
+      Seen in
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Breast cancer
+        </li>
+      
+        <li>
+          Lung cancer
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h3 id='seberrheic-keratosis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Seberrheic keratosis</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Sign of leser trelat
+        </li>
+      
+    </ul>
+  <img class='mb-3' src='static/Pasted image 20210707151409.png' alt='[[Pasted image 20210707151409.png]]' />
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Seen in <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>Stomach (most common)</span>
+        </li>
+      
+    </ul>
+  <h2 id='neurological' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Neurological</h2><h3 id='myasthenia-gravis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Myasthenia Gravis</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Antibodies against: ACh receptor [Post-synaptic]
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Antibodies against calcium channel may also be [See Labort-Eaton]
+        </li>
+      
+        <li>
+          Both are responsible for decreased contractility
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+        <li>
+          Seen in Thymoma
+        </li>
+      
+    </ul>
+  <h3 id='lambert-eaton-syndrome' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Lambert-Eaton Syndrome</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Anti-bodes against Pre-synaptic calcium channel of the nerves
+        </li>
+      
+        <li>
+          Causes late entry of calcium
+        </li>
+      
+        <li>
+          Seen in small cell carcinoma of lung
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      <span class='bg-yellow-200 px-2 py-0.5 rounded-xl'>L-E-S</span>
+    </p>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      Late - Entry - SmallCell
+    </p>
+  
+    </blockquote>
+  <h3 id='opsoclonus' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Opsoclonus</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Random eye moments
+        </li>
+      
+        <li>
+          Seen in neuroblastoma and adrenal
+        </li>
+      
+    </ul>
+  <h3 id='limbic-encephalitis' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Limbic encephalitis</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <strong>Limbic encephalitis</strong> represents a group of autoimmune conditions characterized by inflammation of the <strong>limbic</strong> system and other parts of the brain
+        </li>
+      
+        <li>
+          Anti-HU antibodies
+        </li>
+      
+        <li>
+          Strongly associated with small cell lung carcinoma
+        </li>
+      
+    </ul>
+  <h3 id='subacute-cerebellar-degeneration' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Subacute cerebellar degeneration</h3>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Anti-YO antibodies
+        </li>
+      
+        <li>
+          seen in
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Endometrial
+        </li>
+      
+        <li>
+          Ovarian cancer
+        </li>
+      
+        <li>
+          Breast cancer
+        </li>
+      
+        <li>
+          Thus wahmen are susceptible to this Paraneoplastic Syndrome
+        </li>
+      
+    </ul>
+  
+        </li>
+      
+    </ul>
+  <h2 id='osseus-soft-tissue' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Osseus Soft Tissue</h2>
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          Hypertrophic pulmonary osteoarthopathy
+        </li>
+      
+        <li>
+          causes clubbing of fingers
         </li>
       
     </ul>
@@ -2984,12 +3651,6 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
             
             
   <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
-    
-      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-red-500' href='-/tags/###n'>
-        <!-- DoNotFormat -->
-        ####n
-        <!-- DoNotFormat -->
-      </a>
     
   </section>
 
