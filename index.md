@@ -2,21 +2,37 @@
 page:
   description: |
     Notes for dynamic worldwide access.
+pandoc:
+  rewriteClass:
+    greenery: bg-green-100 text-green-700 font-bold text-3xl	
 ---
 
 # Notes de XYGN
+:::{.note}
+[[Index](https://n.xygn.us/-/)]{.greenery}
+:::
 
-:::{.prose}
+
 Well... these are my notes.
-
-[Index](https://n.xygn.us/-/)
-
 
 : [GitHub](https://github.com/xygn)
 
 : [Blog](https://xygn.us)
 
+:::{.note}
+**Currently obsessed with:**
+<iframe src="https://open.spotify.com/embed/track/4d3pqEn7wgILCKDhUbv1wx?theme=0" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+:::
+
         And disciplinary remains mercifully
+
+:::{.highlight-block}
+These notes are **best viewed on Obsidian as a vault.**
+
+This website serves as a static host for broader remote access.
+For queries contact: o@xygn.us
+
+<iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:dxxhai269xjpc2dqcwjrzqvt3&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 
 :::
 
