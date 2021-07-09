@@ -9,6 +9,7 @@ page:
     </style>
 
 template:
+  name: templates/layouts/book
   theme: red
   iconUrl: static/favicon.png
   sidebar:
