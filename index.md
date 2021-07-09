@@ -4,12 +4,13 @@ page:
     Notes for dynamic worldwide access.
 pandoc:
   rewriteClass:
-    greenery: bg-green-100 text-green-700 font-bold text-3xl	
+    greenery: bg-green-100 text-green-700 font-bold text-3xl
 ---
 
 # Notes de XYGN
 :::{.note}
-[[Index](https://n.xygn.us/-/)]{.greenery}
+**Currently obsessed with:**
+<iframe src="https://open.spotify.com/embed/track/4d3pqEn7wgILCKDhUbv1wx?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 :::
 
 
@@ -19,9 +20,9 @@ Well... these are my notes.
 
 : [Blog](https://xygn.us)
 
+
 :::{.note}
-**Currently obsessed with:**
-<iframe src="https://open.spotify.com/embed/track/4d3pqEn7wgILCKDhUbv1wx?theme=0" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+[[Index](https://n.xygn.us/-/)]{.greenery}
 :::
 
         And disciplinary remains mercifully
@@ -36,6 +37,17 @@ For queries contact: o@xygn.us
 
 :::
 
+:::{.sticky-note}
+Reminder: 10/7/2021
+- [ ] Finish Immunity
+- [ ] Integrate Sketchy Micro
+- [ ] Community Medicine Log Book
+- [ ] Pathology Diagrams
+- [ ] Pharma (lil bit of record crap)
+- [ ] Read Dune
+:::
+
+
 :::{class="grid grid-flow-row grid-cols-1 gap-0 p-3 bg-gray-500 lg:grid-cols-2"}
 ![[class/Core/Pathology]]
 
@@ -49,4 +61,4 @@ For queries contact: o@xygn.us
 
 ```query {.timeline}>
 *
-``` 
+```
