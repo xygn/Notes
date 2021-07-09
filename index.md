@@ -20,7 +20,7 @@ Well... these are my notes.
 
 :::
 
-:::{class="grid grid-cols-1 lg:grid-cols-2 grid-flow-row gap-0 p-3 bg-gray-500"}
+:::{class="grid grid-flow-row grid-cols-1 gap-0 p-3 bg-gray-500 lg:grid-cols-2"}
 ![[class/Core/Pathology]]
 
 ![[Pharmacology]]
