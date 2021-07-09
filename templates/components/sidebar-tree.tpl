@@ -62,7 +62,7 @@
       <else />
       <node:terminal>
         <else />
-        <span class="text-gray-300" title="${tree:childrenCount} children inside">
+        <span class="text-red-500" title="${tree:childrenCount} children inside">
           <tree:childrenCount />
         </span>
       </node:terminal>

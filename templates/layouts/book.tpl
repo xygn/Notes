@@ -4,11 +4,11 @@
 
       <apply template="components/breadcrumbs" />
 
-      <div class="flex flex-nowrap bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8">
+      <div class="flex flex-nowrap bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8 bg-{theme}-300">
         <!-- Sidebar column -->
         <nav id="sidebar"
-          class="flex-shrink hidden leading-relaxed md:block md:sticky md:top-0 md:h-full md:w-48 xl:w-64">
-          <div class="px-2 py-2 text-gray-800">
+          class="flex-shrink hidden leading-relaxed md:block md:sticky md:top-0 md:h-full md:w-48 xl:w-64 ">
+          <div class="px-2 py-2 text-black text-bold">
 
             <div id="indexing-links" class="flex flex-row float-right p-2 space-x-2 text-gray-500">
               <a href="${ema:tagIndexUrl}" title="View tags">
@@ -36,16 +36,13 @@
                     <with var="template">
                       <!-- The style width attribute here is to prevent huge
                       icon from displaying at those rare occasions when Tailwind
-                      hasn't kicked in immediately on page load 
+                      hasn't kicked in immediately on page load
                       -->
-                      <img style="width: 1rem;"
+                      <img style="width: 90rem;"
                         class="transition transform hover:scale-110 hover:opacity-80"
                         src="${value:iconUrl}" />
                     </with>
                   </ema:metadata>
-                </a>
-                <a class="font-bold truncate" title="Go to Home" href="">
-                  Home
                 </a>
               </div>
             </div>
