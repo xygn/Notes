@@ -190,6 +190,35 @@ img {
   max-width: 100%;
   height: auto;
 }
+input {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+input::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+input::webkit-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+input::-moz-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+input:-ms-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+input::-ms-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
 pre, code {
   font-size: 1em;
   font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
@@ -445,6 +474,12 @@ ul {
   -ms-flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
+}
+.items-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
 }
 .items-end {
   -webkit-box-align: end;
@@ -792,6 +827,9 @@ ul {
 }
 .w-4 {
   width: 1rem;
+}
+.w-5 {
+  width: 1.25rem;
 }
 .z-40 {
   z-index: 40;
