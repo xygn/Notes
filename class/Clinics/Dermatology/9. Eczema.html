@@ -69,7 +69,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   }
 </style>
   <style>
-  html,
+html,
 body {
   margin: 0;
   padding: 0;
@@ -91,6 +91,7 @@ body {
 <!-- DoNotFormat -->
 
 <body class='overflow-y-scroll bg-black-400'>
+  <canvas class='background'></canvas>
   
     <div class='container mx-auto'>
 
@@ -870,14 +871,11 @@ body {
 
     </div>
   
-  <canvas class='background'></canvas>
   <script src='https://npmcdn.com/particlesjs@2.2.2/dist/particles.min.js'></script>
   <script>
   window.onload = function() {
   Particles.init({
     selector: '.background'
-    connectParticles: true
-    color: #ff0000
   });
 };
   </script>
