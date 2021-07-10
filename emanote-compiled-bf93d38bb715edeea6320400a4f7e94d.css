@@ -94,7 +94,7 @@ h1, pre {
 h1, p, dl, dd, pre, h2 {
   margin: 0;
 }
-h1, p, h2, hr, h3, blockquote, h4 {
+h1, p, h2, hr, h3, h4, blockquote {
   margin: 0;
 }
 h1, h2, h3, h4 {
@@ -116,6 +116,9 @@ h1, h2, h3, h4, h6, h5 {
   font-weight: inherit;
 }
 h1, h2, p, hr, h3, blockquote, pre, h4 {
+  margin: 0;
+}
+h1, blockquote, p, h2, h3, h4 {
   margin: 0;
 }
 h1, h2, p, hr, h3, blockquote {
