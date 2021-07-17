@@ -1,0 +1,30 @@
+{
+  "promptDelete": false,
+  "spellcheck": true,
+  "attachmentFolderPath": "static",
+  "spellcheckDictionary": [
+    "myocyte",
+    "mV",
+    "Electrophysiologically",
+    "Purkinje",
+    "coagulative",
+    "Coagulative",
+    "caspases",
+    "Caspase",
+    "caspase",
+    "Cytochrome",
+    "Papilloma",
+    "Micaceous",
+    "extensors",
+    "dorsum",
+    "repolarization"
+  ],
+  "readableLineLength": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "alwaysUpdateLinks": true
+}

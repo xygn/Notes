@@ -1,1 +1,9 @@
-{"files":[],"templaterFiles":["attach-asset.md.md"],"newFileTemplates":[],"openNewFileTemplateInNewPane":true,"useNewFileTemplateOnFileCreation":false}
+{
+  "files": [],
+  "templaterFiles": [
+    "attach-asset.md.md"
+  ],
+  "newFileTemplates": [],
+  "openNewFileTemplateInNewPane": true,
+  "useNewFileTemplateOnFileCreation": false
+}
