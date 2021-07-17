@@ -97,7 +97,14 @@ h1, p, dl, dd, pre, h2 {
 h1, h2, p, hr {
   margin: 0;
 }
-h1, p, h2, hr, h3, h4, blockquote, pre {
+h1, p, h2, hr, h3, blockquote {
+  margin: 0;
+}
+h1, h2, h3 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+h1, p, h2, hr, h3, h4, blockquote {
   margin: 0;
 }
 h1, h2, h3, h4 {
@@ -126,10 +133,6 @@ h1, blockquote, p, h2, h3, h4 {
 }
 h1, h2, p, hr, h3, blockquote {
   margin: 0;
-}
-h1, h2, h3 {
-  font-size: inherit;
-  font-weight: inherit;
 }
 h1, p, h2 {
   margin: 0;
@@ -241,14 +244,7 @@ svg, img, iframe {
   display: block;
   vertical-align: middle;
 }
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-  top: -0.5em;
-}
-sup, sub {
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -256,6 +252,19 @@ sup, sub {
 }
 sub {
   bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup, sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 table {
   text-indent: 0;
